@@ -4576,7 +4576,7 @@
         "day": "March 25",
         "day_full": "4 miles\n The Day of Doom",
         "comment": "Eagles rescue Frodo and Sam and carry them to the Morannon.\nNote: Why the Morannon instead of the Field of Cormallen? \n1) Gandalf is with the Eagles when Frodo and Sam are rescued, yet he is back at the Morannon after the battle in time to find Pippin.\n2) Frodo and Sam must be taken to Aragorn for healing. Aragorn would be 70 miles from the Field of Cormallen and would be needed after the battle. He would not be free to leave to go to Frodo and Sam if they were elsewhere.",
-        "optional": false
+        "optional": true
       }
     ],
     "days": " 30"
