@@ -107,8 +107,27 @@ const store = createStore('store', {
 				.from('entries')
 				.insert(entry)
 				.select()
-			if (error) console.error(error)
+			if (error) return console.error(error)
 			this.entries.push(data[0])
+		},
+		async updateEntry (entry) {
+			const { data, error } = await supabase
+				.from('entries')
+				.update(entry)
+				.eq('id', entry.id)
+				.select()
+			if (error) return console.error(error)
+			const index = this.entries.findIndex(e => e.id === entry.id)
+			this.entries[index] = data[0]
+		},
+		async deleteEntry (entry) {
+			const { error } = await supabase
+				.from('entries')
+				.delete()
+				.eq('id', entry.id)
+			if (error) return console.error(error)
+			const index = this.entries.findIndex(e => e.id === entry.id)
+			this.entries.splice(index, 1)
 		}
 	}
 })

@@ -28,6 +28,10 @@ async function createEntry () {
 	showingAddEntryForm = false
 }
 
+async function editEntry (entry) {
+	
+}
+
 store.fetchEntries()
 </script>
 <template lang="pug">
@@ -42,9 +46,12 @@ store.fetchEntries()
 		bunt-button#btn-create-entry(type="submit") Create Entry
 	template(v-else)
 		.entries(v-scrollbar.y="")
-			.entry(v-for="entry of entries")
+			.entry(v-for="(entry, index) of entries", :class="{ last: index === entries.length - 1 }")
 				.date {{ moment(entry.date).format('MM.DD. HH:mm') }}
 				.distance {{ entry.distance }}m
+				.actions
+					bunt-icon-button#btn-edit-entry(@click="editEntry(entry)") pencil
+					bunt-icon-button#btn-delete-entry(v-if="index === entries.length - 1", @click="store.deleteEntry(entry)") delete-outline
 		bunt-icon-button#btn-add-entry(@click="showAddEntryForm") plus
 </template>
 <style lang="stylus">
@@ -75,8 +82,26 @@ form.add-entry
 		flex-direction: column
 		.entry
 			display: flex
-			justify-content: space-between
+			align-items: center
 			padding: 16px
+			.distance
+				flex: auto
+				text-align: right
+			.actions
+				display: flex
+				flex-wrap: nowrap
+				margin-left: 8px
+				width: 0
+				overflow: hidden
+				transition: width 0.2s ease-in-out
+				.bunt-icon-button
+					button-style(style: clear)
+			&:hover
+				.actions
+					width: 36px
+				&.last
+					.actions
+						width: 72px
 
 	#btn-add-entry
 		icon-button-style(style: flat, color: $clr-white)
