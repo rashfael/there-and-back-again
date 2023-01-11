@@ -12,6 +12,7 @@
   "dependencies": {
     "@fontsource/roboto": "^4.5.8",
     "@mdi/font": "^7.1.96",
+    "@supabase/supabase-js": "^2.4.0",
     "buntpapier": "^2.0.0-alpha.21",
     "lodash-es": "^4.17.21",
     "moment": "^2.29.4",

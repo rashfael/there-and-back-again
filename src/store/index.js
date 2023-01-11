@@ -1,5 +1,7 @@
 import { computed, reactive, watch } from 'vue'
 
+import supabase from '~/supabase'
+
 window.stores = {}
 
 // creates a simple reactive instance with:
@@ -74,3 +76,41 @@ export function mapActions (store, arrOrObj) {
 		)
 	}
 }
+
+const store = createStore('store', {
+	state: () => ({
+		user: null,
+		entries: null
+	}),
+	getters: {},
+	actions: {
+		async signInWithGitHub () {
+			let user, error
+			({ data: { user } } = await supabase.auth.getUser())
+			if (!user) {
+				({ data: { user }, error } = await supabase.auth.signInWithOAuth({
+					provider: 'github',
+				}))
+			}
+			if (error) console.error(error)
+			this.user = user
+		},
+		async fetchEntries () {
+			const { data: entries, error } = await supabase
+				.from('entries')
+				.select('*')
+			if (error) console.error(error)
+			this.entries = entries
+		},
+		async createEntry (entry) {
+			const { data, error } = await supabase
+				.from('entries')
+				.insert(entry)
+				.select()
+			if (error) console.error(error)
+			this.entries.push(data[0])
+		}
+	}
+})
+
+export default store
