@@ -2,6 +2,12 @@
 import moment from 'moment'
 import store from '~/store'
 
+const MODE_ICON_MAP = {
+	walk: 'walk',
+	bike: 'bike',
+	horse: 'horse-human'
+}
+
 const {
 	entries
 } = $(store)
@@ -48,7 +54,9 @@ store.fetchEntries()
 		.entries(v-scrollbar.y="")
 			.entry(v-for="(entry, index) of entries", :class="{ last: index === entries.length - 1 }")
 				.date {{ moment(entry.date).format('MM.DD. HH:mm') }}
-				.distance {{ entry.distance }}m
+				.distance
+					i.mdi(:class="`mdi-${MODE_ICON_MAP[entry.mode]}`")
+					span {{ entry.distance }}m
 				.actions
 					bunt-icon-button#btn-edit-entry(@click="editEntry(entry)") pencil
 					bunt-icon-button#btn-delete-entry(v-if="index === entries.length - 1", @click="store.deleteEntry(entry)") delete-outline
@@ -88,6 +96,8 @@ form.add-entry
 			.distance
 				flex: auto
 				text-align: right
+				.mdi
+					padding-right: 4px
 			.actions
 				display: flex
 				flex-wrap: nowrap
