@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Hobbiton to Rivendell",
+    "source": "LOTR",
+    "description": "Frodo and company leave for Rivendell.",
+    "url": "http://home.insightbb.com/~eowynchallenge/Tools/Bag_end/bag_end.html",
+    "length_miles": 458
+  },
+  {
+    "name": "Rivendell to Lothlorien",
+    "source": "LOTR",
+    "description": "The journey of the Fellowship of the Ring begins.",
+    "url": "http://home.insightbb.com/~eowynchallenge/Tools/Rivendell_Lorien/rivendell_lorien.html",
+    "length_miles": 462
+  },
+  {
+    "name": "Lothlorien to the Rauros Falls",
+    "source": "LOTR",
+    "description": "The Fellowship continues",
+    "url": "http://home.insightbb.com/~eowynchallenge/Tools/Lorien_Rauros/lorien_rauros.html",
+    "length_miles": 389
+  },
+  {
+    "name": "Rauros to Isengard (Hobbits)",
+    "source": "LOTR",
+    "description": "After the Breaking of the Fellowship, Merry and Pippin get carried from Rauros to Isengard.",
+    "url": "http://home.insightbb.com/~eowynchallenge/Tools/Rauros_Isengard_MP/rauros_isengard_mp.html",
+    "length_miles": 355
+  },
+  {
+    "name": "Rauros to Isengard",
+    "source": "LOTR",
+    "description": "After the Breaking of the Fellowship, Aragorn, Legolas & Gimli travel to Isengard by way of Edoras.",
+    "url": "http://home.insightbb.com/~eowynchallenge/Tools/Rauros_Isengard/rauros_isengard.html",
+    "length_miles": 484
+  },
+  {
+    "name": "Rauros to Mt. Doom",
+    "source": "LOTR",
+    "description": "After the Breaking of the Fellowship, Frodo and Sam make it all the way to Mt. Doom.",
+    "url": "http://home.insightbb.com/~eowynchallenge/Tools/Frodo_and_Sam/frodo_and_sam.html",
+    "length_miles": 470
+  },
+  {
+    "name": "Isengard to Minas Tirith (Gandalf)",
+    "source": "LOTR",
+    "description": "Gandalf and Pippin make haste to Minas Tirith.",
+    "url": "http://home.insightbb.com/~eowynchallenge/Tools/Gandalf_PippinMT/gandalf_pippinmt.html",
+    "length_miles": 517
+  },
+  {
+    "name": "Isengard to Minas Tirith (Aragorn)",
+    "source": "LOTR",
+    "description": "Aragorn travels to Minas Tirith via the Paths of the Dead.",
+    "url": "http://home.insightbb.com/~eowynchallenge/Tools/AragornsMT/aragornsmt.html",
+    "length_miles": 786
+  },
+  {
+    "name": "Isengard to Minas Tirith (Merry)",
+    "source": "LOTR",
+    "description": "Merry follows the Rohirrim to Minas Tirith.",
+    "url": "http://home.insightbb.com/~eowynchallenge/Tools/Merry_s_Path/merry_s_path.html",
+    "length_miles": 578
+  },
+  {
+    "name": "Minas Tirith to Morannon",
+    "source": "LOTR",
+    "description": "Everybody comes together for the last stand against Mordor.",
+    "url": "http://home.insightbb.com/~eowynchallenge/Tools/Minas_Tirith/minas_tirith.html",
+    "length_miles": 138
+  },
+  {
+    "name": "Morannon to Minas Tirith",
+    "source": "LOTR",
+    "description": "The triumphant return to Minas Tirith.",
+    "url": "http://home.insightbb.com/~eowynchallenge/Tools/MT_Return/mt_return.html",
+    "length_miles": 120
+  },
+  {
+    "name": "Minas Tirith to Isengard",
+    "source": "LOTR",
+    "description": "The Fellowship leaves Minas Tirith, following the same roads for at least a while.",
+    "url": "http://home.insightbb.com/~eowynchallenge/Tools/Isengard_Return/isengard_return.html",
+    "length_miles": 535
+  },
+  {
+    "name": "Isengard to Rivendell",
+    "source": "LOTR",
+    "description": "The hobbits continue homeward.",
+    "url": "http://home.insightbb.com/~eowynchallenge/Tools/Rivendell_Return/rivendell_return.html",
+    "length_miles": 693
+  },
+  {
+    "name": "Rivendell to Bag End",
+    "source": "LOTR",
+    "description": "The hobbits finally make it home.",
+    "url": "http://home.insightbb.com/~eowynchallenge/Tools/Bag_End_Return/bag_end_return.html",
+    "length_miles": 397
+  },
+  {
+    "name": "Bag End to the Grey Havens",
+    "source": "LOTR",
+    "description": "Sam goes to the Grey Havens, then home again.",
+    "url": "http://home.insightbb.com/~eowynchallenge/Tools/Grey_Havens/grey_havens.html",
+    "length_miles": 467
+  },
+  {
+    "name": "Bag End to Rivendell",
+    "source": "Hobbit",
+    "description": "Bilbo travels to Rivendell",
+    "url": "http://home.insightbb.com/~eowynchallenge/Tools/Hobbit_BE_to_Rivendell/hobbit_be_to_rivendell.html",
+    "length_miles": 397
+  },
+  {
+    "name": "Rivendell to the Lonely Mountain",
+    "source": "Hobbit",
+    "description": "The company continues to the Lonely Mountain.",
+    "url": "http://home.insightbb.com/~eowynchallenge/Tools/Lonely_Mountain/lonely_mountain.html",
+    "length_miles": 570
+  }
+]
