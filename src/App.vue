@@ -53,6 +53,7 @@ store.fetchEntries()
 					bunt-icon-button#btn-edit-entry(@click="editEntry(entry)") pencil
 					bunt-icon-button#btn-delete-entry(v-if="index === entries.length - 1", @click="store.deleteEntry(entry)") delete-outline
 		bunt-icon-button#btn-add-entry(@click="showAddEntryForm") plus
+#bunt-teleport-target
 </template>
 <style lang="stylus">
 #app
