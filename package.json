@@ -11,6 +11,7 @@
     "lint:eslint": "eslint . --ext .js,.vue"
   },
   "dependencies": {
+    "@fontsource/quattrocento": "^4.5.10",
     "@fontsource/roboto": "^4.5.8",
     "@mdi/font": "^7.1.96",
     "@supabase/supabase-js": "^2.4.0",

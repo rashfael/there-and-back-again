@@ -4,10 +4,9 @@ import Buntpapier from 'buntpapier'
 import '~/styles/base.styl'
 import App from './App.vue'
 
-import '@fontsource/roboto'
-import '@fontsource/roboto/300.css'
-import '@fontsource/roboto/500.css'
-import '@fontsource/roboto/700.css'
+import '@fontsource/quattrocento'
+import '@fontsource/quattrocento/400.css'
+import '@fontsource/quattrocento/700.css'
 import '@mdi/font/css/materialdesignicons.css'
 
 import store from '~/store'
