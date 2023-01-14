@@ -56,6 +56,8 @@ let activeTab = $ref('journey')
 
 let newEntry = $ref(null)
 
+let activeLeg = $ref(null)
+
 function showAddEntryForm () {
 	showingAddEntryForm = true
 	newEntry = {
@@ -102,7 +104,9 @@ store.fetchEntries()
 							path(v-if="index !== 0", d="M 0.5 -0.3 L 0.5 0.3")
 							circle(cx="0.5", cy="0.5", r="0.2")
 							path.partial(v-if="leg.remainingDistance > 0", :d="`M 0.5 -0.3 L 0.5 ${0.3 - leg.remainingDistance / leg.distance * 0.6}`")
-						.directions {{ leg.directions }}
+						.text
+							.directions {{ leg.directions }}
+							.quote {{ leg.quote }}
 						.distance {{ (leg.distance / 1000).toFixed(2) }}km
 		bunt-tab(id="log", header="log")
 			.log-entries(v-scrollbar.y="")
@@ -152,10 +156,10 @@ form.add-entry
 		display: flex
 		flex-direction: column
 		.journey-leg
-			height: 56px
+			// height: 56px
 			display: flex
-			align-items: center
-			padding: 0 16px 0 0
+			align-items: flex-start
+			padding: 0 16px 8px 0
 			svg.waypoint
 				pointer-events: none
 				flex: none
@@ -173,9 +177,13 @@ form.add-entry
 						stroke-width: 2px
 						stroke: $clr-disabled-text-light
 						stroke-dasharray: 6
-			.directions
+			.text
 				flex: auto
 				margin: 0 16px 0 0
+				.quote
+					margin-top: 4px
+					color: $clr-secondary-text-light
+					font-style: italic
 	.log-entries
 		display: flex
 		flex-direction: column
