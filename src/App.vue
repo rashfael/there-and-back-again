@@ -102,7 +102,7 @@ store.fetchEntries()
 							path(v-if="index !== 0", d="M 0.5 -0.3 L 0.5 0.3")
 							circle(cx="0.5", cy="0.5", r="0.2")
 							path.partial(v-if="leg.remainingDistance > 0", :d="`M 0.5 -0.3 L 0.5 ${0.3 - leg.remainingDistance / leg.distance * 0.6}`")
-						.directions {{ leg.comment }}
+						.directions {{ leg.directions }}
 						.distance {{ (leg.distance / 1000).toFixed(2) }}km
 		bunt-tab(id="log", header="log")
 			.log-entries(v-scrollbar.y="")
