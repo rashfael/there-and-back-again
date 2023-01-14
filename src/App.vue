@@ -93,8 +93,13 @@ store.fetchEntries()
 	bunt-tabs(v-else, :active-tab="activeTab")
 		bunt-tab(id="journey", header="journey")
 			.journey
-				h3.name {{ journey.name }}
-				.description {{ journey.description }}
+				.text
+					h3.name {{ journey.name }}
+					.description {{ journey.description }}
+				.distances
+					.travelled {{ (travelledDistance / 1000).toFixed(2) }} km
+					span /
+					.total {{ (journey.totalDistance / 1000).toFixed(2) }} km
 			.journey-legs
 				template(v-for="(leg, index) of journey.legs")
 					.journey-leg(v-if="leg.show", :class="{start: index === 0, end: index === journey.legs.length - 1, reached: leg.remainingDistance === 0}")
@@ -110,7 +115,7 @@ store.fetchEntries()
 						.text
 							.directions {{ leg.directions }}
 							.quote(v-if="leg.remainingDistance === 0") {{ leg.quote }}
-						.distance {{ (leg.distance / 1000).toFixed(2) }}km
+						.distance {{ (leg.distance / 1000).toFixed(2) }} km
 		bunt-tab(id="log", header="log")
 			.log-entries(v-scrollbar.y="")
 				.entry(v-for="(entry, index) of entries", :class="{ last: index === entries.length - 1 }")
@@ -153,8 +158,19 @@ form.add-entry
 		padding: 16px
 		margin-bottom: 16px
 		border-bottom: border-separator()
+		display: flex
+		justify-content: space-between
 		.name
 			margin: 0
+		.distances
+			display: flex
+			align-items: center
+			.travelled
+				font-weight: bold
+				margin-right: 4px
+			.total
+				margin-left: 4px
+				color: $clr-gray-600
 	.journey-legs
 		display: flex
 		flex-direction: column
@@ -197,6 +213,8 @@ form.add-entry
 					margin-top: 4px
 					color: $clr-secondary-text-light
 					font-style: italic
+			.distance
+				white-space: nowrap
 	.log-entries
 		display: flex
 		flex-direction: column
