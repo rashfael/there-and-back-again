@@ -20,7 +20,8 @@
         "length_miles": 0.0,
         "day": "Sept. 23",
         "day_full": "Frodo and Company leave for Rivendell",
-        "comment": "Leave Bag End at full dark (ca. 7 p.m.). Go around (W) end, jump hedge.",
+        "directions": "Leave Bag End at full dark (7 p.m.). Go around west end, jump hedge.",
+        "quote": "‘Well, now we’re off at last!’ said Frodo. They shouldered their packs and took up their sticks, and walked round the corner to the west side of Bag End. ‘Good-bye!’ said Frodo, looking at the dark blank windows. He waved his hand, and then turned and (following Bilbo, if he had known it) hurried after Peregrin down the garden-path. They jumped over the low place in the hedge at the bottom and took to the fields, passing into the darkness like a rustle in the grasses.",
         "optional": false,
         "id": "LOTR-BEGIN-1"
       },
@@ -28,7 +29,8 @@
         "length_miles": 1.0,
         "day": "Sept. 23",
         "day_full": "Frodo and Company leave for Rivendell",
-        "comment": "Go through gate into a lane. Head west.",
+        "directions": "Go through gate into a lane. Head west.",
+        "quote": "At the bottom of the Hill on its western side they came to the gate opening on to a narrow lane. There they halted and adjusted the straps of their packs. Presently Sam appeared, trotting quickly and breathing hard; his heavy pack was hoisted high on his shoulders, and he had put on his head a tall shapeless felt bag, which he called a hat. In the gloom he looked very much like a dwarf.",
         "optional": false,
         "id": "LOTR-BEGIN-2"
       },
@@ -36,7 +38,8 @@
         "length_miles": 1.0,
         "day": "Sept. 23",
         "day_full": "Frodo and Company leave for Rivendell",
-        "comment": "Leave lane, follow hedgerows south.",
+        "directions": "Leave lane, follow hedgerows south.",
+        "quote": "For a short way they followed the lane westwards. Then leaving it they turned left and took quietly to the fields again. They went in single file along hedgerows and the borders of coppices, and night fell dark about them. In their dark cloaks they were as invisible as if they all had magic rings.",
         "optional": false,
         "id": "LOTR-BEGIN-3"
       },
@@ -44,7 +47,8 @@
         "length_miles": 1.0,
         "day": "Sept. 23",
         "day_full": "Frodo and Company leave for Rivendell",
-        "comment": "Cross The Water on a plank bridge",
+        "directions": "Cross the Water on a plank bridge",
+        "quote": "After some time they crossed the Water, west of Hobbiton, by a narrow plank-bridge. The stream was there no more than a winding black ribbon, bordered with leaning alder-trees.",
         "optional": false,
         "id": "LOTR-BEGIN-4"
       },
@@ -52,7 +56,8 @@
         "length_miles": 2.0,
         "day": "Sept. 23",
         "day_full": "Frodo and Company leave for Rivendell",
-        "comment": "Cross The Great Road from the Brandywine Bridge. Enter Tookland.",
+        "directions": "Cross the great road from the Brandywine Bridge. Enter Tookland.",
+        "quote": "A mile or two further south they hastily crossed the great road from the Brandywine Bridge; they were now in the Tookland and bending south-eastwards they made for the Green Hill Country.",
         "optional": false,
         "id": "LOTR-BEGIN-5"
       },
@@ -60,7 +65,8 @@
         "length_miles": 2.5,
         "day": "Sept. 23",
         "day_full": "Frodo and Company leave for Rivendell",
-        "comment": "Look back at lights of Hobbiton from first slopes of the Green Hill Country.",
+        "directions": "Look back at lights of Hobbiton from first slopes of the Green Hill Country.",
+        "quote": "As they began to climb its [Green Hill Country's] first slopes they looked back and saw the lamps in Hobbiton far off twinkling in the gentle valley of the Water.",
         "optional": false,
         "id": "LOTR-BEGIN-6"
       },
@@ -68,7 +74,8 @@
         "length_miles": 1.5,
         "day": "Sept. 23",
         "day_full": "Frodo and Company leave for Rivendell",
-        "comment": "Hobbiton hidden as slopes rise and fall.",
+        "directions": "Follow rising and falling slopes.",
+        "quote": "Soon [Hobbiton] disappeared in the folds of the darkened land, and was followed by Bywater beside its grey pool. When the light of the last farm was far behind, peeping among the trees, Frodo turned and waved a hand in farewell. ‘I wonder if I shall ever look down into that valley again,’ he said quietly.",
         "optional": false,
         "id": "LOTR-BEGIN-7"
       },
@@ -76,7 +83,8 @@
         "length_miles": 2.0,
         "day": "Sept. 23",
         "day_full": "Frodo and Company leave for Rivendell",
-        "comment": "Stop in a birch grove. Eat a frugal supper (ca. 10 p.m.).",
+        "directions": "Stop in a birch grove for dinner.",
+        "quote": "When they had walked for about three hours they rested. The night was clear, cool, and starry, but smoke-like wisps of mist were creeping up the hill-sides from the streams and deep meadows. Thin-clad birches, swaying in a light wind above their heads, made a black net against the pale sky. They ate a very frugal supper (for hobbits), and then went on again.",
         "optional": false,
         "id": "LOTR-BEGIN-8"
       },
@@ -84,7 +92,8 @@
         "length_miles": 3.5,
         "day": "Sept. 23",
         "day_full": "Frodo and Company leave for Rivendell",
-        "comment": "Reach Stock Road",
+        "directions": "Follow road to Stock",
+        "quote": "Soon they struck a narrow road, that went rolling up and down, fading grey into the darkness ahead: the road to Woodhall, and Stock, and the Bucklebury Ferry. It climbed away from the main road in the Water-valley, and wound over the skirts of the Green Hills towards Woody End, a wild corner of the Eastfarthing.",
         "optional": false,
         "id": "LOTR-BEGIN-9"
       },
@@ -92,7 +101,8 @@
         "length_miles": 1.0,
         "day": "Sept. 23",
         "day_full": "Frodo and Company leave for Rivendell",
-        "comment": "Begin to sing. Walk through a deeply cloven track between tall trees.",
+        "directions": "Begin to sing. Follow track between tall trees.",
+        "quote": "After a while they plunged into a deeply cloven track between tall trees that rustled their dry leaves in the night. It was very dark. At first they talked, or hummed a tune softly together, being now far away from inquisitive ears.",
         "optional": false,
         "id": "LOTR-BEGIN-10"
       },
@@ -100,7 +110,8 @@
         "length_miles": 2.0,
         "day": "Sept. 23",
         "day_full": "Frodo and Company leave for Rivendell",
-        "comment": "Climb a steep slope. Pippins yawns (Nearly midnight).",
+        "directions": "Climb a steep slope until close to midnight.",
+        "quote": "Then they marched on in silence, and Pippin began to lag behind. At last, as they began to climb a steep slope, he stopped and yawned. ‘I am so sleepy,’ he said, ‘that soon I shall fall down on the road. Are you going to sleep on your legs? It is nearly midnight.’",
         "optional": false,
         "id": "LOTR-BEGIN-11"
       },
@@ -108,7 +119,8 @@
         "length_miles": 0.5,
         "day": "Sept. 23",
         "day_full": "Frodo and Company leave for Rivendell",
-        "comment": "Camp - In a firwood just over top of the hill. Sleep by a large tree. Fox sees them.",
+        "directions": "Camp in a firwood near the top of the hill. Sleep by a large tree. Surprise visitor.",
+        "quote": "Just over the top of the hill they came on the patch of fir-wood. Leaving the road they went into the deep resin-scented darkness of the trees, and gathered dead sticks and cones to make a fire. Soon they had a merry crackle of flame at the foot of a large fir-tree and they sat round it for a while, until they began to nod. Then, each in an angle of the great tree’s roots, they curled up in their cloaks and blankets, and were soon fast asleep. They set no watch; even Frodo feared no danger yet, for they were still in the heart of the Shire. A few creatures came and looked at them when the fire had died away. A fox passing through the wood on business of his own stopped several minutes and sniffed. ‘Hobbits!’ he thought. ‘Well, what next? I have heard of strange doings in this land, but I have seldom heard of a hobbit sleeping out of doors under a tree. Three of them! There’s something mighty queer behind this.’ He was quite right, but he never found out any more about it.",
         "optional": false,
         "id": "LOTR-BEGIN-12"
       },
@@ -116,7 +128,8 @@
         "length_miles": 0.0,
         "day": "Sept. 24",
         "day_full": "28 miles",
-        "comment": "Eat at campsite. Water from a stream at the foot of the hill. A little fall where the water fell a few feet over an outcrop of grey stone. After 10:00 a.m. when leave.",
+        "directions": "Eat and drink at little waterfall. Leave after 10:00 a.m.",
+        "quote": "There was a stream at the foot of the hill. They filled their bottles and the small camping kettle at a little fall where the water fell a few feet over an outcrop of grey stone. It was icy cold; and they spluttered and puffed as they bathed their faces and hands.",
         "optional": false,
         "id": "LOTR-BEGIN-13"
       },
@@ -124,7 +137,8 @@
         "length_miles": 10.0,
         "day": "Sept. 24",
         "day_full": "28 miles",
-        "comment": "Road rolls up and down.",
+        "directions": "Follow rolling roads.",
+        "quote": "They went down the slope, and across the stream where it dived under the road, and up the next slope, and up and down another shoulder of the hills; and by that time their cloaks, blankets, water, food, and other gear already seemed a heavy burden.",
         "optional": false,
         "id": "LOTR-BEGIN-14"
       },
@@ -132,7 +146,8 @@
         "length_miles": 1.0,
         "day": "Sept. 24",
         "day_full": "28 miles",
-        "comment": "Road zig-zigs to top of a steep bank and goes down for the last time. Can see across Woody End to the River. **THEY STOP TO REST, EAT, and REST more! (ca. 1:30-4:30 p.m.) Sun was beginning to get low as they went down the hill.",
+        "directions": "Follow zig-zag road until you can see the river. Camp and rest from 1:30–4:30 p.m.",
+        "quote": "The day’s march promised to be warm and tiring work. After some miles, however, the road ceased to roll up and down: it climbed to the top of a steep bank in a weary zig-zagging sort of way, and then prepared to go down for the last time. In front of them they saw the lower lands dotted with small clumps of trees that melted away in the distance to a brown woodland haze. They were looking across the Woody End towards the Brandywine River. The road wound away before them like a piece of string.",
         "optional": false,
         "id": "LOTR-BEGIN-15"
       },
@@ -140,7 +155,8 @@
         "length_miles": 3.0,
         "day": "Sept. 24",
         "day_full": "28 miles",
-        "comment": "Road ahead runs fairly straight and level. Behind them it curves slightly. BLACK RIDER. Sam and Pippin hide in a hollow. Frodo behind tree by road (ca.5 p.m.).",
+        "directions": "Follow straight road. Get the first taste of the adventure ahead of you.",
+        "quote": "They were now on level ground, and the road after much winding lay straight ahead through grass-land sprinkled with tall trees, outliers of the approaching woods. […] The sound of hoofs drew nearer. Just in time he threw himself down in a patch of long grass behind a tree that overshadowed the road. Then he lifted his head and peered cautiously above one of the great roots. Round the corner came a black horse, no hobbit-pony but a full-sized horse; and on it sat a large man, who seemed to crouch in the saddle, wrapped in a great black cloak and hood, so that only his boots in the high stirrups showed below; his face was shadowed and invisible.",
         "optional": false,
         "id": "LOTR-BEGIN-16"
       },
@@ -148,7 +164,8 @@
         "length_miles": 3.0,
         "day": "Sept. 24",
         "day_full": "28 miles",
-        "comment": "Keep a stones throw left of the road...slower going.",
+        "directions": "Keep left of the road.",
+        "quote": "The shadows of the trees were long and thin on the grass, as they started off again. They now kept a stone’s throw to the left of the road, and kept out of sight of it as much as they could. But this hindered them; for the grass was thick and tussocky, and the ground uneven, and the trees began to draw together into thickets.",
         "optional": false,
         "id": "LOTR-BEGIN-17"
       },
@@ -156,7 +173,8 @@
         "length_miles": 2.0,
         "day": "Sept. 24",
         "day_full": "28 miles",
-        "comment": "Road splits. Road to Stock bends left and goes down into the lowlands. They take a lane which branches to the right, winding through a wood of ancient Oaks. Sun down and evening coming on (ca. 6:30 p.m.). Quite close to the road-meeting they creep inside a huge tree. Eat and rest.",
+        "directions": "At crossroads, do not follow the Stock Road left, but go right towards the wood of ancient oaks. Camp (6:30 p.m.) and rest.",
+        "quote": "Not far from the road-meeting they came on the huge hulk of a tree: it was still alive and had leaves on the small branches that it had put out round the broken stumps of its long-fallen limbs; but it was hollow, and could be entered by a great crack on the side away from the road. The hobbits crept inside, and sat there upon a floor of old leaves and decayed wood. They rested and had a light meal, talking quietly and listening from time to time.",
         "optional": false,
         "id": "LOTR-BEGIN-18"
       },
@@ -164,7 +182,8 @@
         "length_miles": 1.0,
         "day": "Sept. 24",
         "day_full": "28 miles",
-        "comment": "Go on in twilight. Begin to sing. (ca. 7:00 p.m.)",
+        "directions": "Go on in twilight. Begin to sing. (ca. 7:00 p.m.)",
+        "quote": "Upon the hearth the fire is red,\nBeneath the roof there is a bed;\nBut not yet weary are our feet,\nStill round the corner we may meet\nA sudden tree or standing stone\nThat none have seen but we alone.\nTree and flower and leaf and grass,\nLet them pass! Let them pass!\nHill and water under sky,\nPass them by! Pass them by!",
         "optional": false,
         "id": "LOTR-BEGIN-19"
       },
@@ -172,7 +191,8 @@
         "length_miles": 3.0,
         "day": "Sept. 24",
         "day_full": "28 miles",
-        "comment": "And NOW to bed! Pippin says, when BLACK RIDER is heard again (ca. 9 p.m.). ELVES arrive, RIDER leaves, and Frodo & Co. continue with Elves.",
+        "directions": "Nightfall. Followed by enemies, find unexpected help.",
+        "quote": "O Elbereth! Gilthoniel!\nWe still remember, we who dwell\nIn this far land beneath the trees,\nThy starlight on the Western Seas.",
         "optional": false,
         "id": "LOTR-BEGIN-20"
       },
@@ -180,7 +200,8 @@
         "length_miles": 3.0,
         "day": "Sept. 24",
         "day_full": "28 miles",
-        "comment": "Wood more dense, and lane went lower, running in a fold of hills, with hazel on the slopes alongside. Pippin quickly becomes sleepy.",
+        "directions": "Follow the Elves on a low lane through dense hazel woods.",
+        "quote": "They now marched on again in silence, and passed like shadows and faint lights: for Elves (even more than hobbits) could walk when they wished without sound or footfall. Pippin soon began to feel sleepy, and staggered once or twice; but each time a tall Elf at his side put out his arm and saved him from a fall. Sam walked along at Frodo’s side, as if in a dream, with an expression on his face half of fear and half of astonished joy.",
         "optional": false,
         "id": "LOTR-BEGIN-21"
       },
@@ -188,7 +209,8 @@
         "length_miles": 1.0,
         "day": "Sept. 24",
         "day_full": "28 miles",
-        "comment": "Turn right off the path on a green ride through thickets.",
+        "directions": "Turn right off the path on a green ride through thickets.",
+        "quote": "At last the Elves turned aside from the path. A green ride lay almost unseen through the thickets on the right; and this they followed as it wound away back up the wooded slopes on to the top of a shoulder of the hills that stood out into the lower land of the river-valley.",
         "optional": false,
         "id": "LOTR-BEGIN-22"
       },
@@ -196,7 +218,8 @@
         "length_miles": 1.0,
         "day": "Sept. 24",
         "day_full": "28 miles",
-        "comment": "Camp - Woody End. A green floor in the wood, roofed by boughs of trees. To the east a steep shoulder falls, and they can overlook the river valley. The lights of the village of Woodhall seen below (ca. 11 p.m.).",
+        "directions": "Camp near Woodhall. Get sage advice.",
+        "quote": "‘Can’t a hobbit walk from the Water to the River in peace?’ ‘But it is not your own Shire,’ said Gildor. ‘Others dwelt here before hobbits were; and others will dwell here again when hobbits are no more. The wide world is all about you: you can fence yourselves in, but you cannot for ever fence it out.’",
         "optional": false,
         "id": "LOTR-BEGIN-23"
       },
@@ -204,7 +227,8 @@
         "length_miles": 0.0,
         "day": "Sept. 25",
         "day_full": "27 miles",
-        "comment": "Sleep late (leaving time ca. 11:00 a.m.). Frodo decides to cut SE to Buckleberry Ferry. Scramble down hill into the thick trees below. It begins to cloud up.",
+        "directions": "Sleep late. Discuss route, decide to cut directly towards Buckleberry Ferry.",
+        "quote": "‘Short cuts make long delays,’ argued Pippin. ‘The country is rough round here, and there are bogs and all kinds of difficulties down in the Marish – I know the land in these parts. And if you are worrying about Black Riders, I can’t see that it is any worse meeting them on a road than in a wood or a field.’",
         "optional": false,
         "id": "LOTR-BEGIN-24"
       },
@@ -212,7 +236,8 @@
         "length_miles": 1.0,
         "day": "Sept. 25",
         "day_full": "27 miles",
-        "comment": "A deep-banked stream below the hill cuts across their path. Looking back, they see a Black Rider on the hillcrest where they had camped. They force through the bushes alongside the stream.",
+        "directions": "Meet a deep-banked stream, continue alongside it.",
+        "quote": "On the edge high above them they saw against the sky a horse standing. Beside it stooped a black figure. They at once gave up any idea of going back. Frodo led the way, and plunged quickly into the thick bushes beside the stream.",
         "optional": false,
         "id": "LOTR-BEGIN-25"
       },
@@ -220,7 +245,8 @@
         "length_miles": 1.0,
         "day": "Sept. 25",
         "day_full": "27 miles",
-        "comment": "Pippin realizes it is the Stock-brook. The banks are low enough now for them to cross. The land on its south bank is wet and reedy.",
+        "directions": "Cross to the south bank of the stream.",
+        "quote": "‘Why, this is the Stock-brook!’ said Pippin. ‘If we are going to try and get back on to our course, we must cross at once and bear right.’",
         "optional": false,
         "id": "LOTR-BEGIN-26"
       },
@@ -228,7 +254,8 @@
         "length_miles": 2.0,
         "day": "Sept. 25",
         "day_full": "27 miles",
-        "comment": "They reach a belt of trees, mostly oaks with a few elms and ash. Drops of rain fall.",
+        "directions": "Continue to a belt of trees among beginning rain.",
+        "quote": "They came again to a belt of trees: tall oaks, for the most part, with here and there an elm tree or an ash. The ground was fairly level, and there was little undergrowth; but the trees were too close for them to see far ahead. The leaves blew upwards in sudden gusts of wind, and spots of rain began to fall from the overcast sky. Then the wind died away and the rain came streaming down.",
         "optional": false,
         "id": "LOTR-BEGIN-27"
       },
@@ -236,7 +263,8 @@
         "length_miles": 2.0,
         "day": "Sept. 25",
         "day_full": "27 miles",
-        "comment": "Pippin realizes theyve turned too far south as they are still in the trees.",
+        "directions": "Realise you've turned too far south.",
+        "quote": "After half an hour Pippin said: ‘I hope we have not turned too much towards the south, and are not walking longwise through this wood! It is not a very broad belt – I should have said no more than a mile at the widest – and we ought to have been through it by now.’ ‘It is no good our starting to go in zig-zags,’ said Frodo. ‘That won’t mend matters. Let us keep on as we are going! I am not sure that I want to come out into the open yet.’",
         "optional": false,
         "id": "LOTR-BEGIN-28"
       },
@@ -244,7 +272,8 @@
         "length_miles": 2.0,
         "day": "Sept. 25",
         "day_full": "27 miles",
-        "comment": "Still in the trees, they stop for lunch (ca. 2:00 p.m.). Their singing is cut by the cry of a Black Rider, and they leave (ca. 3:00 p.m.).",
+        "directions": "Stop for lunch at 2 p.m. Eat and sing for an hour until rudely interrupted by an ominous cry.",
+        "quote": "Ho! Ho! Ho! to the bottle I go\nTo heal my heart and drown my woe.\nRain may fall and wind may blow,\nAnd many miles be still to go,\nBut under a tall tree I will lie,\nAnd let the clouds go sailing by.",
         "optional": false,
         "id": "LOTR-BEGIN-29"
       },
@@ -252,7 +281,8 @@
         "length_miles": 1.0,
         "day": "Sept. 25",
         "day_full": "27 miles",
-        "comment": "Wood ends. The land steadily becomes more tame. Sun is shining brightly.",
+        "directions": "Wood ends.",
+        "quote": "Before long the wood came to a sudden end. Wide grass-lands stretched before them. They now saw that they had, in fact, turned too much to the south. Away over the flats they could glimpse the low hill of Bucklebury across the River, but it was now to their left.",
         "optional": false,
         "id": "LOTR-BEGIN-30"
       },
@@ -260,7 +290,8 @@
         "length_miles": 1.0,
         "day": "Sept. 25",
         "day_full": "27 miles",
-        "comment": "Reach area of the Marish with fields, meadows, hedges, gates, and drainage dikes.",
+        "directions": "Reach area of the Marish.",
+        "quote": "At first they felt afraid, away from the shelter of the wood. Far back behind them stood the high place where they had breakfasted. Frodo half expected to see the small distant figure of a horseman on the ridge dark against the sky; but there was no sign of one. The sun escaping from the breaking clouds, as it sank towards the hills they had left, was now shining brightly again. Their fear left them, though they still felt uneasy. But the land became steadily more tame and well-ordered. Soon they came into well-tended fields and meadows: there were hedges and gates and dikes for drainage. Everything seemed quiet and peaceful, just an ordinary corner of the Shire. Their spirits rose with every step.",
         "optional": false,
         "id": "LOTR-BEGIN-31"
       },
@@ -268,7 +299,8 @@
         "length_miles": 5.0,
         "day": "Sept. 25",
         "day_full": "27 miles",
-        "comment": "Edges of fields worked by Farmer Maggot.",
+        "directions": "Follow way along a turnip field to the gate",
+        "quote": "They passed along the edge of a huge turnip-field, and came to a stout gate. Beyond it a rutted lane ran between low well-laid hedges towards a distant clump of trees. Pippin stopped. ‘I know these fields and this gate!’ he said. ‘This is Bamfurlong, old Farmer Maggot’s land. That’s his farm away there in the trees.’",
         "optional": false,
         "id": "LOTR-BEGIN-32"
       },
@@ -276,7 +308,8 @@
         "length_miles": 1.0,
         "day": "Sept. 25",
         "day_full": "27 miles",
-        "comment": "After a turnip field there is a stout gate to a rutted lane, edged by hedges.",
+        "directions": "Follow the way alongside Farmer Maggot's fields.",
+        "quote": "‘I am terrified of him and his dogs. I have avoided his farm for years and years. He caught me several times trespassing after mushrooms, when I was a youngster at Brandy Hall. On the last occasion he beat me, and then took me and showed me to his dogs. “See, lads,” he said, “next time this young varmint sets foot on my land, you can eat him. Now see him off!” They chased me all the way to the Ferry. I have never got over the fright – though I daresay the beasts knew their business and would not really have touched me.’",
         "optional": false,
         "id": "LOTR-BEGIN-33"
       },
@@ -284,7 +317,8 @@
         "length_miles": 1.0,
         "day": "Sept. 25",
         "day_full": "27 miles",
-        "comment": "Farmer Maggots house and buildings: brick with thatched roofs, surrounded by a high wall cut by a wooden gate from the lane. Eat. (Est. time there: 5:30 - 7:00 p.m.: full dark when they leave).",
+        "directions": "Continue to Farmer Maggot's house",
+        "quote": "They went into the farmer’s kitchen, and sat by the wide fire-place. Mrs. Maggot brought out beer in a huge jug, and filled four large mugs. It was a good brew, and Pippin found himself more than compensated for missing the Golden Perch.",
         "optional": false,
         "id": "LOTR-BEGIN-34"
       },
@@ -292,7 +326,8 @@
         "length_miles": 2.0,
         "day": "Sept. 25",
         "day_full": "27 miles",
-        "comment": "Farmer Maggots lane meets the Causeway to Buckleberry Ferry. Ride in wagon.",
+        "directions": "Ride in wagon. Follow lane to the causeway to Buckleberry Ferry.",
+        "quote": "There was now no breath of wind stirring; the night was still and quiet, and a chill was in the air. They went without lights and took it slowly. After a mile or two the lane came to an end, crossing a deep dike, and climbing a short slope up on to the high-banked causeway. Maggot got down and took a good look either way, north and south, but nothing could be seen in the darkness, and there was not a sound in the still air. Thin strands of river-mist were hanging above the dikes, and crawling over the fields.",
         "optional": false,
         "id": "LOTR-BEGIN-35"
       },
@@ -300,7 +335,8 @@
         "length_miles": 5.0,
         "day": "Sept. 25",
         "day_full": "27 miles",
-        "comment": "Boggy land all around. Foggy. Merry meets them at the Ferry landing. As they reach the other side of the river, they can see a Black Rider on the west shore.",
+        "directions": "Get to the ferry through the thick fog, meet Merry.",
+        "quote": "Merry led the pony over a gangway on to the ferry, and the others followed. Merry then pushed slowly off with a long pole. The Brandy-wine flowed slow and broad before them. On the other side the bank was steep, and up it a winding path climbed from the further landing. Lamps were twinkling there. Behind loomed up the Buck Hill; and out of it, through stray shrouds of mist, shone many round windows, yellow and red. They were the windows of Brandy Hall, the ancient home of the Brandybucks.",
         "optional": false,
         "id": "LOTR-BEGIN-36"
       },
@@ -308,7 +344,8 @@
         "length_miles": 0.5,
         "day": "Sept. 25",
         "day_full": "27 miles",
-        "comment": "Taking the main road north from the Ferry, Buck Hill is on the left and Buckleberry on the right. They take a lane to the right, and climb up and down into the country.",
+        "directions": "Take the main road south from the ferry, then a right into the country.",
+        "quote": "It was some distance from the Brandywine to Frodo’s new house at Crickhollow. They passed Buck Hill and Brandy Hall on their left, and on the outskirts of Bucklebury struck the main road of Buckland that ran south from the Bridge. Half a mile northward along this they came to a lane opening on their right. This they followed for a couple of miles as it climbed up and down into the country.",
         "optional": false,
         "id": "LOTR-BEGIN-37"
       },
@@ -316,7 +353,8 @@
         "length_miles": 2.5,
         "day": "Sept. 25",
         "day_full": "27 miles",
-        "comment": "Crickhollow - spend the night. A Conspiracy Unmasked.",
+        "directions": "Reach Crickhollow. Spend the night and confess to your friends what you're up to.",
+        "quote": "O! Water is fair that leaps on high\nin a fountain white beneath the sky;\nbut never did fountain sound so sweet\nas splashing Hot Water with my feet!.",
         "optional": false,
         "id": "LOTR-BEGIN-38"
       },
@@ -324,7 +362,8 @@
         "length_miles": 0.0,
         "day": "Sept. 26",
         "day_full": "25 miles",
-        "comment": "Leave Crickhollow soon after 6:00 a.m. Foggy. Ride ponies slowly.",
+        "directions": "Leave on ponies, soon after 6:00 a.m.",
+        "quote": "To Rivendell, where Elves yet dwell\nIn glades beneath the misty fell,\nThrough moor and waste we ride in haste,\nAnd whither then we cannot tell.",
         "optional": false,
         "id": "LOTR-BEGIN-39"
       },
@@ -332,7 +371,8 @@
         "length_miles": 3.0,
         "day": "Sept. 26",
         "day_full": "25 miles",
-        "comment": "Enter tunnel under Hedge to reach The Old Forest. Path disappears (ca. 7:15 a.m.).",
+        "directions": "Take tunnel under the Hedge to reach the Old Forest. Follow path until it disappears",
+        "quote": "The trees do not like strangers. They watch you. They are usually content merely to watch you, as long as daylight lasts, and don’t do much. Occasionally the most unfriendly ones may drop a branch, or stick a root out, or grasp at you with a long trailer. […] They do say the trees do actually move, and can surround strangers and hem them in. In fact long ago they attacked the Hedge: they came and planted themselves right by it, and leaned over it. But the hobbits came and cut down hundreds of trees, and made a great bonfire in the Forest, and burned all the ground in a long strip east of the Hedge. After that the trees gave up the attack, but they became very unfriendly. There is still a wide bare space not far inside where the bonfire was made.",
         "optional": false,
         "id": "LOTR-BEGIN-40"
       },
@@ -340,7 +380,8 @@
         "length_miles": 2.0,
         "day": "Sept. 26",
         "day_full": "25 miles",
-        "comment": "The Bonfire Glade - clear path beyond. Sunny, but not yet in clearing (ca. 8 a.m.).",
+        "directions": "Reach Bonfire Glade. Follow the path beyond.",
+        "quote": "‘Well, well!’ he said. ‘These trees do shift. There is the Bonfire Glade in front of us (or I hope so), but the path to it seems to have moved away!’",
         "optional": false,
         "id": "LOTR-BEGIN-41"
       },
@@ -348,7 +389,8 @@
         "length_miles": 8.0,
         "day": "Sept. 26",
         "day_full": "25 miles",
-        "comment": "On path in the Forest. Path climbs gently.",
+        "directions": "Follow the gently climbing path.",
+        "quote": "O! Wanderers in the shadowed land\ndespair not! For though dark they stand,\nall woods there be must end at last,\nand see the open sun go past:\nthe setting sun, the rising sun,\nthe day’s end, or the day begun.\nFor east or west all woods must fail …",
         "optional": false,
         "id": "LOTR-BEGIN-42"
       },
@@ -356,7 +398,8 @@
         "length_miles": 1.0,
         "day": "Sept. 26",
         "day_full": "25 miles",
-        "comment": "Top of knoll in Forest. Hazy. Surrounded by Trees. Eat, rest (11 a.m.-ca.1 p.m.)",
+        "directions": "Rest and eat on top of knoll, surrounded by oppressive trees.",
+        "quote": "They sat on the green edge and looked out over the woods below them, while they ate their mid-day meal. As the sun rose and passed noon they glimpsed far off in the east the grey-green lines of the Downs that lay beyond the Old Forest on that side. That cheered them greatly; for it was good to see a sight of anything beyond the wood’s borders, though they did not mean to go that way, if they could help it: the Barrow-downs had as sinister a reputation in hobbit-legend as the Forest itself.",
         "optional": false,
         "id": "LOTR-BEGIN-43"
       },
@@ -364,7 +407,8 @@
         "length_miles": 1.0,
         "day": "Sept. 26",
         "day_full": "25 miles",
-        "comment": "Path veers SE. Company leaves path and tries to turn north.",
+        "directions": "Leave the path when it veers south-east, and try to turn north.",
+        "quote": "At first their choice seemed to be good: they got along at a fair speed, though whenever they got a glimpse of the sun in an open glade they seemed unaccountably to have veered eastwards. But after a time the trees began to close in again, just where they had appeared from a distance to be thinner and less tangled.",
         "optional": false,
         "id": "LOTR-BEGIN-44"
       },
@@ -372,7 +416,8 @@
         "length_miles": 2.0,
         "day": "Sept. 26",
         "day_full": "25 miles",
-        "comment": "Cross series of deep folds running SE. Keep turning east. Lose direction.",
+        "directions": "Lose directions while crossing several deep folds and trying to keep eastward direction.",
+        "quote": "Each time they clambered out, the trees seemed deeper and darker; and always to the left and upwards it was most difficult to find a way, and they were forced to the right and downwards.",
         "optional": false,
         "id": "LOTR-BEGIN-45"
       },
@@ -380,7 +425,8 @@
         "length_miles": 1.0,
         "day": "Sept. 26",
         "day_full": "25 miles",
-        "comment": "Enter fold too deep to leave. Follow it SE to Withywindle (ca. 4 p.m.).",
+        "directions": "Give up when you enter a fold too deep to leave, and follow it south-east to Withywindle, the worst part of the forest.",
+        "quote": "As if through a gate they saw the sunlight before them. Coming to the opening they found that they had made their way down through a cleft in a high steep bank, almost a cliff. At its feet was a wide space of grass and reeds; and in the distance could be glimpsed another bank almost as steep. A golden afternoon of late sunshine lay warm and drowsy upon the hidden land between. In the midst of it there wound lazily a dark river of brown water, bordered with ancient willows, arched over with willows, blocked with fallen willows, and flecked with thousands of faded willow-leaves. The air was thick with them, fluttering yellow from the branches; for there was a warm and gentle breeze blowing softly in the valley, and the reeds were rustling, and the willow-boughs were creaking.",
         "optional": false,
         "id": "LOTR-BEGIN-46"
       },
@@ -388,7 +434,8 @@
         "length_miles": 2.0,
         "day": "Sept. 26",
         "day_full": "25 miles",
-        "comment": "Merry finds path along bank of the River. Follow it east through wetlands.",
+        "directions": "Find path along the river, follow it east through wetlands.",
+        "quote": "Everywhere the reeds and grasses were lush and tall, in places far above their heads; but once found, the path was easy to follow, as it turned and twisted, picking out the sounder ground among the bogs and pools. Here and there it passed over other rills, running down gullies into the Withywindle out of the higher forest-lands, and at these points there were tree-trunks or bundles of brushwood laid carefully across.",
         "optional": false,
         "id": "LOTR-BEGIN-47"
       },
@@ -396,7 +443,8 @@
         "length_miles": 2.0,
         "day": "Sept. 26",
         "day_full": "25 miles",
-        "comment": "Stop by Old Man Willow to rest. (ca. 5:30) Rescued by Tom Bombadil (ca.6:00 p.m.).",
+        "directions": "Stop by Old Man Willow to rest. It's fine. Promise.",
+        "quote": "Pippin had vanished. The crack by which he had laid himself had closed together, so that not a chink could be seen. Merry was trapped: another crack had closed about his waist; his legs lay outside, but the rest of him was inside a dark opening, the edges of which gripped like a pair of pincers.",
         "optional": false,
         "id": "LOTR-BEGIN-48"
       },
@@ -404,7 +452,8 @@
         "length_miles": 3.0,
         "day": "Sept. 26",
         "day_full": "25 miles",
-        "comment": "Reach Tom Bombadils house. Stars are out (ca. 7 p.m.).",
+        "directions": "Reach Tom Bombadil's house among the stars rising.",
+        "quote": "Hey! Come derry dol! Hop along, my hearties!\nHobbits! Ponies all! We are fond of parties.\nNow let the fun begin! Let us sing together!",
         "optional": false,
         "id": "LOTR-BEGIN-49"
       },
@@ -412,23 +461,26 @@
         "length_miles": 0.0,
         "day": "Sept. 27",
         "day_full": "0 miles",
-        "comment": "Rainy. Spend the day at Tom Bombadils house.",
+        "directions": "Rain. Spend the day at Tom Bombadils house.",
+        "quote": "Ho! Tom Bombadil, Tom Bombadillo!\nBy water, wood and hill, by the reed and willow,\nBy fire, sun and moon, harken now and hear us!\nCome, Tom Bombadil, for our need is near us!",
         "optional": false,
         "id": "LOTR-BEGIN-50"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 7.0,
         "day": "Sept. 28",
         "day_full": "17 miles",
-        "comment": "Leave Toms house and climb zig-zag path to brow of hill on west side of Barrow-downs (ca. 9 a.m.). On ponies go up steep slopes and down long limbs. No trees or water. Turn more east than they intend and enter the Barrow-downs, a place of great dread: inhabited by evil Barrow-wights from Angmar (R. Foster).",
+        "directions": "Leave Tom's house and enter the Barrow-downs where the evil Barrow-wights from Angmar dwell.",
+        "quote": "He turned his glance eastwards, and he saw that on that side the hills were higher and looked down upon them; and all those hills were crowned with green mounds, and on some were standing stones, pointing upwards like jagged teeth out of green gums. That view was somehow disquieting; so they turned from the sight.",
         "optional": false,
         "id": "LOTR-BEGIN-51"
       },
       {
-        "length_miles": 14.0,
+        "length_miles": 7.0,
         "day": "Sept. 28",
         "day_full": "17 miles",
-        "comment": "Midday. Stop in a hollow atop a hill. Eat and fall asleep. Wake in fog, sun sinking.",
+        "directions": "Midday. Stop in a hollow atop a hill. Eat and fall asleep. Wake in fog, sun sinking.",
+        "quote": "They found that they were upon an island in the fog. Even as they looked out in dismay towards the setting sun, it sank before their eyes into a white sea, and a cold grey shadow sprang up in the East behind. The fog rolled up to the walls and rose above them, and as it mounted it bent over their heads until it became a roof: they were shut in a hall of mist whose central pillar was the standing stone.",
         "optional": false,
         "id": "LOTR-BEGIN-52"
       },
@@ -436,7 +488,8 @@
         "length_miles": 3.0,
         "day": "Sept. 28",
         "day_full": "17 miles",
-        "comment": "Try to head north, but lose their way and become separated. Captured by Wights.",
+        "directions": "Try to head north, but get lost and separated, easily prey for Barrow-wights.",
+        "quote": "Cold be hand and heart and bone,\nand cold be sleep under stone:\nnever more to wake on stony bed,\nnever, till the Sun fails and the Moon is dead.\nIn the black wind the stars shall die,\nand still on gold here let them lie,\ntill the dark lord lifts his hand\nover dead sea and withered land.",
         "optional": false,
         "id": "LOTR-BEGIN-53"
       },
@@ -444,7 +497,8 @@
         "length_miles": 0.0,
         "day": "Sept. 29",
         "day_full": "20 miles",
-        "comment": "Frodo sings, Tom rescues and recalls ponies. Leave about 10 a.m. Tom leads.",
+        "directions": "Get rescued by Tom Bombadil.",
+        "quote": "Get out, you old Wight! Vanish in the sunlight!\nShrivel like the cold mist, like the winds go wailing,\nOut into the barren lands far beyond the mountains!\nCome never here again! Leave your barrow empty!\nLost and forgotten be, darker than the darkness,\nWhere gates stand for ever shut, till the world is mended.",
         "optional": false,
         "id": "LOTR-BEGIN-54"
       },
@@ -452,7 +506,8 @@
         "length_miles": 3.0,
         "day": "Sept. 29",
         "day_full": "20 miles",
-        "comment": "Ride north through a gap.",
+        "directions": "Follow Tom Bombadil north after looting the barrow.",
+        "quote": "For each of the hobbits he chose a dagger, long, leaf-shaped, and keen, of marvellous workmanship, damasked with serpent-forms in red and gold. They gleamed as he drew them from their black sheaths, wrought of some strange metal, light and strong, and set with many fiery stones. Whether by some virtue in these sheaths or because of the spell that lay on the mound, the blades seemed untouched by time, unrusted, sharp, glittering in the sun.",
         "optional": false,
         "id": "LOTR-BEGIN-55"
       },
@@ -460,7 +515,8 @@
         "length_miles": 5.0,
         "day": "Sept. 29",
         "day_full": "20 miles",
-        "comment": "Reach dike and hedge. Former boundary of Cardolan, part of the North Kingdom of Arnor.",
+        "directions": "Cross dike and hedge, the former boundary of Cardolan, part of the North Kingdom of Arnor.",
+        "quote": "The dark line they had seen was not a line of trees but a line of bushes growing on the edge of a deep dike with a steep wall on the further side. Tom said that it had once been the boundary of a kingdom, but a very long time ago. He seemed to remember something sad about it, and would not say much.",
         "optional": false,
         "id": "LOTR-BEGIN-56"
       },
@@ -468,7 +524,9 @@
         "length_miles": 8.0,
         "day": "Sept. 29",
         "day_full": "20 miles",
-        "comment": "Return to Great East Road (ca.5:30). Tom departs. Strider sees them, but hides.",
+        "directions": "Return to Great East Road, where Tom departs.",
+        "quote": "Tom’s country ends here: he will not pass the borders.\nTom has his house to mind, and Goldberry is waiting!",
+        "comment": "Strider sees the hobbits here, but stays hidden.",
         "optional": false,
         "id": "LOTR-BEGIN-57"
       },
