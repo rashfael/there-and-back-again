@@ -104,7 +104,7 @@ store.fetchEntries()
 							path.partial(v-if="leg.remainingDistance > 0", :d="`M 0.5 -0.3 L 0.5 ${0.3 - leg.remainingDistance / leg.distance * 0.6}`")
 						.text
 							.directions {{ leg.directions }}
-							.quote {{ leg.quote }}
+							.quote(v-if="leg.remainingDistance === 0") {{ leg.quote }}
 						.distance {{ (leg.distance / 1000).toFixed(2) }}km
 		bunt-tab(id="log", header="log")
 			.log-entries(v-scrollbar.y="")
