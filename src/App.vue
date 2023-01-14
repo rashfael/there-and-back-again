@@ -98,10 +98,15 @@ store.fetchEntries()
 			.journey-legs
 				template(v-for="(leg, index) of journey.legs")
 					.journey-leg(v-if="leg.show", :class="{start: index === 0, end: index === journey.legs.length - 1, reached: leg.remainingDistance === 0}")
-						svg.waypoint(viewBox="0 0 1 1")
-							path(v-if="index !== 0", d="M 0.5 -0.3 L 0.5 0.3")
-							circle(cx="0.5", cy="0.5", r="0.2")
-							path.partial(v-if="leg.remainingDistance > 0", :d="`M 0.5 -0.3 L 0.5 ${0.3 - leg.remainingDistance / leg.distance * 0.6}`")
+						.path-segment
+							.waypoint
+							template(v-if="journey.legs[index + 1].show")
+								.path.partial(v-if="journey.legs[index + 1].remainingDistance > 0", :style="{'--remaining': journey.legs[index + 1].remainingDistance / journey.legs[index + 1].distance}")
+								.path(:class="{ remaining: journey.legs[index + 1].remainingDistance > 0 }")
+						//- svg.waypoint(viewBox="0 0 1 1")
+						//- 	circle(cx="0.5", cy="0.2", r="0.2")
+						//- 	path(v-if="journey.legs[index + 1].show", d="M 0.5 0.4 L 0.5 1")
+						//- 	path.partial(v-if="leg.remainingDistance > 0", :d="`M 0.5 -0.3 L 0.5 ${0.3 - leg.remainingDistance / leg.distance * 0.6}`")
 						.text
 							.directions {{ leg.directions }}
 							.quote(v-if="leg.remainingDistance === 0") {{ leg.quote }}
@@ -157,27 +162,37 @@ form.add-entry
 			// height: 56px
 			display: flex
 			align-items: flex-start
-			padding: 0 16px 8px 0
-			svg.waypoint
-				pointer-events: none
+			padding: 0 16px 0 0
+			.path-segment
 				flex: none
-				height: 200%
-				width: 56px
-				*
-					vector-effect: non-scaling-stroke
-				circle, path
-					fill: none
-					stroke-width: 3px
-					stroke: $clr-green-800
+				display: flex
+				flex-direction: column
+				align-items: center
+				width: 48px
+				align-self: stretch
+				.waypoint
+					flex: none
+					width: 18px
+					height: @width
+					border: 4px solid $clr-green-800
+					border-radius: 50%
+				.path
+					flex: auto
+					width: 4px
+					background: $clr-green-800
+					&.remaining
+						width: 2px
+						background: transparent
+						background-image: repeating-linear-gradient(transparent, transparent 6px, $clr-disabled-text-light 6px, $clr-disabled-text-light 12px)
+					&.partial
+						flex: none
+						height: calc(var(--remaining) * (100% - 26px))
 			&:not(.reached)
-				svg.waypoint
-					circle, path:not(.partial)
-						stroke-width: 2px
-						stroke: $clr-disabled-text-light
-						stroke-dasharray: 6
+				.waypoint
+					border: 2px dashed $clr-disabled-text-light
 			.text
 				flex: auto
-				margin: 0 16px 0 0
+				margin: 0 16px 8px 0
 				.quote
 					margin-top: 4px
 					color: $clr-secondary-text-light
