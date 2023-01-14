@@ -544,7 +544,7 @@
         "day": "Sept. 30",
         "day_full": "12 miles",
         "directions": "Survive the Night. Leave Bree on East Road.",
-        "quote": "All that is gold does not glitter,\nNot all those who wander are lost;\nThe old that is strong does not wither,\nDeep roots are not reached by the frost.\nFrom the ashes a fire shall be woken,\nA light from the shadows shall spring;\nRenewed shall be blade that was broken,\nThe crownless again shall be king."
+        "quote": "All that is gold does not glitter,\nNot all those who wander are lost;\nThe old that is strong does not wither,\nDeep roots are not reached by the frost.\nFrom the ashes a fire shall be woken,\nA light from the shadows shall spring;\nRenewed shall be blade that was broken,\nThe crownless again shall be king.",
         "optional": false,
         "id": "LOTR-BEGIN-59"
       },
@@ -644,7 +644,7 @@
         "day": "Oct. 5",
         "day_full": "18 miles",
         "directions": "Set out after sunrise towards the crumbled ruins on Hills ahead.",
-        "The hobbits felt refreshed, as if they had had a night of unbroken sleep. Already they were getting used to much walking on short commons – shorter at any rate than what in the Shire they would have thought barely enough to keep them on their legs. Pippin declared that Frodo was looking twice the hobbit that he had been. ‘Very odd,’ said Frodo, tightening his belt, ‘considering that there is actually a good deal less of me. I hope the thinning process will not go on indefinitely, or I shall become a wraith.’",
+        "quote": "The hobbits felt refreshed, as if they had had a night of unbroken sleep. Already they were getting used to much walking on short commons – shorter at any rate than what in the Shire they would have thought barely enough to keep them on their legs. Pippin declared that Frodo was looking twice the hobbit that he had been. ‘Very odd,’ said Frodo, tightening his belt, ‘considering that there is actually a good deal less of me. I hope the thinning process will not go on indefinitely, or I shall become a wraith.’",
         "optional": false,
         "id": "LOTR-BEGIN-70"
       },
