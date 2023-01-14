@@ -80,7 +80,7 @@ export function mapActions (store, arrOrObj) {
 const store = createStore('store', {
 	state: () => ({
 		user: null,
-		entries: null
+		entries: []
 	}),
 	getters: {},
 	actions: {
