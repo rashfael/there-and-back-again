@@ -534,7 +534,8 @@
         "length_miles": 4.0,
         "day": "Sept. 29",
         "day_full": "20 miles",
-        "comment": "Reach Bree. Stay at The Prancing Pony. Meet Strider. Ponies stolen during night.",
+        "directions": "Reach the Prancing Pony in Bree.",
+        "quote": "There is an inn, a merry old inn\nbeneath an old grey hill,\nAnd there they brew a beer so brown\nThat the Man in the Moon himself came down\none night to drink his fill.",
         "optional": false,
         "id": "LOTR-BEGIN-58"
       },
@@ -542,7 +543,8 @@
         "length_miles": 0.0,
         "day": "Sept. 30",
         "day_full": "12 miles",
-        "comment": "Leave Bree on East Road (ca. 9:30 a.m.).",
+        "directions": "Survive the Night. Leave Bree on East Road.",
+        "quote": "All that is gold does not glitter,\nNot all those who wander are lost;\nThe old that is strong does not wither,\nDeep roots are not reached by the frost.\nFrom the ashes a fire shall be woken,\nA light from the shadows shall spring;\nRenewed shall be blade that was broken,\nThe crownless again shall be king."
         "optional": false,
         "id": "LOTR-BEGIN-59"
       },
@@ -550,7 +552,8 @@
         "length_miles": 5.0,
         "day": "Sept. 30",
         "day_full": "12 miles",
-        "comment": "Leave road and head north into Chetwood. No living things all day.",
+        "directions": "Leave road and head north into Chetwood.",
+        "quote": "At last they left the village behind. The escort of children and stragglers that had followed them got tired and turned back at the South-gate. Passing through, they kept on along the Road for some miles. It bent to the left, curving back into its eastward line as it rounded the feet of Bree-hill, and then it began to run swiftly downwards into wooded country. To their left they could see some of the houses and hobbit-holes of Staddle on the gentler south-eastern slopes of the hill; down in a deep hollow away north of the Road there were wisps of rising smoke that showed where Combe lay; Archet was hidden in the trees beyond.",
         "optional": false,
         "id": "LOTR-BEGIN-60"
       },
@@ -558,23 +561,26 @@
         "length_miles": 7.0,
         "day": "Sept. 30",
         "day_full": "12 miles",
-        "comment": "Camp in Chetwood, east of Archet.",
+        "directions": "Camp in Chetwood, east of Archet.",
+        "quote": "His plan, as far as they could understand it without knowing the country, was to go towards Archet at first, but to bear right and pass it on the east, and then to steer as straight as he could over the wild lands to Weathertop Hill. In that way they would, if all went well, cut off a great loop of the Road, which further on bent southwards to avoid the Midgewater Marshes. But, of course, they would have to pass through the marshes themselves, and Strider’s description of them was not encouraging.",
         "optional": false,
         "id": "LOTR-BEGIN-61"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 8.0,
         "day": "Oct. 1",
         "day_full": "16 miles",
-        "comment": "Head east. Ground dropping slowly. Quiet and peaceful.",
+        "directions": "Head east. Ground dropping slowly. Quiet and peaceful.",
+        "quote": "Whether because of Strider’s skill or for some other reason, they saw no sign and heard no sound of any other living thing all that day: neither two-footed, except birds; nor four-footed, except one fox and a few squirrels.",
         "optional": false,
         "id": "LOTR-BEGIN-62"
       },
       {
-        "length_miles": 16.0,
+        "length_miles": 8.0,
         "day": "Oct. 1",
         "day_full": "16 miles",
-        "comment": "Camp in eastern Chetwood.",
+        "directions": "Camp in eastern Chetwood.",
+        "quote": "The next day they began to steer a steady course eastwards; and still all was quiet and peaceful.",
         "optional": false,
         "id": "LOTR-BEGIN-63"
       },
@@ -582,7 +588,8 @@
         "length_miles": 2.0,
         "day": "Oct. 2",
         "day_full": "16 miles",
-        "comment": "Come out of the Chetwood.",
+        "directions": "Leave the Chetwood.",
+        "quote": "On the third day out from Bree they came out of the Chetwood. The land had been falling steadily, ever since they turned aside from the Road, and they now entered a wide flat expanse of country, much more difficult to manage.",
         "optional": false,
         "id": "LOTR-BEGIN-64"
       },
@@ -590,7 +597,8 @@
         "length_miles": 8.0,
         "day": "Oct. 2",
         "day_full": "16 miles",
-        "comment": "Ground becomes damp. Entering western edge of Midgewater Marshes.",
+        "directions": "Enter the western edge of Midgewater Marshes.",
+        "quote": "The ground now became damp, and in places boggy and here and there they came upon pools, and wide stretches of reeds and rushes filled with the warbling of little hidden birds. They had to pick their way carefully to keep both dry-footed and on their proper course. […] The marshes were bewildering and treacherous, and there was no permanent trail even for Rangers to find through their shifting quagmires. The flies began to torment them, and the air was full of clouds of tiny midges that crept up their sleeves and breeches and into their hair.",
         "optional": false,
         "id": "LOTR-BEGIN-65"
       },
@@ -598,7 +606,8 @@
         "length_miles": 6.0,
         "day": "Oct. 2",
         "day_full": "16 miles",
-        "comment": "Camp in western part of the Marshes.",
+        "directions": "Camp in western part of the Marshes.",
+        "quote": "They spent a miserable day in this lonely and unpleasant country. Their camping-place was damp, cold, and uncomfortable; and the biting insects would not let them sleep. There were also abominable creatures haunting the reeds and tussocks that from the sound of them were evil relatives of the cricket. There were thousands of them, and they squeaked all round, neek-breek, breek-neek, unceasingly all the night, until the hobbits were nearly frantic.",
         "optional": false,
         "id": "LOTR-BEGIN-66"
       },
@@ -606,7 +615,9 @@
         "length_miles": 15.0,
         "day": "Oct. 3",
         "day_full": "15 miles",
-        "comment": "Camp in eastern part of the Marshes. See flashes of light in the east during the night (Gandalf on Weathertop).",
+        "directions": "Camp in eastern part of the Marshes.",
+        "quote": "The next day, the fourth, was little better, and the night almost as comfortless. Though the Neekerbreekers (as Sam called them) had been left behind, the midges still pursued them.",
+        "comment": "This is when Gandalf is on Weathertop. They see his flashes of light at night.",
         "optional": false,
         "id": "LOTR-BEGIN-67"
       },
@@ -614,7 +625,8 @@
         "length_miles": 4.0,
         "day": "Oct. 4",
         "day_full": "17 miles",
-        "comment": "Reach eastern edge of the Marshes. Can see Weather Hills ahead. Land starts to rise. Land drier and very barren. A few birds.",
+        "directions": "Reach eastern edge of the Marshes, towards Weather Hills ahead, into dry and barren country.",
+        "quote": "‘I think,’ answered Strider slowly, as if he was not quite sure, ‘I think the best thing is to go as straight eastward from here as we can, to make for the line of hills, not for Weathertop. There we can strike a path I know that runs at their feet; it will bring us to Weathertop from the north and less openly. Then we shall see what we shall see.’",
         "optional": false,
         "id": "LOTR-BEGIN-68"
       },
@@ -622,20 +634,22 @@
         "length_miles": 13.0,
         "day": "Oct. 4",
         "day_full": "17 miles",
-        "comment": "Camp by a stream, among stunted alder trees. Moon waxing.",
+        "directions": "Camp by a stream, among stunted alder trees.",
+        "quote": "All that day they plodded along, until the cold and early evening came down. The land became drier and more barren; but mists and vapours lay behind them on the marshes. A few melancholy birds were piping and wailing, until the round red sun sank slowly into the western shadows; then an empty silence fell.",
         "optional": false,
         "id": "LOTR-BEGIN-69"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 8.0,
         "day": "Oct. 5",
         "day_full": "18 miles",
-        "comment": "Frost. Very clear. Can see crumbled ruins on Hills ahead.",
+        "directions": "Set out after sunrise towards the crumbled ruins on Hills ahead.",
+        "The hobbits felt refreshed, as if they had had a night of unbroken sleep. Already they were getting used to much walking on short commons – shorter at any rate than what in the Shire they would have thought barely enough to keep them on their legs. Pippin declared that Frodo was looking twice the hobbit that he had been. ‘Very odd,’ said Frodo, tightening his belt, ‘considering that there is actually a good deal less of me. I hope the thinning process will not go on indefinitely, or I shall become a wraith.’",
         "optional": false,
         "id": "LOTR-BEGIN-70"
       },
       {
-        "length_miles": 18.0,
+        "length_miles": 10.0,
         "day": "Oct. 5",
         "day_full": "18 miles",
         "comment": "Reach foot of the Weather Hills. Camp there.",
