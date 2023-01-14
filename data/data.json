@@ -652,7 +652,8 @@
         "length_miles": 10.0,
         "day": "Oct. 5",
         "day_full": "18 miles",
-        "comment": "Reach foot of the Weather Hills. Camp there.",
+        "directions": "Reach the Weather Hills. Camp there.",
+        "quote": "The hills drew nearer. They made an undulating ridge, often rising almost to a thousand feet, and here and there falling again to low clefts or passes leading into the eastern land beyond. Along the crest of the ridge the hobbits could see what looked to be the remains of green-grown walls and dikes, and in the clefts there still stood the ruins of old works of stone. By night they had reached the feet of the westward slopes, and there they camped.",
         "optional": false,
         "id": "LOTR-BEGIN-71"
       },
@@ -660,7 +661,8 @@
         "length_miles": 5.0,
         "day": "Oct. 6",
         "day_full": "12 miles",
-        "comment": "Follow path south toward Weathertop: path is cunningly hidden and is edged with stones where land is open. Sam recites part of The Fall of Gil-galad.",
+        "directions": "Follow the hidden path south toward Weathertop while Sam recites the Fall of Gil-galad.",
+        "quote": "His sword was long, his lance was keen,\nhis shining helm afar was seen;\nthe countless stars of heaven’s field\nwere mirrored in his silver shield.",
         "optional": false,
         "id": "LOTR-BEGIN-72"
       },
@@ -668,7 +670,8 @@
         "length_miles": 5.0,
         "day": "Oct. 6",
         "day_full": "12 miles",
-        "comment": "Midday - Near south end of path. Reach dell at western foot of hill.",
+        "directions": "Follow path to dell at the western foot of the hill.",
+        "quote": "It was already mid-day when they drew near the southern end of the path, and saw before them, in the pale clear light of the October sun, a grey-green bank, leading up like a bridge on to the northward slope of the hill. They decided to make for the top at once, while the daylight was broad. Concealment was no longer possible, and they could only hope that no enemy or spy was observing them.",
         "optional": false,
         "id": "LOTR-BEGIN-73"
       },
@@ -676,7 +679,8 @@
         "length_miles": 1.0,
         "day": "Oct. 6",
         "day_full": "12 miles",
-        "comment": "Climb to top of Weathertop and enter the ruins of the watch Tower of Amon S\u00fbl. See Black Riders on road below.",
+        "directions": "Climb to the top of Weathertop and enter the ruins of the watch Tower of Amon S\u00fbl.",
+        "quote": "In that lonely place Frodo for the first time fully realized his homelessness and danger. He wished bitterly that his fortune had left him in the quiet and beloved Shire. He stared down at the hateful Road, leading back westward – to his home. Suddenly he was aware that two black specks were moving slowly along it, going westward; and looking again he saw that three others were creeping eastward to meet them.",
         "optional": false,
         "id": "LOTR-BEGIN-74"
       },
@@ -684,7 +688,8 @@
         "length_miles": 1.0,
         "day": "Oct. 6",
         "day_full": "12 miles",
-        "comment": "Return to dell. Camp there. Attack of Nazgul at night.",
+        "directions": "Return to dell. Camp there.",
+        "quote": "Two of the figures halted. The third was taller than the others: his hair was long and gleaming and on his helm was a crown. In one hand he held a long sword, and in the other a knife; both the knife and the hand that held it glowed with a pale light. He sprang forward and bore down on Frodo. […] A shrill cry rang out in the night; and he felt a pain like a dart of poisoned ice pierce his left shoulder.",
         "optional": false,
         "id": "LOTR-BEGIN-75"
       },
@@ -692,7 +697,8 @@
         "length_miles": 5.0,
         "day": "Oct. 7",
         "day_full": "19 miles",
-        "comment": "Injured, Frodo is carried on pony. Head south from dell.",
+        "directions": "Head south from dell. Frodo, injured, is carried on the pony.",
+        "quote": "He crushed a leaf in his fingers, and it gave out a sweet and pungent fragrance. ‘It is fortunate that I could find it, for it is a healing plant that the Men of the West brought to Middle-earth. Athelas they named it, and it grows now sparsely and only near places where they dwelt or camped of old; and it is not known in the North, except to some of those who wander in the Wild.’",
         "optional": false,
         "id": "LOTR-BEGIN-76"
       },
@@ -700,7 +706,8 @@
         "length_miles": 5.0,
         "day": "Oct. 7",
         "day_full": "19 miles",
-        "comment": "Cross Great East Road and enter thickets on south side. Land slopes south.",
+        "directions": "Cross Great East Road and enter thickets on south side.",
+        "quote": "They made their way slowly and cautiously round the southwestern slopes of the hill, and came in a little while to the edge of the Road. There was no sign of the Riders. But even as they were hurrying across they heard far away two cries: a cold voice calling and a cold voice answering. Trembling they sprang forward, and made for the thickets that lay ahead.",
         "optional": false,
         "id": "LOTR-BEGIN-77"
       },
@@ -708,7 +715,8 @@
         "length_miles": 9.0,
         "day": "Oct. 7",
         "day_full": "19 miles",
-        "comment": "Camp in thickets.",
+        "directions": "Camp in thickets.",
+        "quote": "It was a cheerless land, and their journey was slow and gloomy. They spoke little as they trudged along. Frodo’s heart was grieved as he watched them walking beside him with their heads down, and their backs bowed under their burdens. Even Strider seemed tired and heavy-hearted.",
         "optional": false,
         "id": "LOTR-BEGIN-78"
       },
@@ -716,7 +724,8 @@
         "length_miles": 19.0,
         "day": "Oct. 8",
         "day_full": "19 miles",
-        "comment": "Camp.",
+        "directions": "Camp.",
+        "quote": "Before the first day’s march was over Frodo’s pain began to grow again, but he did not speak of it for a long time.",
         "optional": false,
         "id": "LOTR-BEGIN-79"
       },
@@ -724,7 +733,8 @@
         "length_miles": 19.0,
         "day": "Oct. 9",
         "day_full": "19 miles",
-        "comment": "Camp - Follow a wide shallow curving valley.",
+        "directions": "Camp - Follow a wide, shallow curving valley.",
+        "quote": "They dreaded the dark hours, and kept watch in pairs by night, expecting at any time to see black shapes stalking in the grey night, dimly lit by the cloud-veiled moon; but they saw nothing, and heard no sound but the sigh of withered leaves and grass.",
         "optional": false,
         "id": "LOTR-BEGIN-80"
       },
@@ -732,7 +742,8 @@
         "length_miles": 19.0,
         "day": "Oct. 10",
         "day_full": "19 miles",
-        "comment": "Camp - Continue in valley.",
+        "directions": "Camp - Continue in valley.",
+        "quote": "Four days passed, without the ground or the scene changing much, except that behind them Weathertop slowly sank, and before them the distant mountains loomed a little nearer.",
         "optional": false,
         "id": "LOTR-BEGIN-81"
       },
@@ -740,7 +751,8 @@
         "length_miles": 19.0,
         "day": "Oct. 11",
         "day_full": "19 miles",
-        "comment": "Continue in valley. Land starts to rise. Can see huddle of hills ahead.",
+        "directions": "Continue in valley towards the huddle of hills ahead.",
+        "quote": "At the end of the fifth day the ground began once more to rise slowly out of the wide shallow valley into which they had descended.",
         "optional": false,
         "id": "LOTR-BEGIN-82"
       },
@@ -748,7 +760,8 @@
         "length_miles": 19.0,
         "day": "Oct. 12",
         "day_full": "19 miles",
-        "comment": "Camp not far SW of bridge. Camp is high enough for Merry to see the Loudwater far in the distance!",
+        "directions": "Camp near the south-west end of the Last Bridge.",
+        "quote": "We have now come to the River Hoarwell, that the Elves call Mitheithel. It flows down out of the Ettenmoors, the troll-fells north of Rivendell, and joins the Loudwater away in the South. Some call it the Greyflood after that. It is a great water before it finds the Sea. There is no way over it below its sources in the Ettenmoors, except by the Last Bridge on which the Road crosses.",
         "optional": false,
         "id": "LOTR-BEGIN-83"
       },
@@ -756,7 +769,8 @@
         "length_miles": 1.0,
         "day": "Oct. 13",
         "day_full": "7 miles",
-        "comment": "Return to The Great East Road",
+        "directions": "Return to The Great East Road",
+        "quote": "They hurried along with all the speed they could make, and after a mile or two they saw the Last Bridge ahead, at the bottom of a short steep slope. They dreaded to see black figures waiting there, but they saw none.",
         "optional": false,
         "id": "LOTR-BEGIN-84"
       },
@@ -764,7 +778,8 @@
         "length_miles": 2.0,
         "day": "Oct. 13",
         "day_full": "7 miles",
-        "comment": "Strider scouts ahead and finds an elf-stone on The Last Bridge. He believes it is a token of safety. Company crosses the River Hoarwell/Mitheithel.",
+        "directions": "Cross the River Hoarwell/Mitheithel.",
+        "quote": "He held out his hand, and showed a single pale-green jewel. ‘I found it in the mud in the middle of the Bridge,’ he said. ‘It is a beryl, an elf-stone. Whether it was set there, or let fall by chance, I cannot say; but it brings hope to me. I will take it as a sign that we may pass the Bridge.’",
         "optional": false,
         "id": "LOTR-BEGIN-85"
       },
@@ -772,7 +787,8 @@
         "length_miles": 1.0,
         "day": "Oct. 13",
         "day_full": "7 miles",
-        "comment": "Turn north from the Road. Enter the steep lands of the Trollshaws. They can see ruined walls and towers frowning down.",
+        "directions": "Turn north from the Road. Enter the steep lands of the Trollshaws.",
+        "quote": " A mile further on they came to a narrow ravine that led away northwards through the steep lands on the left of the Road. Here Strider turned aside, and soon they were lost in a sombre country of dark trees winding among the feet of sullen hills.",
         "optional": false,
         "id": "LOTR-BEGIN-86"
       },
@@ -780,7 +796,8 @@
         "length_miles": 3.0,
         "day": "Oct. 13",
         "day_full": "7 miles",
-        "comment": "Hills quickly shut them in. Difficult going. Camp.",
+        "directions": "Hills quickly shut them in. Difficult going. Camp.",
+        "quotes": "As they went forward the hills about them steadily rose. Here and there upon heights and ridges they caught glimpses of ancient walls of stone, and the ruins of towers: they had an ominous look.",
         "optional": false,
         "id": "LOTR-BEGIN-87"
       },
@@ -788,7 +805,8 @@
         "length_miles": 6.0,
         "day": "Oct. 14",
         "day_full": "6 miles",
-        "comment": "More climbing.",
+        "directions": "More climbing.",
+        "quote": "No one lives in this land. Men once dwelt here, ages ago; but none remain now. They became an evil people, as legends tell, for they fell under the shadow of Angmar. But all were destroyed in the war that brought the North Kingdom to its end. But that is now so long ago that the hills have forgotten them, though a shadow still lies on the land.",
         "optional": false,
         "id": "LOTR-BEGIN-88"
       },
@@ -796,7 +814,8 @@
         "length_miles": 6.0,
         "day": "Oct. 15",
         "day_full": "6 miles",
-        "comment": "Weather turns wet during the day.",
+        "directions": "More climbing.",
+        "quote": "The hills now began to shut them in. The Road behind held on its way to the River Bruinen, but both were now hidden from view. The travellers came into a long valley; narrow, deeply cloven, dark and silent. Trees with old and twisted roots hung over cliffs, and piled up behind into mounting slopes of pine-wood.",
         "optional": false,
         "id": "LOTR-BEGIN-89"
       },
@@ -804,7 +823,8 @@
         "length_miles": 6.0,
         "day": "Oct. 16",
         "day_full": "6 miles",
-        "comment": "Hills higher and steeper. They are forced north out of their way. Still raining. Camp on a stony shelf by a shallow cave.",
+        "directions": "Hills higher and steeper.",
+        "quote": " The next day the hills rose still higher and steeper before them, and they were forced to turn away northwards out of their course. Strider seemed to be getting anxious: they were nearly ten days out from Weathertop, and their stock of provisions was beginning to run low. It went on raining. That night they camped on a stony shelf with a rock-wall behind them, in which there was a shallow cave, a mere scoop in the cliff.",
         "optional": false,
         "id": "LOTR-BEGIN-90"
       },
@@ -812,7 +832,8 @@
         "length_miles": 6.0,
         "day": "Oct. 17",
         "day_full": "6 miles",
-        "comment": "Rain stops. Strider scouts. Start late. Turn SE, scrambling over rocky ground. Find a valley, but it ends in a high ridge. Climb ridge and camp in a saddle at top. COLD. Build a fire under a gnarled pine.",
+        "directions": "Turn south-east, climb steep ridge.",
+        "quote": "The rest of that day they spent scrambling over rocky ground. They found a passage between two hills that led them into a valley running south-east, the direction that they wished to take; but towards the end of the day they found their road again barred by a ridge of high land; its dark edge against the sky was broken into many bare points like teeth of a blunted saw.",
         "optional": false,
         "id": "LOTR-BEGIN-91"
       },
@@ -820,7 +841,8 @@
         "length_miles": 1.0,
         "day": "Oct. 18",
         "day_full": "34 miles",
-        "comment": "Slope beyond ridge is much easier. Bright, fair day. Strider briefly sees the Loudwater/Bruinen in the distance.",
+        "directions": "Continue down the easier slope now in the correct direction.",
+        "quote": "Some way ahead Strider had caught a glimpse of the Loudwater again, and he knew that, though it was hidden from view, the Road to the Ford was not far from the River and lay on the side nearest to them.",
         "optional": false,
         "id": "LOTR-BEGIN-92"
       },
@@ -828,7 +850,8 @@
         "length_miles": 2.0,
         "day": "Oct. 18",
         "day_full": "34 miles",
-        "comment": "Reach a trail.",
+        "directions": "Reach a trail.",
+        "quote": "They followed the track for some while, for it offered much the easiest way down, but they went cautiously, and their anxiety increased as they came into the dark woods, and the path grew plainer and broader. […] When they came to the corner they looked round and saw that the path ran on over a level strip under the face of a low cliff overhung with trees. In the stony wall there was a door hanging crookedly ajar upon one great hinge.",
         "optional": false,
         "id": "LOTR-BEGIN-93"
       },
@@ -836,7 +859,8 @@
         "length_miles": 3.0,
         "day": "Oct. 18",
         "day_full": "34 miles",
-        "comment": "Find Troll-hole. Continue on level path through woods.",
+        "directions": "Find Troll-hole. Continue on level path through woods.",
+        "quote": "Even Frodo laughed. ‘Well!’ he said. ‘We are forgetting our family history! These must be the very three that were caught by Gandalf, quarrelling over the right way to cook thirteen dwarves and one hobbit.’",
         "optional": false,
         "id": "LOTR-BEGIN-94"
       },
@@ -844,7 +868,8 @@
         "length_miles": 1.0,
         "day": "Oct. 18",
         "day_full": "34 miles",
-        "comment": "Stone Trolls. Rest. Sam recites Old Troll. Continue in afternoon. Woods.",
+        "directions": "Continue past trolls while Sam recites Old Troll.",
+        "quote": "Troll sat alone on his seat of stone,\nAnd munched and mumbled a bare old bone;For many a year he had gnawed it near,\nFor meat was hard to come by.\nDone by! Gum by!\nIn a cave in the hills he dwelt alone,\nAnd meat was hard to come by.",
         "optional": false,
         "id": "LOTR-BEGIN-95"
       },
@@ -852,7 +877,8 @@
         "length_miles": 7.0,
         "day": "Oct. 18",
         "day_full": "34 miles",
-        "comment": "Return to the Road.",
+        "directions": "Return to the Road.",
+        "quote": "The Road lay quiet under the long shadows of early evening. There was no sign of any other travellers to be seen. As there was now no other possible course for them to take, they climbed down the bank, and turning left went off as fast as they could. Soon a shoulder of the hills cut off the light of the fast westering sun.",
         "optional": false,
         "id": "LOTR-BEGIN-96"
       },
@@ -860,7 +886,8 @@
         "length_miles": 5.0,
         "day": "Oct. 18",
         "day_full": "34 miles",
-        "comment": "While looking for a place to camp, hear a horse: Glorfindel.",
+        "directions": "An unexpected meeting: Glorfindel.",
+        "quote": "They said that the Nine were abroad, and that you were astray bearing a great burden without guidance, for Gandalf had not returned. There are few even in Rivendell that can ride openly against the Nine; but such as there were, Elrond sent out north, west, and south. It was thought that you might turn far aside to avoid pursuit, and become lost in the Wilderness.",
         "optional": false,
         "id": "LOTR-BEGIN-97"
       },
@@ -868,7 +895,8 @@
         "length_miles": 15.0,
         "day": "Oct. 18",
         "day_full": "34 miles",
-        "comment": "March all night. Frodo is on Glorfindels horse. Camp next to the road at dawn.",
+        "directions": "March all night. Frodo is on Glorfindels horse.",
+        "quote": "On he led them, into the mouth of darkness, and still on under the deep clouded night. There was neither star nor moon. Not until the grey of dawn did he allow them to halt. Pippin, Merry, and Sam were by that time nearly asleep on their stumbling legs; and even Strider seemed by the sag of his shoulders to be weary. Frodo sat upon the horse in a dark dream."
         "optional": false,
         "id": "LOTR-BEGIN-98"
       },
@@ -876,7 +904,8 @@
         "length_miles": 4.0,
         "day": "Oct. 19",
         "day_full": "20 miles",
-        "comment": "Camp less than 5 hours. Take road with 2 brief rests.",
+        "directions": "Camp less than 5 hours.",
+        "quote": "They cast themselves down in the heather a few yards from the road-side, and fell asleep immediately. They seemed hardly to have closed their eyes when Glorfindel, who had set himself to watch while they slept, awoke them again. The sun had now climbed far into the morning, and the clouds and mists of the night were gone.",
         "optional": false,
         "id": "LOTR-BEGIN-99"
       },
@@ -884,7 +913,8 @@
         "length_miles": 5.0,
         "day": "Oct. 19",
         "day_full": "20 miles",
-        "comment": "Cross a small stream. Rest stop.",
+        "directions": "Cross a small stream. Rest stop.",
+        "quote": "‘Drink this!’ said Glorfindel to them, pouring for each in turn a little liquor from his silver-studded flask of leather. It was clear as spring water and had no taste, and it did not feel either cool or warm in the mouth; but strength and vigour seemed to flow into all their limbs as they drank it.",
         "optional": false,
         "id": "LOTR-BEGIN-100"
       },
@@ -892,7 +922,8 @@
         "length_miles": 3.0,
         "day": "Oct. 19",
         "day_full": "20 miles",
-        "comment": "Rest stop.",
+        "directions": "Rest stop.",
+        "quote": "They had rested rather less than five hours when they took to the Road again. Glorfindel still urged them on, and only allowed two brief halts during the day’s march.",
         "optional": false,
         "id": "LOTR-BEGIN-101"
       },
@@ -900,7 +931,8 @@
         "length_miles": 8.0,
         "day": "Oct. 19",
         "day_full": "20 miles",
-        "comment": "Camp where road bends right to run down slope toward the River Bruinen.",
+        "directions": "Camp where road bends right to run down slope toward the River Bruinen.",
+        "quote": "In this way they covered almost twenty miles before nightfall, and came to a point where the Road bent right and ran down towards the bottom of the valley, now making straight for the Bruinen. So far there had been no sign or sound of pursuit that the hobbits could see or hear; but often Glorfindel would halt and listen for a moment, if they lagged behind, and a look of anxiety clouded his face.",
         "optional": false,
         "id": "LOTR-BEGIN-102"
       },
@@ -908,7 +940,8 @@
         "length_miles": 3.0,
         "day": "Oct. 20",
         "day_full": "18 miles",
-        "comment": "Leave early morning, hobbling along (ca. 7 a.m.).",
+        "directions": "Leave early morning, hobbling along.",
+        "quote": "‘Our peril will be greatest just ere we reach the river,’ said Glorfindel; ‘for my heart warns me that the pursuit is now swift behind us, and other danger may be waiting by the Ford.’",
         "optional": false,
         "id": "LOTR-BEGIN-103"
       },
@@ -916,7 +949,8 @@
         "length_miles": 4.0,
         "day": "Oct. 20",
         "day_full": "18 miles",
-        "comment": "Road running downhill. Much grass on sides.",
+        "directions": "Follow road running downhill, with much grass on sides.",
+        "quote": "The Road was still running steadily downhill, and there was now in places much grass at either side, in which the hobbits walked when they could, to ease their tired feet.",
         "optional": false,
         "id": "LOTR-BEGIN-104"
       },
@@ -924,7 +958,8 @@
         "length_miles": 2.0,
         "day": "Oct. 20",
         "day_full": "18 miles",
-        "comment": "Road plunges through a cutting of red stone with tall pines. Glorfindel says Run!",
+        "directions": "Road plunges through a cutting of red stone with tall pines. Run!",
+        "quote": "‘Fly!’ he called. ‘Fly! The enemy is upon us!’ The white horse leaped forward. The hobbits ran down the slope. Glorfindel and Strider followed as rearguard. They were only half way across the flat, when suddenly there was a noise of horses galloping. Out of the gate in the trees that they had just left rode a Black Rider. He reined his horse in, and halted, swaying in his saddle. Another followed him, and then another; then again two more. ‘Ride forward! Ride!’ cried Glorfindel to Frodo.",
         "optional": false,
         "id": "LOTR-BEGIN-105"
       },
@@ -932,7 +967,8 @@
         "length_miles": 0.5,
         "day": "Oct. 20",
         "day_full": "18 miles",
-        "comment": "Hobbits are halfway across grassy flat when Nazgul burst through behind them.",
+        "directions": "Get halfway across the grassy flat.",
+        "quote": "‘Ride on! Ride on!’ cried Glorfindel, and then loud and clear he called to the horse in the elf-tongue: noro lim, noro lim, Asfaloth! […] Frodo looked back for a moment over his shoulder. He could no longer see his friends. The Riders behind were falling back: even their great steeds were no match in speed for the white elf-horse of Glorfindel.",
         "optional": false,
         "id": "LOTR-BEGIN-106"
       },
@@ -940,7 +976,8 @@
         "length_miles": 0.5,
         "day": "Oct. 20",
         "day_full": "18 miles",
-        "comment": "Attack at the Ford (ca. noon). Glorfindels horse carries Frodo across Ford. Nazgul drown. Frodo falls.",
+        "directions": "Attack at the Ford.",
+        "quote": "The foremost of the black horses had almost set foot upon the shore. At that moment there came a roaring and a rushing: a noise of loud waters rolling many stones. Dimly Frodo saw the river below him rise, and down along its course there came a plumed cavalry of waves. White flames seemed to Frodo to flicker on their crests, and he half fancied that he saw amid the water white riders upon white horses with frothing manes. The three Riders that were still in the midst of the Ford were overwhelmed: they disappeared, buried suddenly under angry foam. Those that were behind drew back in dismay.",
         "optional": false,
         "id": "LOTR-BEGIN-107"
       },
@@ -948,7 +985,8 @@
         "length_miles": 2.0,
         "day": "Oct. 20",
         "day_full": "18 miles",
-        "comment": "Company meets Elves sent from Rivendell (est. 2 p.m.). They take Frodo ahead. Rest of company follows on foot.",
+        "directions": "Elves sent from Rivendell take Frodo. Rest of company follows on foot.",
+        "quote": "Your friends crossed after the flood had passed and they found you lying on your face at the top of the bank, with a broken sword under you. The horse was standing guard beside you. You were pale and cold, and they feared that you were dead, or worse. Elrond’s folk met them, carrying you slowly towards Rivendell.",
         "optional": false,
         "id": "LOTR-BEGIN-108"
       },
@@ -956,7 +994,8 @@
         "length_miles": 5.0,
         "day": "Oct. 20",
         "day_full": "18 miles",
-        "comment": "Come to the sudden cliff into the valley of Rivendell.",
+        "directions": "Come to the sudden cliff into the valley of Rivendell.",
+        "quote": "Shadows had fallen in the valley below, but there was still a light on the faces of the mountains far above. The air was warm. The sound of running and falling water was loud, and the evening was filled with a faint scent of trees and flowers, as if summer still lingered in Elrond’s gardens.",
         "optional": false,
         "id": "LOTR-BEGIN-109"
       },
@@ -964,7 +1003,8 @@
         "length_miles": 1.0,
         "day": "Oct. 20",
         "day_full": "18 miles",
-        "comment": "Frodo reaches Rivendell carried by the Elves (est. 4 p.m.). Others arrive in evening.",
+        "directions": "Reach Rivendell.",
+        "quote": "The hall of Elrond’s house was filled with folk: Elves for the most part, though there were a few guests of other sorts. Elrond, as was his custom, sat in a great chair at the end of the long table upon the dais; and next to him on the one side sat Glorfindel, on the other side sat Gandalf.",
         "optional": false,
         "id": "LOTR-BEGIN-110"
       }
