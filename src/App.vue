@@ -42,12 +42,10 @@ const journey = $computed(() => {
 		}
 		leg.remainingDistance = Math.max(0, leg.distance - remainingDistance)
 		remainingDistance -= leg.distance
-		console.log(remainingDistance, leg.distance, leg.remainingDistance)
 		leg.show = true
 	}
 	journey.legs[0].show = true
 
-	console.log(journey)
 	return journey
 })
 
