@@ -108,14 +108,12 @@ store.fetchEntries()
 							template(v-if="journey.legs[index + 1].show")
 								.path.partial(v-if="journey.legs[index + 1].remainingDistance > 0", :style="{'--remaining': journey.legs[index + 1].remainingDistance / journey.legs[index + 1].distance}")
 								.path(:class="{ remaining: journey.legs[index + 1].remainingDistance > 0 }")
-						//- svg.waypoint(viewBox="0 0 1 1")
-						//- 	circle(cx="0.5", cy="0.2", r="0.2")
-						//- 	path(v-if="journey.legs[index + 1].show", d="M 0.5 0.4 L 0.5 1")
-						//- 	path.partial(v-if="leg.remainingDistance > 0", :d="`M 0.5 -0.3 L 0.5 ${0.3 - leg.remainingDistance / leg.distance * 0.6}`")
-						.text
-							.directions {{ leg.directions }}
+						.content
+							.waypoint-info
+								.directions {{ leg.directions }}
+								.distance {{ (leg.distance / 1000).toFixed(2) }} km
 							.quote(v-if="leg.remainingDistance === 0") {{ leg.quote }}
-						.distance {{ (leg.distance / 1000).toFixed(2) }} km
+						
 		bunt-tab(id="log", header="log")
 			.log-entries(v-scrollbar.y="")
 				.entry(v-for="(entry, index) of entries", :class="{ last: index === entries.length - 1 }")
@@ -205,16 +203,22 @@ form.add-entry
 						height: calc(var(--remaining) * (100% - 26px))
 			&:not(.reached)
 				.waypoint
+					width: 22px
+					height: @width
 					border: 2px dashed $clr-disabled-text-light
-			.text
+			.content
 				flex: auto
-				margin: 0 16px 8px 0
+				margin: 5.5px 0 4px 0
+				.waypoint-info
+					display: flex
+					justify-content: space-between
+					.distance
+						white-space: nowrap
 				.quote
-					margin-top: 4px
+					margin-top: 6px
 					color: $clr-secondary-text-light
 					font-style: italic
-			.distance
-				white-space: nowrap
+				
 	.log-entries
 		display: flex
 		flex-direction: column
