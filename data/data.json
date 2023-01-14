@@ -125,7 +125,7 @@
         "id": "LOTR-BEGIN-12"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "Sept. 24",
         "day_full": "28 miles",
         "directions": "Eat and drink at little waterfall. Leave after 10:00 a.m.",
@@ -134,7 +134,7 @@
         "id": "LOTR-BEGIN-13"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "Sept. 24",
         "day_full": "28 miles",
         "directions": "Follow rolling roads.",
@@ -224,7 +224,7 @@
         "id": "LOTR-BEGIN-23"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "Sept. 25",
         "day_full": "27 miles",
         "directions": "Sleep late. Discuss route, decide to cut directly towards Buckleberry Ferry.",
@@ -233,7 +233,7 @@
         "id": "LOTR-BEGIN-24"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "Sept. 25",
         "day_full": "27 miles",
         "directions": "Meet a deep-banked stream, continue alongside it.",
@@ -359,7 +359,7 @@
         "id": "LOTR-BEGIN-38"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "Sept. 26",
         "day_full": "25 miles",
         "directions": "Leave on ponies, soon after 6:00 a.m.",
@@ -368,7 +368,7 @@
         "id": "LOTR-BEGIN-39"
       },
       {
-        "length_miles": 3.0,
+        "length_miles": 2.0,
         "day": "Sept. 26",
         "day_full": "25 miles",
         "directions": "Take tunnel under the Hedge to reach the Old Forest. Follow path until it disappears",
@@ -458,7 +458,7 @@
         "id": "LOTR-BEGIN-49"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "Sept. 27",
         "day_full": "0 miles",
         "directions": "Rain. Spend the day at Tom Bombadils house.",
@@ -467,7 +467,7 @@
         "id": "LOTR-BEGIN-50"
       },
       {
-        "length_miles": 7.0,
+        "length_miles": 6.5,
         "day": "Sept. 28",
         "day_full": "17 miles",
         "directions": "Leave Tom's house and enter the Barrow-downs where the evil Barrow-wights from Angmar dwell.",
@@ -494,7 +494,7 @@
         "id": "LOTR-BEGIN-53"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "Sept. 29",
         "day_full": "20 miles",
         "directions": "Get rescued by Tom Bombadil.",
@@ -503,7 +503,7 @@
         "id": "LOTR-BEGIN-54"
       },
       {
-        "length_miles": 3.0,
+        "length_miles": 2.5,
         "day": "Sept. 29",
         "day_full": "20 miles",
         "directions": "Follow Tom Bombadil north after looting the barrow.",
@@ -540,7 +540,7 @@
         "id": "LOTR-BEGIN-58"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "Sept. 30",
         "day_full": "12 miles",
         "directions": "Survive the Night. Leave Bree on East Road.",
@@ -549,7 +549,7 @@
         "id": "LOTR-BEGIN-59"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 4.0,
         "day": "Sept. 30",
         "day_full": "12 miles",
         "directions": "Leave road and head north into Chetwood.",
@@ -657,7 +657,7 @@
         "id": "LOTR-BEGIN-71"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "Oct. 6",
         "day_full": "12 miles",
         "comment": "Follow path south toward Weathertop: path is cunningly hidden and is edged with stones where land is open. Sam recites part of The Fall of Gil-galad.",
@@ -665,7 +665,7 @@
         "id": "LOTR-BEGIN-72"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "Oct. 6",
         "day_full": "12 miles",
         "comment": "Midday - Near south end of path. Reach dell at western foot of hill.",
@@ -689,7 +689,7 @@
         "id": "LOTR-BEGIN-75"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "Oct. 7",
         "day_full": "19 miles",
         "comment": "Injured, Frodo is carried on pony. Head south from dell.",
@@ -697,7 +697,7 @@
         "id": "LOTR-BEGIN-76"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "Oct. 7",
         "day_full": "19 miles",
         "comment": "Cross Great East Road and enter thickets on south side. Land slopes south.",
@@ -873,7 +873,7 @@
         "id": "LOTR-BEGIN-98"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 4.0,
         "day": "Oct. 19",
         "day_full": "20 miles",
         "comment": "Camp less than 5 hours. Take road with 2 brief rests.",
@@ -881,7 +881,7 @@
         "id": "LOTR-BEGIN-99"
       },
       {
-        "length_miles": 9.0,
+        "length_miles": 5.0,
         "day": "Oct. 19",
         "day_full": "20 miles",
         "comment": "Cross a small stream. Rest stop.",
@@ -905,7 +905,7 @@
         "id": "LOTR-BEGIN-102"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "Oct. 20",
         "day_full": "18 miles",
         "comment": "Leave early morning, hobbling along (ca. 7 a.m.).",
@@ -913,7 +913,7 @@
         "id": "LOTR-BEGIN-103"
       },
       {
-        "length_miles": 7.0,
+        "length_miles": 4.0,
         "day": "Oct. 20",
         "day_full": "18 miles",
         "comment": "Road running downhill. Much grass on sides.",
@@ -1345,7 +1345,7 @@
         "id": "LOTR-MORIA-44"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": null,
         "day_full": null,
         "comment": "Leave camp at dusk. (ca. 5 p.m.). Fearing snow, each takes wood along.",
@@ -1353,7 +1353,7 @@
         "id": "LOTR-MORIA-45"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": null,
         "day_full": null,
         "comment": "Path is fairly smooth. They make good time.",
@@ -1401,7 +1401,7 @@
         "id": "LOTR-MORIA-51"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.2,
         "day": "Jan. 12",
         "day_full": "28 miles",
         "comment": "Aragorn and Boromir start down, plowing through the snow.",
@@ -1409,7 +1409,7 @@
         "id": "LOTR-MORIA-52"
       },
       {
-        "length_miles": 0.5,
+        "length_miles": 0.3,
         "day": "Jan. 12",
         "day_full": "28 miles",
         "comment": "Fellowship reaches great drift of snow. Clouds begin to break.",
@@ -1457,7 +1457,7 @@
         "id": "LOTR-MORIA-58"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "Jan. 13",
         "day_full": "20 miles",
         "comment": "Leave ca. 8 a.m. Head south-southeast toward the Sirannon.",
@@ -1465,7 +1465,7 @@
         "id": "LOTR-MORIA-59"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "Jan. 13",
         "day_full": "20 miles",
         "comment": "A barren country of red stones.",
@@ -1529,7 +1529,7 @@
         "id": "LOTR-MORIA-67"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": null,
         "day_full": null,
         "comment": "Stop just inside Moria to eat and rest briefly. Leave ca. 7 p.m.",
@@ -1537,7 +1537,7 @@
         "id": "LOTR-MORIA-68"
       },
       {
-        "length_miles": 3.0,
+        "length_miles": 2.0,
         "day": null,
         "day_full": null,
         "comment": "Frodo begins to hear Gollum\u2019s pattering footsteps.",
@@ -1577,7 +1577,7 @@
         "id": "LOTR-MORIA-73"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "Jan. 14",
         "day_full": "20 miles",
         "comment": "Leave Guardroom (ca. 8 a.m.). Take right hand passage.",
@@ -1585,7 +1585,7 @@
         "id": "LOTR-MORIA-74"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "Jan. 14",
         "day_full": "20 miles",
         "comment": "Road climbs in great mounting curves with no side passages. (Est.) break.",
@@ -1617,7 +1617,7 @@
         "id": "LOTR-MORIA-78"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "Jan. 15",
         "day_full": null,
         "comment": "(ca. 8 a.m.) Eat. Enter Chamber of Records nearby. Find Balin\u2019s Tomb. ATTACK - orcs and cave troll. Escape through east door of room.",
@@ -1625,7 +1625,7 @@
         "id": "LOTR-MORIA-79"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "Jan. 15",
         "day_full": null,
         "comment": "After descending 7 flights of stairs, REST.",
@@ -1713,7 +1713,7 @@
         "id": "LOTR-MORIA-90"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "Jan. 16",
         "day_full": "32 miles",
         "comment": "Start about 8 a.m. Clear and cold \u201clike a cool summer day.\u201d Follow path south beside the Silverlode.",
@@ -1721,7 +1721,7 @@
         "id": "LOTR-MORIA-91"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "Jan. 16",
         "day_full": "32 miles",
         "comment": "Cross the Silverlode on ropes. Fellowship is blindfolded. Frodo notices paths are smooth, and he smells the trees and grass.",
@@ -1745,7 +1745,7 @@
         "id": "LOTR-MORIA-94"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 9.0,
         "day": "Jan. 17",
         "day_full": "32 miles",
         "comment": "Continue on path.",
@@ -1753,7 +1753,7 @@
         "id": "LOTR-MORIA-95"
       },
       {
-        "length_miles": 18.0,
+        "length_miles": 9.0,
         "day": "Jan. 17",
         "day_full": "32 miles",
         "comment": "Noon - In a clearing, meet an elf-company. Blindfolds are removed.Climb to the top of the hill of Cerin Amroth. Can see all around. Stay there ca. 2 hours.",
@@ -1848,7 +1848,7 @@
         "id": "LOTR-BREAK-5"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 18.0,
         "day": "Feb. 17",
         "day_full": "36 miles (13 hours)",
         "comment": "Leave early (ca. 7:30 a.m.). Bare trees continue on both sides. DRIFT. No enemies.",
@@ -1856,7 +1856,7 @@
         "id": "LOTR-BREAK-6"
       },
       {
-        "length_miles": 36.0,
+        "length_miles": 18.0,
         "day": "Feb. 17",
         "day_full": "36 miles (13 hours)",
         "comment": "Camp on west bank of the river.",
@@ -1864,7 +1864,7 @@
         "id": "LOTR-BREAK-7"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 10.0,
         "day": "Feb. 18",
         "day_full": "36 miles (13 hours)",
         "comment": "Leave early. DRIFT. No enemies.",
@@ -1872,7 +1872,7 @@
         "id": "LOTR-BREAK-8"
       },
       {
-        "length_miles": 21.0,
+        "length_miles": 11.0,
         "day": "Feb. 18",
         "day_full": "36 miles (13 hours)",
         "comment": "Trees thin. Gray and overcast.",
@@ -1896,7 +1896,7 @@
         "id": "LOTR-BREAK-11"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 7.0,
         "day": "Feb. 19",
         "day_full": "60 miles (13 hours)",
         "comment": "Leave early. Feel urgency. Paddle all day.",
@@ -1904,7 +1904,7 @@
         "id": "LOTR-BREAK-12"
       },
       {
-        "length_miles": 17.0,
+        "length_miles": 10.0,
         "day": "Feb. 19",
         "day_full": "60 miles (13 hours)",
         "comment": "River broadens. Continues gray and overcast.",
@@ -1952,7 +1952,7 @@
         "id": "LOTR-BREAK-18"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "Feb. 20",
         "day_full": "72 miles \u2013 Continue through much of the night (18 hours)",
         "comment": "Leave early morning. Paddle long periods. Still overcast, east wind.",
@@ -1960,7 +1960,7 @@
         "id": "LOTR-BREAK-19"
       },
       {
-        "length_miles": 7.0,
+        "length_miles": 4.0,
         "day": "Feb. 20",
         "day_full": "72 miles \u2013 Continue through much of the night (18 hours)",
         "comment": "River curves east. Wolds on both sides.",
@@ -2024,7 +2024,7 @@
         "id": "LOTR-BREAK-27"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "Feb. 21",
         "day_full": "50 miles       (13 hours)",
         "comment": "Leave at dusk. Paddle cautiously. Sky clears. Sam notices \u2018rind\u2019 of the new Moon.",
@@ -2032,7 +2032,7 @@
         "id": "LOTR-BREAK-28"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "Feb. 21",
         "day_full": "50 miles       (13 hours)",
         "comment": "North face of outer down ridge.",
@@ -2056,7 +2056,7 @@
         "id": "LOTR-BREAK-31"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "Feb. 22",
         "day_full": "50 miles       (13 hours)",
         "comment": "Leave at dusk. Paddle cautiously.",
@@ -2064,7 +2064,7 @@
         "id": "LOTR-BREAK-32"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "Feb. 22",
         "day_full": "50 miles       (13 hours)",
         "comment": "Banks grow stony. Hills north of the Emyn Muil rise on the east shore.",
@@ -2096,7 +2096,7 @@
         "id": "LOTR-BREAK-36"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 6.0,
         "day": "Feb. 23",
         "day_full": "4 hours)",
         "comment": "Late in day Legolas sees eagle. Wait to full dark to leave (8:30 p.m.). Go slowly.",
@@ -2104,7 +2104,7 @@
         "id": "LOTR-BREAK-37"
       },
       {
-        "length_miles": 12.0,
+        "length_miles": 6.0,
         "day": "Feb. 23",
         "day_full": "4 hours)",
         "comment": "Midnight. Sam hears racing water. North edge of the rapids of Sarn Gebir. ORC ATTACK. Reach western shore. Legolas shoots a Nazgul\u2019s flying beast. Move upstream to a small shallow bay. Huddle in boats rest of the night.",
@@ -2120,7 +2120,7 @@
         "id": "LOTR-BREAK-39"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 4.0,
         "day": "Feb. 25",
         "day_full": "40 miles (9+ hours)",
         "comment": "Leave at full light (ca. 7:30 a.m.).",
@@ -2128,7 +2128,7 @@
         "id": "LOTR-BREAK-40"
       },
       {
-        "length_miles": 9.0,
+        "length_miles": 5.0,
         "day": "Feb. 25",
         "day_full": "40 miles (9+ hours)",
         "comment": "Brief, heavy rain.",
@@ -2313,7 +2313,7 @@
         "id": "LOTR-TAKEN-12"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "Feb. 27 \u2013 Nt./",
         "day_full": "84 miles",
         "comment": "They descend the sheer cliff of the shelf on a path like a stony stair.",
@@ -2321,7 +2321,7 @@
         "id": "LOTR-TAKEN-13"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "Feb. 27 \u2013 Nt./",
         "day_full": "84 miles",
         "comment": "In the grasslands orcs run with long, loping strides.",
@@ -2377,7 +2377,7 @@
         "id": "LOTR-TAKEN-20"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 4.0,
         "day": "Feb. 28 \u2013 Nt./",
         "day_full": "54 miles",
         "comment": "Soon the hobbits are carried again, tossed and shaken.",
@@ -2385,7 +2385,7 @@
         "id": "LOTR-TAKEN-21"
       },
       {
-        "length_miles": 9.0,
+        "length_miles": 5.0,
         "day": "Feb. 28 \u2013 Nt./",
         "day_full": "54 miles",
         "comment": "North face of southern down ridge.",
@@ -2457,7 +2457,7 @@
         "id": "LOTR-TAKEN-30"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.2,
         "day": "Feb. 29 \u2013 Nt./",
         "day_full": "105 miles",
         "comment": "Grishn\u00e1kh of Mordor secretly carries the hobbits away from camp.",
@@ -2465,7 +2465,7 @@
         "id": "LOTR-TAKEN-31"
       },
       {
-        "length_miles": 0.5,
+        "length_miles": 0.3,
         "day": "Feb. 29 \u2013 Nt./",
         "day_full": "105 miles",
         "comment": "Rider kills Grishn\u00e1kh. Hobbits cut their bonds, then eat lembas.",
@@ -2665,7 +2665,7 @@
         "id": "LOTR-TAKEN-56"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "Feb. 30",
         "day_full": "25 miles",
         "comment": "While the hobbits sleep, Treebeard walks far summoning other Ents. Leave Wellinghall about 9 a.m. Treebeard carries them again.",
@@ -2673,7 +2673,7 @@
         "id": "LOTR-TAKEN-57"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "Feb. 30",
         "day_full": "25 miles",
         "comment": "Turn right, cross the young stream, and cross tumbled slopes with few trees. Birch, rowan and pines can be seen higher up.",
@@ -2753,7 +2753,7 @@
         "id": "LOTR-TAKEN-67"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "Mar. 2",
         "day_full": "60 miles",
         "comment": "Dawn: bleak and windy. Voices clamour, then Forest grows silent. Ent voices explode and the march begins. Quickbeam carries the hobbits to join the others (ca.4 p.m.). Treebeard takes hobbits to carry.",
@@ -2761,7 +2761,7 @@
         "id": "LOTR-TAKEN-68"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "Mar. 2",
         "day_full": "60 miles",
         "comment": "Treebeard sings with the others.",
@@ -2947,7 +2947,7 @@
         "id": "LOTR-CHASE-5"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "Feb. 27",
         "day_full": "51 miles",
         "comment": "They are in a stony trough between ridged hills. A trickling stream runs through the trough. Aragorn cannot see the trail in the stony land, but decides to look north.",
@@ -2955,7 +2955,7 @@
         "id": "LOTR-CHASE-6"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "Feb. 27",
         "day_full": "51 miles",
         "comment": "Legolas finds 5 dead orcs. They search area.",
@@ -3051,7 +3051,7 @@
         "id": "LOTR-CHASE-18"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 9.0,
         "day": "Feb. 28",
         "day_full": "36 miles",
         "comment": "Aragorn listens to ground and hears horses galloping away from them. They leave at dawn.",
@@ -3059,7 +3059,7 @@
         "id": "LOTR-CHASE-19"
       },
       {
-        "length_miles": 27.0,
+        "length_miles": 18.0,
         "day": "Feb. 28",
         "day_full": "36 miles",
         "comment": "Ground begins to rise toward the downs to the north (ca. 3 p.m.).",
@@ -3083,7 +3083,7 @@
         "id": "LOTR-CHASE-22"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 6.0,
         "day": "Feb. 29",
         "day_full": "36 miles",
         "comment": "A red dawn. East wind.",
@@ -3091,7 +3091,7 @@
         "id": "LOTR-CHASE-23"
       },
       {
-        "length_miles": 12.0,
+        "length_miles": 6.0,
         "day": "Feb. 29",
         "day_full": "36 miles",
         "comment": "11 a.m. Reach the first slopes of the Downs. See trampled grass from the orc camp just west of the slope. Aragorn estimates 36 hours old.",
@@ -3123,7 +3123,7 @@
         "id": "LOTR-CHASE-27"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "Feb. 30",
         "day_full": "30 miles",
         "comment": "Dawn \u2013 east wind. Can see the Wold ahead and to the east. 15 miles away they see the Riders of Rohan. Decide to wait there. Meeting with the Riders. \u00c9omer lends them two horses. Aragorn rides Hasufel; Legolas and Gimli: Arod. Leave ca. 11 a.m.",
@@ -3131,7 +3131,7 @@
         "id": "LOTR-CHASE-28"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "Feb. 30",
         "day_full": "30 miles",
         "comment": "Find the orc trail from the East. Aragorn searches. Ride more slowly.",
@@ -3155,7 +3155,7 @@
         "id": "LOTR-CHASE-31"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.2,
         "day": "Mar. 1",
         "day_full": "105 miles",
         "comment": "Eat at dawn. Search again.",
@@ -3163,7 +3163,7 @@
         "id": "LOTR-CHASE-32"
       },
       {
-        "length_miles": 0.5,
+        "length_miles": 0.3,
         "day": "Mar. 1",
         "day_full": "105 miles",
         "comment": "Find mallorn leaf near knife and ropes.",
@@ -3315,7 +3315,7 @@
         "id": "LOTR-CHASE-51"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "Mar. 2",
         "day_full": "62 miles",
         "comment": "Continue under the moon (ca. 3 a.m.). Long clouds and chill wind.",
@@ -3323,7 +3323,7 @@
         "id": "LOTR-CHASE-52"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "Mar. 2",
         "day_full": "62 miles",
         "comment": "Moon sets into clouds of the west.",
@@ -3403,7 +3403,7 @@
         "id": "LOTR-CHASE-62"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "Mar. 3",
         "day_full": "82 miles",
         "comment": "Rise at dawn. Depart ca. 7 a.m.",
@@ -3411,7 +3411,7 @@
         "id": "LOTR-CHASE-63"
       },
       {
-        "length_miles": 11.0,
+        "length_miles": 6.0,
         "day": "Mar. 3",
         "day_full": "82 miles",
         "comment": "Cross a small stream.",
@@ -3547,7 +3547,7 @@
         "id": "LOTR-CHASE-80"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.2,
         "day": "Mar. 4",
         "day_full": "40 miles",
         "comment": "Past midnight. Lightning shows all the vale is filled with Saruman\u2019s army \u2013 10,000 strong at least. Rain begins. Battle of Helm\u2019s Deep. Weather clears (ca. 4:30 a.m.). Uruk-hai blast an opening through the Deeping Wall. Defenders retreat to the Hornburg and the caves.\nDAWN. Defenders counterattack. Gandalf arrives with Erkenbrand\u2019s riders. Orcs flee into Huorns and are destroyed. Dunlendings surrender. King\u2019s company rests. Departs for Isengard in afternoon (ca. 3 p.m.).",
@@ -3555,7 +3555,7 @@
         "id": "LOTR-CHASE-81"
       },
       {
-        "length_miles": 0.5,
+        "length_miles": 0.3,
         "day": "Mar. 4",
         "day_full": "40 miles",
         "comment": "Company stops at burial mounds, then passes through Helm\u2019s Dike.",
@@ -3619,7 +3619,7 @@
         "id": "LOTR-CHASE-89"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "Mar. 5",
         "day_full": "16 miles",
         "comment": "Dawn. Make ready to continue. Ride slowly.",
@@ -3627,7 +3627,7 @@
         "id": "LOTR-CHASE-90"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "Mar. 5",
         "day_full": "16 miles",
         "comment": "Enter the south end of the Wizard\u2019s Vale.",
@@ -3764,7 +3764,7 @@
         "id": "LOTR-DOOOM-9"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "Feb. 27",
         "day_full": "20 miles",
         "comment": "Leave at dawn.",
@@ -3772,7 +3772,7 @@
         "id": "LOTR-DOOOM-10"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "Feb. 27",
         "day_full": "20 miles",
         "comment": "Climb into a gully and out. Forced to turn more to the north.",
@@ -3812,7 +3812,7 @@
         "id": "LOTR-DOOOM-15"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "Feb. 28",
         "day_full": "20 miles",
         "comment": "Leave at dawn.",
@@ -3820,7 +3820,7 @@
         "id": "LOTR-DOOOM-16"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "Feb. 28",
         "day_full": "20 miles",
         "comment": "Cliff begins to curve much more to the north. The Wetwang curves south.",
@@ -3876,7 +3876,7 @@
         "id": "LOTR-DOOOM-23"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "Feb. 29/30",
         "day_full": "34 miles",
         "comment": "Leave at dawn. Cliff has now turned almost due north.",
@@ -3884,7 +3884,7 @@
         "id": "LOTR-DOOOM-24"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "Feb. 29/30",
         "day_full": "34 miles",
         "comment": "Go close to the cliff, in hopes of seeing a way down.",
@@ -4004,7 +4004,7 @@
         "id": "LOTR-DOOOM-39"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "Feb. 30/M. 1",
         "day_full": "25 miles",
         "comment": "Set out when dark.",
@@ -4012,7 +4012,7 @@
         "id": "LOTR-DOOOM-40"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "Feb. 30/M. 1",
         "day_full": "25 miles",
         "comment": "Gully more shallow and less sloping.",
@@ -4084,7 +4084,7 @@
         "id": "LOTR-DOOOM-49"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "March \u00bd",
         "day_full": "15 miles",
         "comment": "Late afternoon. Continue on.",
@@ -4092,7 +4092,7 @@
         "id": "LOTR-DOOOM-50"
       },
       {
-        "length_miles": 3.0,
+        "length_miles": 2.0,
         "day": "March \u00bd",
         "day_full": "15 miles",
         "comment": "Enter the heart of the Dead Marshes.",
@@ -4156,7 +4156,7 @@
         "id": "LOTR-DOOOM-58"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "March 2/3",
         "day_full": "15 miles",
         "comment": "Leave when full dark.",
@@ -4164,7 +4164,7 @@
         "id": "LOTR-DOOOM-59"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "March 2/3",
         "day_full": "15 miles",
         "comment": "Cross area of dry peat, broken by flats of cracked, dry mud. Land slopes slowly east. Ring grows heavier. Sam\u2019s mood darkens.",
@@ -4196,7 +4196,7 @@
         "id": "LOTR-DOOOM-63"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "March 3/4",
         "day_full": "14 miles",
         "comment": "Creep forward as dark falls. Bitter, parched air. Unknown to them, Battle of Helm\u2019s Deep rages far to the west.",
@@ -4204,7 +4204,7 @@
         "id": "LOTR-DOOOM-64"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "March 3/4",
         "day_full": "14 miles",
         "comment": "Land rises in a long slope: arid moors of the Noman-lands.",
@@ -4244,7 +4244,7 @@
         "id": "LOTR-DOOOM-69"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "March 4/5",
         "day_full": "12 miles",
         "comment": "On waking, Sam hears Smeagol/Gollum\u2019s debate. Sam wonders who \u2018she\u2019 is (=Shelob). At dusk, creep slowly forward.",
@@ -4252,7 +4252,7 @@
         "id": "LOTR-DOOOM-70"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "March 4/5",
         "day_full": "12 miles",
         "comment": "Nazg\u00fbl passes over. Pause for a while.",
@@ -4276,7 +4276,7 @@
         "id": "LOTR-DOOOM-73"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "March 5/6",
         "day_full": "24 miles",
         "comment": "Dusk. Creep out west side of hollow.",
@@ -4284,7 +4284,7 @@
         "id": "LOTR-DOOOM-74"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "March 5/6",
         "day_full": "24 miles",
         "comment": "Walk SW, west of the road. Road runs in a trenchlike valley between the mountains and the moors. It is newly repaired for many miles.",
@@ -4324,7 +4324,7 @@
         "id": "LOTR-DOOOM-79"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "March 6/7",
         "day_full": "24 miles",
         "comment": "Leave during twilight.",
@@ -4332,7 +4332,7 @@
         "id": "LOTR-DOOOM-80"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "March 6/7",
         "day_full": "24 miles",
         "comment": "Gollum leads them onto the road: straight and level. Go more quickly.",
@@ -4404,7 +4404,7 @@
         "id": "LOTR-DOOOM-89"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "Continue March 7",
         "day_full": "10 miles",
         "comment": "Noon. Rangers battle the Haradrim. Sam sees an oliphaunt. Sleep to late afternoon. Faramir questions Frodo, then leads them west.",
@@ -4412,7 +4412,7 @@
         "id": "LOTR-DOOOM-90"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "Continue March 7",
         "day_full": "10 miles",
         "comment": "Cross stream below the pool.",
@@ -4452,7 +4452,7 @@
         "id": "LOTR-DOOOM-95"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "March 8",
         "day_full": "22 miles",
         "comment": "Moonset. Gollum fishes in waterfall pool. With Frodo\u2019s help, Faramir captures and questions Gollum. Rest a short time more while supplies are prepared. Leave ca. 8 a.m. Rangers lead them south, blindfolded.",
@@ -4460,7 +4460,7 @@
         "id": "LOTR-DOOOM-96"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "March 8",
         "day_full": "22 miles",
         "comment": "Faramir removes blindfolds. Advises them to follow upper edge of steep-falling lands to west.",
@@ -4500,7 +4500,7 @@
         "id": "LOTR-DOOOM-101"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 4.0,
         "day": "March 9",
         "day_full": "22 miles",
         "comment": "Leave at first light.",
@@ -4508,7 +4508,7 @@
         "id": "LOTR-DOOOM-102"
       },
       {
-        "length_miles": 8.0,
+        "length_miles": 4.0,
         "day": "March 9",
         "day_full": "22 miles",
         "comment": "Thicker trees. Brief rest. Air growing heavy. Gollum urges more speed.",
@@ -4540,7 +4540,7 @@
         "id": "LOTR-DOOOM-106"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "March 10/11 \u2013 Nt./",
         "day_full": "10 miles",
         "comment": "Just past midnight, head east. Land slopes up steeply. Thickets and brambles.",
@@ -4548,7 +4548,7 @@
         "id": "LOTR-DOOOM-107"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "March 10/11 \u2013 Nt./",
         "day_full": "10 miles",
         "comment": "Cross a deep cleft.",
@@ -4588,7 +4588,7 @@
         "id": "LOTR-DOOOM-112"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "Continue March 10/11 \u2013 Nt./",
         "day_full": "12 miles THE DAWNLESS DAY",
         "comment": "No dawn. Day grows even darker as time passes. Gollum wakes them (ca. 4 p.m.): \u201cNo time to lose.\u201d Leads them down the hillside.",
@@ -4596,7 +4596,7 @@
         "id": "LOTR-DOOOM-113"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "Continue March 10/11 \u2013 Nt./",
         "day_full": "12 miles THE DAWNLESS DAY",
         "comment": "Turn south across a long broken slope.",
@@ -4700,7 +4700,7 @@
         "id": "LOTR-DOOOM-126"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "March 12/13",
         "day_full": "14 miles Here, too, the time is extremely long (ca. 30 hours): \u201cOne hour, two hours...how many had they passed in this lightless hole? Hours \u2013 days, weeks, rather.\u201d",
         "comment": "\u201cDay.\u201d Sam wakes and sees Gollum \u2018pawing at\u2019 Frodo. \u2018Sneak\u2019 conversation. Gollum leads them \u201cup a long ravine between piers and columns of torn and weathered rocks.\u201d",
@@ -4708,7 +4708,7 @@
         "id": "LOTR-DOOOM-127"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "March 12/13",
         "day_full": "14 miles Here, too, the time is extremely long (ca. 30 hours): \u201cOne hour, two hours...how many had they passed in this lightless hole? Hours \u2013 days, weeks, rather.\u201d",
         "comment": "Opening to Shelob\u2019s Lair. Tunnel is so high and wide that Frodo and Sam can\u2019t touch hands as they feel their way along each wall. Tunnel climbs slowly.",
@@ -4812,7 +4812,7 @@
         "id": "LOTR-DOOOM-140"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "March 15",
         "day_full": "15 miles",
         "comment": "Frodo and Sam reach gate of the Tower ca. 5 a.m. Watchers send up signal of their escape. Run. Road curves out of sight from the gate.",
@@ -4820,7 +4820,7 @@
         "id": "LOTR-DOOOM-141"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "March 15",
         "day_full": "15 miles",
         "comment": "Road curves down sharply to meet the Morgul-road. At the bridge just beyond the road meeting, they jump. Land just a few feet below in a thorn thicket. Dawn \u2013 but dark in the valley.",
@@ -4884,7 +4884,7 @@
         "id": "LOTR-DOOOM-149"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "March 16",
         "day_full": "27 miles",
         "comment": "Continue up ravine until it disappears, then climb last 100 feet to the ridge.",
@@ -4892,7 +4892,7 @@
         "id": "LOTR-DOOOM-150"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "March 16",
         "day_full": "27 miles",
         "comment": "Ridge stands 1500 feet above the plain. Plain is crawling with enemies. See Mount Doom 40 miles away.",
@@ -4948,7 +4948,7 @@
         "id": "LOTR-DOOOM-157"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "March 17/18",
         "day_full": "25 miles",
         "comment": "Eat. Finish Faramir\u2019s food. When quite dark, begin again.",
@@ -4956,7 +4956,7 @@
         "id": "LOTR-DOOOM-158"
       },
       {
-        "length_miles": 6.0,
+        "length_miles": 3.0,
         "day": "March 17/18",
         "day_full": "25 miles",
         "comment": "Brief halt.",
@@ -4988,7 +4988,7 @@
         "id": "LOTR-DOOOM-162"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.2,
         "day": "March 18/19",
         "day_full": "20 miles",
         "comment": "Light fading when wake. See watch fires on heights. Return to spring. Fill water bottle.",
@@ -4996,7 +4996,7 @@
         "id": "LOTR-DOOOM-163"
       },
       {
-        "length_miles": 0.5,
+        "length_miles": 0.3,
         "day": "March 18/19",
         "day_full": "20 miles",
         "comment": "Climb warily up to the road when it swings east.",
@@ -5044,7 +5044,7 @@
         "id": "LOTR-DOOOM-169"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "March 19",
         "day_full": "10 miles",
         "comment": "Morning. Sam sees Gorgoroth is pitted with great holes. Roads are empty. Crawl from hollow to hollow slanting toward the foothills to north.",
@@ -5052,7 +5052,7 @@
         "id": "LOTR-DOOOM-170"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "March 19",
         "day_full": "10 miles",
         "comment": "Halt. Sam decides they should go back to road.",
@@ -5084,7 +5084,7 @@
         "id": "LOTR-DOOOM-174"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "March 20",
         "day_full": "15 miles",
         "comment": "Return to road. Trudge east.",
@@ -5092,7 +5092,7 @@
         "id": "LOTR-DOOOM-175"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "March 20",
         "day_full": "15 miles",
         "comment": "Rest.",
@@ -5124,7 +5124,7 @@
         "id": "LOTR-DOOOM-179"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "March 21",
         "day_full": "15 miles",
         "comment": "Return to road. More and more Frodo is bowed down by the Ring.",
@@ -5132,7 +5132,7 @@
         "id": "LOTR-DOOOM-180"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "March 21",
         "day_full": "15 miles",
         "comment": "Rest.",
@@ -5164,7 +5164,7 @@
         "id": "LOTR-DOOOM-184"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "March 22",
         "day_full": "15 miles",
         "comment": "Return to road. Frodo ceases to speak. Stumbles as he fights Ring.",
@@ -5172,7 +5172,7 @@
         "id": "LOTR-DOOOM-185"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "March 22",
         "day_full": "15 miles",
         "comment": "Rest.",
@@ -5204,7 +5204,7 @@
         "id": "LOTR-DOOOM-189"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "March 23",
         "day_full": "10 miles",
         "comment": "Wake in dim light of dawn. Discard everything they do not need.",
@@ -5212,7 +5212,7 @@
         "id": "LOTR-DOOOM-190"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "March 23",
         "day_full": "10 miles",
         "comment": "Rest. No attempt at concealment. Frodo goes faster than Sam hoped.",
@@ -5236,7 +5236,7 @@
         "id": "LOTR-DOOOM-193"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "March 24",
         "day_full": "10 miles",
         "comment": "Continue on in dark light. No water. Sam\u2019s mouth too parched to eat.",
@@ -5244,7 +5244,7 @@
         "id": "LOTR-DOOOM-194"
       },
       {
-        "length_miles": 3.0,
+        "length_miles": 2.0,
         "day": "March 24",
         "day_full": "10 miles",
         "comment": "Rest.",
@@ -5276,7 +5276,7 @@
         "id": "LOTR-DOOOM-198"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "March 25",
         "day_full": "4 miles\n The Day of Doom",
         "comment": "As attempt to start, Frodo falls and begins to crawl. Sam carries him.",
@@ -5284,7 +5284,7 @@
         "id": "LOTR-DOOOM-199"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "March 25",
         "day_full": "4 miles\n The Day of Doom",
         "comment": "Stop more than half way up base of the mountain. Rest.",
@@ -5685,7 +5685,7 @@
         "id": "LOTR-HORSE-39"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 6.0,
         "day": "Mar. 7/8 \u2013 Nt./",
         "day_full": "120 miles (12 hours)",
         "comment": "Leave at dusk.",
@@ -5693,7 +5693,7 @@
         "id": "LOTR-HORSE-40"
       },
       {
-        "length_miles": 13.0,
+        "length_miles": 7.0,
         "day": "Mar. 7/8 \u2013 Nt./",
         "day_full": "120 miles (12 hours)",
         "comment": "Northeast across the plain (80 miles away) the East Wall of Rohan and the Western Emyn Muil could be seen if it were daylight.",
@@ -5789,7 +5789,7 @@
         "id": "LOTR-HORSE-52"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 7.0,
         "day": "Mar. 8/9 \u2013 Nt./",
         "day_full": "120 miles (12 hours)",
         "comment": "Leave at dusk.",
@@ -5797,7 +5797,7 @@
         "id": "LOTR-HORSE-53"
       },
       {
-        "length_miles": 14.0,
+        "length_miles": 7.0,
         "day": "Mar. 8/9 \u2013 Nt./",
         "day_full": "120 miles (12 hours)",
         "comment": "Cross a small stream.",
@@ -6023,7 +6023,7 @@
         "id": "LOTR-DEAD-10"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "Mar. 6 \u2013 Nt./",
         "day_full": "96 miles",
         "comment": "Aragorn and Merry, Legolas and Gimli ride out with Th\u00e9oden, \u00c9omer and 20 Riders (ca. midnight).",
@@ -6031,7 +6031,7 @@
         "id": "LOTR-DEAD-11"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "Mar. 6 \u2013 Nt./",
         "day_full": "96 miles",
         "comment": "Return to the highway and turn south.",
@@ -6127,7 +6127,7 @@
         "id": "LOTR-DEAD-23"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "Mar. 7",
         "day_full": "85 miles",
         "comment": "Leave at dawn.",
@@ -6135,7 +6135,7 @@
         "id": "LOTR-DEAD-24"
       },
       {
-        "length_miles": 7.0,
+        "length_miles": 4.0,
         "day": "Mar. 7",
         "day_full": "85 miles",
         "comment": "Cross a small stream.",
@@ -6239,7 +6239,7 @@
         "id": "LOTR-DEAD-37"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "Mar. 8",
         "day_full": "60 miles",
         "comment": "Aragorn and company head east to the Dwimorberg, following the path lined with standing stones (ca. 6 a.m.).",
@@ -6247,7 +6247,7 @@
         "id": "LOTR-DEAD-38"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "Mar. 8",
         "day_full": "60 miles",
         "comment": "They pass into the gloom of the dark woods of the Dimholt. See a last mighty standing stone. Horses refuse to pass and must be led.",
@@ -6367,7 +6367,7 @@
         "id": "LOTR-DEAD-53"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 8.0,
         "day": "Mar. 9",
         "day_full": "110 miles (Ride swiftly: 7 mph)",
         "comment": "Dawn. Ride from Erech in great haste, southeast down the road.",
@@ -6375,7 +6375,7 @@
         "id": "LOTR-DEAD-54"
       },
       {
-        "length_miles": 16.0,
+        "length_miles": 8.0,
         "day": "Mar. 9",
         "day_full": "110 miles (Ride swiftly: 7 mph)",
         "comment": "Pass through the most northeasterly lands of Morthond \u2013 home of 500 bowmen who have gone to Minas Tirith with Duinhir and his sons.",
@@ -6471,7 +6471,7 @@
         "id": "LOTR-DEAD-66"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "Mar. 10",
         "day_full": "90 miles (Ride swiftly: 7 mph)",
         "comment": "No dawn. Leave when gloom first lightens.",
@@ -6479,7 +6479,7 @@
         "id": "LOTR-DEAD-67"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "Mar. 10",
         "day_full": "90 miles (Ride swiftly: 7 mph)",
         "comment": "Pass the village of Calembel.",
@@ -6559,7 +6559,7 @@
         "id": "LOTR-DEAD-77"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 11.0,
         "day": "Mar. 11",
         "day_full": "70 miles (Ride swiftly: 7 mph)",
         "comment": "No dawn. Leave at first light.",
@@ -6567,7 +6567,7 @@
         "id": "LOTR-DEAD-78"
       },
       {
-        "length_miles": 22.0,
+        "length_miles": 11.0,
         "day": "Mar. 11",
         "day_full": "70 miles (Ride swiftly: 7 mph)",
         "comment": "The lands open out, almost flat all the way to the Great River Anduin.",
@@ -6623,7 +6623,7 @@
         "id": "LOTR-DEAD-85"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "Mar. 12",
         "day_full": "70 miles Drive the enemy ahead",
         "comment": "No dawn. Road now curves east. The terrace face rises on the north as the company rides forth.",
@@ -6631,7 +6631,7 @@
         "id": "LOTR-DEAD-86"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "Mar. 12",
         "day_full": "70 miles Drive the enemy ahead",
         "comment": "The River Serni cuts through the terrace face and flows west.",
@@ -6679,7 +6679,7 @@
         "id": "LOTR-DEAD-92"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 6.0,
         "day": "Mar. 13",
         "day_full": "35 miles",
         "comment": "Leave at first light.",
@@ -6687,7 +6687,7 @@
         "id": "LOTR-DEAD-93"
       },
       {
-        "length_miles": 12.0,
+        "length_miles": 6.0,
         "day": "Mar. 13",
         "day_full": "35 miles",
         "comment": "Road begins to swing toward the Great River.",
@@ -6719,7 +6719,7 @@
         "id": "LOTR-DEAD-97"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 11.0,
         "day": "Mar. 14",
         "day_full": "85 miles (Row: 4.7 mph)",
         "comment": "Fleet goes north at first light. No wind. Row against the current.",
@@ -6727,7 +6727,7 @@
         "id": "LOTR-DEAD-98"
       },
       {
-        "length_miles": 23.0,
+        "length_miles": 12.0,
         "day": "Mar. 14",
         "day_full": "85 miles (Row: 4.7 mph)",
         "comment": "Pass between the fields of Lebennin on the west and South Ithilien on east.",
@@ -6951,7 +6951,7 @@
         "id": "LOTR-MERRY-10"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "Mar. 6 \u2013 Nt./",
         "day_full": "61 miles",
         "comment": "Aragorn and Merry, Legolas and Gimli ride out with Th\u00e9oden, \u00c9omer and 20 Riders (ca. midnight).",
@@ -6959,7 +6959,7 @@
         "id": "LOTR-MERRY-11"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "Mar. 6 \u2013 Nt./",
         "day_full": "61 miles",
         "comment": "Return to the highway and turn south.",
@@ -7095,7 +7095,7 @@
         "id": "LOTR-MERRY-28"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "Mar. 7",
         "day_full": "40 miles",
         "comment": "Leave just after dawn. Cross stream and climb hill.",
@@ -7103,7 +7103,7 @@
         "id": "LOTR-MERRY-29"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "Mar. 7",
         "day_full": "40 miles",
         "comment": "Reach hillcrest. Turn SW along the crest.",
@@ -7207,7 +7207,7 @@
         "id": "LOTR-MERRY-42"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "Mar. 8",
         "day_full": "40 miles",
         "comment": "Leave just after dawn. Cross stream and climb a slight rise.",
@@ -7215,7 +7215,7 @@
         "id": "LOTR-MERRY-43"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "Mar. 8",
         "day_full": "40 miles",
         "comment": "Reach a swift-flowing mountain stream. Turn NE beside it. Merry rides with Th\u00e9oden.",
@@ -7279,7 +7279,7 @@
         "id": "LOTR-MERRY-51"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 6.0,
         "day": "Mar. 9",
         "day_full": "40 miles",
         "comment": "Angle SE down the steep-falling slope of the ridge.",
@@ -7287,7 +7287,7 @@
         "id": "LOTR-MERRY-52"
       },
       {
-        "length_miles": 12.0,
+        "length_miles": 6.0,
         "day": "Mar. 9",
         "day_full": "40 miles",
         "comment": "Reach a small stream tumbling down from the peak. Follow valley east. Pines begin to appear.",
@@ -7351,7 +7351,7 @@
         "id": "LOTR-MERRY-60"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "Mar. 10",
         "day_full": "56 miles",
         "comment": "The dark has already reached Dunharrow when Merry is awakened in the morning (ca. 7 a.m.). \u00c9owyn arms Merry. Th\u00e9oden\u2019s company leaves the Hold (ca. 9 a.m.). Merry rides Stybba.",
@@ -7359,7 +7359,7 @@
         "id": "LOTR-MERRY-61"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "Mar. 10",
         "day_full": "56 miles",
         "comment": "Ride down the \u2018Stair of the Hold\u2019 and reach the valley.",
@@ -7455,7 +7455,7 @@
         "id": "LOTR-MERRY-73"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "Mar. 11",
         "day_full": "80 miles  (2nd Day from Dunharrow)",
         "comment": "Leave at first \u2018light\u2019 in the gray gloom.",
@@ -7463,7 +7463,7 @@
         "id": "LOTR-MERRY-74"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "Mar. 11",
         "day_full": "80 miles  (2nd Day from Dunharrow)",
         "comment": "Willow woods end. Road turns more south, parallels the Entwash.",
@@ -7527,7 +7527,7 @@
         "id": "LOTR-MERRY-82"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "Mar. 12",
         "day_full": "80 miles  (3rd Day from Dunharrow)",
         "comment": "Leave at first light. Still dark and gloomy.",
@@ -7535,7 +7535,7 @@
         "id": "LOTR-MERRY-83"
       },
       {
-        "length_miles": 3.0,
+        "length_miles": 2.0,
         "day": "Mar. 12",
         "day_full": "80 miles  (3rd Day from Dunharrow)",
         "comment": "South of the road great oak trees begin to appear \u2013 outliers of Firien Wood. On the north mists rise above the fens of the Entwash.",
@@ -7615,7 +7615,7 @@
         "id": "LOTR-MERRY-93"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "Mar. 13",
         "day_full": "80 miles  (4th Day from Dunharrow)",
         "comment": "Leave at first light.",
@@ -7623,7 +7623,7 @@
         "id": "LOTR-MERRY-94"
       },
       {
-        "length_miles": 11.0,
+        "length_miles": 6.0,
         "day": "Mar. 13",
         "day_full": "80 miles  (4th Day from Dunharrow)",
         "comment": "Cross a small stream. The beacon hill of Minrimmon is on the right.",
@@ -7695,7 +7695,7 @@
         "id": "LOTR-MERRY-103"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "Mar. 14",
         "day_full": "50 miles  (5th Day from Dunharrow)",
         "comment": "Late in the night Merry is wakeful and hears drums. Follows Elfhelm to Th\u00e9oden. Gh\u00e2n-buri-Gh\u00e2n, chief of the Wild Men, offers to guide the Riders through a hidden way. They depart as quickly as possible.",
@@ -7703,7 +7703,7 @@
         "id": "LOTR-MERRY-104"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "Mar. 14",
         "day_full": "50 miles  (5th Day from Dunharrow)",
         "comment": "The passage south through the woods is slow and pathless.",
@@ -7767,7 +7767,7 @@
         "id": "LOTR-MERRY-112"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "Mar. 15",
         "day_full": "34 miles  (6th Day from Dunharrow)",
         "comment": "Riders move east toward the main road during the night (ca. 3 a.m.).",
@@ -7775,7 +7775,7 @@
         "id": "LOTR-MERRY-113"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "Mar. 15",
         "day_full": "34 miles  (6th Day from Dunharrow)",
         "comment": "Reach the east edge of the Grey Wood.",
@@ -7971,7 +7971,7 @@
         "id": "LOTR-STAND-10"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "March 20",
         "day_full": "25 miles",
         "comment": "Leave a strong guard at Cross-roads: archers of Ithilien. Rest of Host moves north on the road. Send scouts ahead and on each side.",
@@ -7979,7 +7979,7 @@
         "id": "LOTR-STAND-11"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "March 20",
         "day_full": "25 miles",
         "comment": "Heralds proclaim the coming of the Lords of Gondor. Prince Imrahil suggests they say \u201cKing Elessar.\u201d Weather fair, with west wind.",
@@ -8019,7 +8019,7 @@
         "id": "LOTR-STAND-16"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "March 21",
         "day_full": "20 miles",
         "comment": "Cross stream on bridge. Continue north on road.",
@@ -8027,7 +8027,7 @@
         "id": "LOTR-STAND-17"
       },
       {
-        "length_miles": 6.0,
+        "length_miles": 3.0,
         "day": "March 21",
         "day_full": "20 miles",
         "comment": "Heralds proclaim the coming of King Elessar. Cross stream on bridge.",
@@ -8067,7 +8067,7 @@
         "id": "LOTR-STAND-22"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "March 22",
         "day_full": "22 miles",
         "comment": "Cross stream on bridge. Nazg\u00fbl continue to overfly.",
@@ -8075,7 +8075,7 @@
         "id": "LOTR-STAND-23"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "March 22",
         "day_full": "22 miles",
         "comment": "Heralds proclaim the coming of King Elessar. Cross stream on bridge.",
@@ -8115,7 +8115,7 @@
         "id": "LOTR-STAND-28"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "March 23",
         "day_full": "18 miles",
         "comment": "Swing northwest away from the road.",
@@ -8123,7 +8123,7 @@
         "id": "LOTR-STAND-29"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "March 23",
         "day_full": "18 miles",
         "comment": "Follow a dry stream-bed leading toward the Wetwang.",
@@ -8163,7 +8163,7 @@
         "id": "LOTR-STAND-34"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "March 24",
         "day_full": "15 miles",
         "comment": "Continue northeast.",
@@ -8171,7 +8171,7 @@
         "id": "LOTR-STAND-35"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "March 24",
         "day_full": "15 miles",
         "comment": "Pass among the moors of the Noman-lands. Draw together. No scouts.",
@@ -8195,7 +8195,7 @@
         "id": "LOTR-STAND-38"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "March 25",
         "day_full": "5 miles The Day of Doom",
         "comment": "Dawn. North wind rises. Turn southeast toward the Morannon.",
@@ -8203,7 +8203,7 @@
         "id": "LOTR-STAND-39"
       },
       {
-        "length_miles": 3.0,
+        "length_miles": 2.0,
         "day": "March 25",
         "day_full": "5 miles The Day of Doom",
         "comment": "Pass among slag heaps and noisome pits.",
@@ -8273,7 +8273,7 @@
         "id": "LOTR-CROWN-4"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "March 27",
         "day_full": "19 miles",
         "comment": "Start ca. 8 a.m. Continue down the road.",
@@ -8281,7 +8281,7 @@
         "id": "LOTR-CROWN-5"
       },
       {
-        "length_miles": 3.0,
+        "length_miles": 2.0,
         "day": "March 27",
         "day_full": "19 miles",
         "comment": "Road turns more to the south.",
@@ -8337,7 +8337,7 @@
         "id": "LOTR-CROWN-12"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "March 28",
         "day_full": "18 miles",
         "comment": "Start ca. 8 a.m. Continue on Southward Road.",
@@ -8345,7 +8345,7 @@
         "id": "LOTR-CROWN-13"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "March 28",
         "day_full": "18 miles",
         "comment": "Another stream is bridged.",
@@ -8409,7 +8409,7 @@
         "id": "LOTR-CROWN-21"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "March 29",
         "day_full": "14 miles",
         "comment": "Continue downhill through woodland. Must skirt widely around the hollow of the waterfall.",
@@ -8417,7 +8417,7 @@
         "id": "LOTR-CROWN-22"
       },
       {
-        "length_miles": 3.0,
+        "length_miles": 2.0,
         "day": "March 29",
         "day_full": "14 miles",
         "comment": "Return to the stream. It still falls swiftly.",
@@ -8465,7 +8465,7 @@
         "id": "LOTR-CROWN-28"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "April 28",
         "day_full": "37 miles",
         "comment": "Leave early. The Host goes south, taking boats down the Anduin.",
@@ -8473,7 +8473,7 @@
         "id": "LOTR-CROWN-29"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "April 28",
         "day_full": "37 miles",
         "comment": "The south end of Cair Andros lies on the west, stream mouth on east.",
@@ -8521,7 +8521,7 @@
         "id": "LOTR-CROWN-35"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "April 30",
         "day_full": "13 miles",
         "comment": "Mid-morning. Leave Osgiliath and go west along the Causeway.",
@@ -8529,7 +8529,7 @@
         "id": "LOTR-CROWN-36"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "April 30",
         "day_full": "13 miles",
         "comment": "Reach the Causeway Forts on the Rammas Echor.",
@@ -8584,7 +8584,7 @@
         "id": "LOTR-TREES-1"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "July 19",
         "day_full": "10 miles",
         "comment": "Noon \u2013 Depart from the Gates of Minas Tirith. Merry rides on the wain, guarding the King\u2019s arms. With them go all who remain of the Fellowship, as well as Queen Arwen, Elrond and his sons, Celeborn and Galadriel, and many knights of Gondor and Rohan.",
@@ -8592,7 +8592,7 @@
         "id": "LOTR-TREES-2"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "July 19",
         "day_full": "10 miles",
         "comment": "Process through the Pelennor. Stop for the night at the gate of the Rammas Echor: the wall surrounding the Pelennor Fields.",
@@ -9032,7 +9032,7 @@
         "id": "LOTR-TREES-57"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "August 14",
         "day_full": "24 miles",
         "comment": "Leave Edoras. Turn west on the road to Helm\u2019s Deep.",
@@ -9040,7 +9040,7 @@
         "id": "LOTR-TREES-58"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "August 14",
         "day_full": "24 miles",
         "comment": "Ford the Snowbourne.",
@@ -9152,7 +9152,7 @@
         "id": "LOTR-TREES-72"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.2,
         "day": "August 21",
         "day_full": "40 miles",
         "comment": "Leave Helm\u2019s Deep.",
@@ -9160,7 +9160,7 @@
         "id": "LOTR-TREES-73"
       },
       {
-        "length_miles": 0.5,
+        "length_miles": 0.3,
         "day": "August 21",
         "day_full": "40 miles",
         "comment": "Pass through Helm\u2019s Dike. Ride down the Deeping Coomb.",
@@ -9356,7 +9356,7 @@
         "id": "LOTR-BILBO-9"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 14.0,
         "day": "August 23",
         "day_full": "28 miles",
         "comment": "Curve west from Dol Baran around the foothills of Methedras.",
@@ -9364,7 +9364,7 @@
         "id": "LOTR-BILBO-10"
       },
       {
-        "length_miles": 28.0,
+        "length_miles": 14.0,
         "day": "August 23",
         "day_full": "28 miles",
         "comment": "Camp. Still in the Gap of Rohan. White Mountains only ca. 50 miles south.",
@@ -9372,7 +9372,7 @@
         "id": "LOTR-BILBO-11"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 7.0,
         "day": "August 24",
         "day_full": "30 miles",
         "comment": "Continue west near foothills.",
@@ -9380,7 +9380,7 @@
         "id": "LOTR-BILBO-12"
       },
       {
-        "length_miles": 15.0,
+        "length_miles": 8.0,
         "day": "August 24",
         "day_full": "30 miles",
         "comment": "Turn slightly north. Open lands widen into wasted plains of Dunland.",
@@ -9396,7 +9396,7 @@
         "id": "LOTR-BILBO-14"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 7.0,
         "day": "August 25",
         "day_full": "30 miles",
         "comment": "Cross stream. Turn northwest.",
@@ -9404,7 +9404,7 @@
         "id": "LOTR-BILBO-15"
       },
       {
-        "length_miles": 15.0,
+        "length_miles": 8.0,
         "day": "August 25",
         "day_full": "30 miles",
         "comment": "Dunlendings see company and hide.",
@@ -9420,7 +9420,7 @@
         "id": "LOTR-BILBO-17"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "August 26",
         "day_full": "30 miles",
         "comment": "Continue riding almost due north.",
@@ -9428,7 +9428,7 @@
         "id": "LOTR-BILBO-18"
       },
       {
-        "length_miles": 6.0,
+        "length_miles": 3.0,
         "day": "August 26",
         "day_full": "30 miles",
         "comment": "Cross a small stream.",
@@ -9452,7 +9452,7 @@
         "id": "LOTR-BILBO-21"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 7.0,
         "day": "August 27",
         "day_full": "30 miles",
         "comment": "Follow the old roadway northwest.",
@@ -9460,7 +9460,7 @@
         "id": "LOTR-BILBO-22"
       },
       {
-        "length_miles": 15.0,
+        "length_miles": 8.0,
         "day": "August 27",
         "day_full": "30 miles",
         "comment": "See woods in the distance across the roadway.",
@@ -9484,7 +9484,7 @@
         "id": "LOTR-BILBO-25"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "August 28",
         "day_full": "30 miles",
         "comment": "Cross stream and enter the woods.",
@@ -9492,7 +9492,7 @@
         "id": "LOTR-BILBO-26"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "August 28",
         "day_full": "30 miles",
         "comment": "Woods extend further west, into a valley between two streams.",
@@ -9524,7 +9524,7 @@
         "id": "LOTR-BILBO-30"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 7.0,
         "day": "August 29",
         "day_full": "30 miles",
         "comment": "Cross stream. Enter Northern Dunland. Continue on roadway.",
@@ -9532,7 +9532,7 @@
         "id": "LOTR-BILBO-31"
       },
       {
-        "length_miles": 15.0,
+        "length_miles": 8.0,
         "day": "August 29",
         "day_full": "30 miles",
         "comment": "Empty land, though green and pleasant.",
@@ -9548,7 +9548,7 @@
         "id": "LOTR-BILBO-33"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 7.0,
         "day": "August 30",
         "day_full": "30 miles",
         "comment": "Continue northwest on roadway.",
@@ -9556,7 +9556,7 @@
         "id": "LOTR-BILBO-34"
       },
       {
-        "length_miles": 15.0,
+        "length_miles": 8.0,
         "day": "August 30",
         "day_full": "30 miles",
         "comment": "Draw farther and farther from the mountains and foothills.",
@@ -9572,7 +9572,7 @@
         "id": "LOTR-BILBO-36"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "September 1",
         "day_full": "30 miles",
         "comment": "Continue northwest on roadway.",
@@ -9580,7 +9580,7 @@
         "id": "LOTR-BILBO-37"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "September 1",
         "day_full": "30 miles",
         "comment": "Reach a point where the land drops into the valley of the Greyflood. Turn northeast from the roadway and follow the ridge of the upland shelf. Weather golden.",
@@ -9596,7 +9596,7 @@
         "id": "LOTR-BILBO-39"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 7.0,
         "day": "September 2",
         "day_full": "30 miles",
         "comment": "Continue northeast.",
@@ -9604,7 +9604,7 @@
         "id": "LOTR-BILBO-40"
       },
       {
-        "length_miles": 15.0,
+        "length_miles": 8.0,
         "day": "September 2",
         "day_full": "30 miles",
         "comment": "Continue to follow the eastern edge of the upland shelf.",
@@ -9620,7 +9620,7 @@
         "id": "LOTR-BILBO-42"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "September 3",
         "day_full": "30 miles",
         "comment": "Continue northeast.",
@@ -9628,7 +9628,7 @@
         "id": "LOTR-BILBO-43"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "September 3",
         "day_full": "30 miles",
         "comment": "Can see mists above the fens of the Swanfleet delta.",
@@ -9660,7 +9660,7 @@
         "id": "LOTR-BILBO-47"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 15.0,
         "day": "September 4",
         "day_full": "30 miles",
         "comment": "Continue east next to the river.",
@@ -9668,7 +9668,7 @@
         "id": "LOTR-BILBO-48"
       },
       {
-        "length_miles": 30.0,
+        "length_miles": 15.0,
         "day": "September 4",
         "day_full": "30 miles",
         "comment": "Reach the ruins of Ost-en-Edhil, the former chief city of the Elf-realm of Hollin/Eregion. Camp at the confluence of the Glanduin and the Sirannon.",
@@ -9676,7 +9676,7 @@
         "id": "LOTR-BILBO-49"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 7.0,
         "day": "September 5",
         "day_full": "30 miles",
         "comment": "Follow the Moria-road east on the north bank of the Sirannon.",
@@ -9684,7 +9684,7 @@
         "id": "LOTR-BILBO-50"
       },
       {
-        "length_miles": 15.0,
+        "length_miles": 8.0,
         "day": "September 5",
         "day_full": "30 miles",
         "comment": "Valley deepens. Road runs above the valleyway.",
@@ -9700,7 +9700,7 @@
         "id": "LOTR-BILBO-52"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 12.0,
         "day": "September 6",
         "day_full": "35 miles",
         "comment": "Continue east on Moria-road. Mountains of Moria rise ahead of them.",
@@ -9708,7 +9708,7 @@
         "id": "LOTR-BILBO-53"
       },
       {
-        "length_miles": 25.0,
+        "length_miles": 13.0,
         "day": "September 6",
         "day_full": "35 miles",
         "comment": "Turn northeast from the road.",
@@ -9724,7 +9724,7 @@
         "id": "LOTR-BILBO-55"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 14.0,
         "day": "September 13",
         "day_full": "28 miles",
         "comment": "Galadriel, Celeborn, and others from L\u00f3rien depart. Travel NE toward the Redhorn Gate. Others watch until see the flash of Galadriel\u2019s ring. Gandalf and the hobbits start for Rivendell. Travel northwest from the hill.\nNote: This journey takes only 9 days vs. 20 days for the Fellowship going south. The need for stealth can carry a high price, time-wise \u2013 and ponies go faster than hobbits!",
@@ -9732,7 +9732,7 @@
         "id": "LOTR-BILBO-56"
       },
       {
-        "length_miles": 28.0,
+        "length_miles": 14.0,
         "day": "September 13",
         "day_full": "28 miles",
         "comment": "Camp.",
@@ -9740,7 +9740,7 @@
         "id": "LOTR-BILBO-57"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "September 14",
         "day_full": "28 miles",
         "comment": "Continue northwest from the hill.\nNote: This journey is about 25 - 30 miles west of the path taken by the Fellowship.",
@@ -9748,7 +9748,7 @@
         "id": "LOTR-BILBO-58"
       },
       {
-        "length_miles": 7.0,
+        "length_miles": 4.0,
         "day": "September 14",
         "day_full": "28 miles",
         "comment": "Open country. Gentle slopes, easier for the ponies.",
@@ -9764,7 +9764,7 @@
         "id": "LOTR-BILBO-60"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 12.0,
         "day": "September 15",
         "day_full": "29 miles",
         "comment": "Turn due north.",
@@ -9772,7 +9772,7 @@
         "id": "LOTR-BILBO-61"
       },
       {
-        "length_miles": 24.0,
+        "length_miles": 12.0,
         "day": "September 15",
         "day_full": "29 miles",
         "comment": "Reach the foot of Hollin Ridge. Begin to climb, angling west.",
@@ -9788,7 +9788,7 @@
         "id": "LOTR-BILBO-63"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "September 16",
         "day_full": "28 miles",
         "comment": "Start down the north side of the ridge. Thread their way between rocks.",
@@ -9796,7 +9796,7 @@
         "id": "LOTR-BILBO-64"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "September 16",
         "day_full": "28 miles",
         "comment": "Reach the base of the ridge. Turn northeast.",
@@ -9820,7 +9820,7 @@
         "id": "LOTR-BILBO-67"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 6.0,
         "day": "September 17",
         "day_full": "28 miles",
         "comment": "Continue northeast.",
@@ -9828,7 +9828,7 @@
         "id": "LOTR-BILBO-68"
       },
       {
-        "length_miles": 12.0,
+        "length_miles": 6.0,
         "day": "September 17",
         "day_full": "28 miles",
         "comment": "Land becomes more rugged to the east.",
@@ -9844,7 +9844,7 @@
         "id": "LOTR-BILBO-70"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "September 18",
         "day_full": "28 miles",
         "comment": "Cross stream and ride east alongside it.",
@@ -9852,7 +9852,7 @@
         "id": "LOTR-BILBO-71"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "September 18",
         "day_full": "28 miles",
         "comment": "Climb out of stream valley. Continue northeast.",
@@ -9876,7 +9876,7 @@
         "id": "LOTR-BILBO-74"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "September 19",
         "day_full": "28 miles",
         "comment": "Cross the stream and follow valley east-northeast.",
@@ -9884,7 +9884,7 @@
         "id": "LOTR-BILBO-75"
       },
       {
-        "length_miles": 6.0,
+        "length_miles": 3.0,
         "day": "September 19",
         "day_full": "28 miles",
         "comment": "Climb northeast up a slope. In the west, the marsh ends.",
@@ -9908,7 +9908,7 @@
         "id": "LOTR-BILBO-78"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 6.0,
         "day": "September 20",
         "day_full": "28 miles",
         "comment": "To the west the Loudwater/Bruinen now runs in a deep valley and the surrounding terrain is too rugged to cross easily. Turn northeast again. \nNote: Gradually they have returned to the path followed south by the Fellowship.",
@@ -9916,7 +9916,7 @@
         "id": "LOTR-BILBO-79"
       },
       {
-        "length_miles": 13.0,
+        "length_miles": 7.0,
         "day": "September 20",
         "day_full": "28 miles",
         "comment": "Cross a small stream.",
@@ -9932,7 +9932,7 @@
         "id": "LOTR-BILBO-81"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 10.0,
         "day": "September 21",
         "day_full": "28 miles",
         "comment": "Turn slightly west of north.",
@@ -9940,7 +9940,7 @@
         "id": "LOTR-BILBO-82"
       },
       {
-        "length_miles": 20.0,
+        "length_miles": 10.0,
         "day": "September 21",
         "day_full": "28 miles",
         "comment": "Reach Ford of Bruinen. Follow stone-marked path NE to Rivendell.",
@@ -10007,7 +10007,7 @@
         "id": "LOTR-RISNG-3"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "October 6",
         "day_full": "10 miles",
         "comment": "Continue slowly.",
@@ -10015,7 +10015,7 @@
         "id": "LOTR-RISNG-4"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "October 6",
         "day_full": "10 miles",
         "comment": "Reach the Ford. Frodo hesitates to cross. He is in pain: anniversary of his wounding on Weathertop. Continue across the Ford.",
@@ -10047,7 +10047,7 @@
         "id": "LOTR-RISNG-8"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "October 7",
         "day_full": "10 miles",
         "comment": "Continue west-southwest along road, riding slowly. Frodo still ill.",
@@ -10055,7 +10055,7 @@
         "id": "LOTR-RISNG-9"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "October 7",
         "day_full": "10 miles",
         "comment": "Cross a small stream. Road bends more SW, skirting the feet of the Trollshaws. The steep ravine of the Bruinen also runs WSW not far S.",
@@ -10079,7 +10079,7 @@
         "id": "LOTR-RISNG-12"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "October 8",
         "day_full": "10 miles",
         "comment": "Leave after a leisurely breakfast.",
@@ -10087,7 +10087,7 @@
         "id": "LOTR-RISNG-13"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "October 8",
         "day_full": "10 miles",
         "comment": "Bruinen turns more to the south.",
@@ -10111,7 +10111,7 @@
         "id": "LOTR-RISNG-16"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "October 9",
         "day_full": "10 miles",
         "comment": "Road now runs due west.",
@@ -10119,7 +10119,7 @@
         "id": "LOTR-RISNG-17"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "October 9",
         "day_full": "10 miles",
         "comment": "Eat below out-thrust \u2018toe\u2019 of a hill.",
@@ -10135,7 +10135,7 @@
         "id": "LOTR-RISNG-19"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "October 10",
         "day_full": "10 miles",
         "comment": "Continue west on road through woods.",
@@ -10143,7 +10143,7 @@
         "id": "LOTR-RISNG-20"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "October 10",
         "day_full": "10 miles",
         "comment": "Leave woods.",
@@ -10167,7 +10167,7 @@
         "id": "LOTR-RISNG-23"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "October 11",
         "day_full": "1 miles",
         "comment": "Road now turns northwest. Still skirts hills.",
@@ -10175,7 +10175,7 @@
         "id": "LOTR-RISNG-24"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "October 11",
         "day_full": "1 miles",
         "comment": "Reach pathway to Stone Trolls. Sam tells Frodo what happened there.",
@@ -10199,7 +10199,7 @@
         "id": "LOTR-RISNG-27"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "October 12",
         "day_full": "9 miles",
         "comment": "Eat. Continue northwest on the road.",
@@ -10207,7 +10207,7 @@
         "id": "LOTR-RISNG-28"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "October 12",
         "day_full": "9 miles",
         "comment": "Road climbs over an out-thrust hill from north. Hills now also south of road with valleys running SW to Hoarwell.",
@@ -10231,7 +10231,7 @@
         "id": "LOTR-RISNG-31"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "October 13",
         "day_full": "10 miles",
         "comment": "Road rounds \u2018toe\u2019 of a hill from the north: the end of the Trollshaws.",
@@ -10239,7 +10239,7 @@
         "id": "LOTR-RISNG-32"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "October 13",
         "day_full": "10 miles",
         "comment": "Pass point where Strider led them north from road (exactly 1 year ago).",
@@ -10271,7 +10271,7 @@
         "id": "LOTR-RISNG-36"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 7.0,
         "day": "October 14",
         "day_full": "15 miles",
         "comment": "Road swings northwest through open country. South of the road are bushes and stunted trees: wild and pathless. Ride now more quickly.",
@@ -10279,7 +10279,7 @@
         "id": "LOTR-RISNG-37"
       },
       {
-        "length_miles": 15.0,
+        "length_miles": 8.0,
         "day": "October 14",
         "day_full": "15 miles",
         "comment": "Camp.",
@@ -10287,7 +10287,7 @@
         "id": "LOTR-RISNG-38"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 7.0,
         "day": "October 15",
         "day_full": "15 miles",
         "comment": "Road curves more to west. Open country. No streams",
@@ -10295,7 +10295,7 @@
         "id": "LOTR-RISNG-39"
       },
       {
-        "length_miles": 15.0,
+        "length_miles": 8.0,
         "day": "October 15",
         "day_full": "15 miles",
         "comment": "Camp..",
@@ -10303,7 +10303,7 @@
         "id": "LOTR-RISNG-40"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 7.0,
         "day": "October 16",
         "day_full": "15 miles",
         "comment": "Continue west. Far ahead begin to see tops of the Weather Hills.",
@@ -10311,7 +10311,7 @@
         "id": "LOTR-RISNG-41"
       },
       {
-        "length_miles": 15.0,
+        "length_miles": 8.0,
         "day": "October 16",
         "day_full": "15 miles",
         "comment": "Camp.",
@@ -10319,7 +10319,7 @@
         "id": "LOTR-RISNG-42"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "October 17",
         "day_full": "15 miles",
         "comment": "Continue west on road.",
@@ -10327,7 +10327,7 @@
         "id": "LOTR-RISNG-43"
       },
       {
-        "length_miles": 7.0,
+        "length_miles": 4.0,
         "day": "October 17",
         "day_full": "15 miles",
         "comment": "Weather hills slowly rise on the horizon.",
@@ -10343,7 +10343,7 @@
         "id": "LOTR-RISNG-45"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "October 18",
         "day_full": "15 miles",
         "comment": "Continue west.",
@@ -10351,7 +10351,7 @@
         "id": "LOTR-RISNG-46"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "October 18",
         "day_full": "15 miles",
         "comment": "Road turns slightly to the south. Hills now are more prominent.",
@@ -10367,7 +10367,7 @@
         "id": "LOTR-RISNG-48"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 7.0,
         "day": "October 19",
         "day_full": "15 miles",
         "comment": "Road now runs southwest. Weathertop becomes visible straight ahead.",
@@ -10375,7 +10375,7 @@
         "id": "LOTR-RISNG-49"
       },
       {
-        "length_miles": 15.0,
+        "length_miles": 8.0,
         "day": "October 19",
         "day_full": "15 miles",
         "comment": "Camp. Weather still is warm and clear.",
@@ -10383,7 +10383,7 @@
         "id": "LOTR-RISNG-50"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 7.0,
         "day": "October 20",
         "day_full": "15 miles",
         "comment": "Road continues southwest. Land rises slowly toward Hills.",
@@ -10391,7 +10391,7 @@
         "id": "LOTR-RISNG-51"
       },
       {
-        "length_miles": 15.0,
+        "length_miles": 8.0,
         "day": "October 20",
         "day_full": "15 miles",
         "comment": "Camp. Weathertop lies just south of due west.",
@@ -10399,7 +10399,7 @@
         "id": "LOTR-RISNG-52"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "October 21",
         "day_full": "20 miles",
         "comment": "Hurry along the road.",
@@ -10407,7 +10407,7 @@
         "id": "LOTR-RISNG-53"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "October 21",
         "day_full": "20 miles",
         "comment": "Pass the first foothills below Weathertop.",
@@ -10439,7 +10439,7 @@
         "id": "LOTR-RISNG-57"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "October 22",
         "day_full": "15 miles",
         "comment": "Road continues south to swing south of the Midgewater Marshes.",
@@ -10447,7 +10447,7 @@
         "id": "LOTR-RISNG-58"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "October 22",
         "day_full": "15 miles",
         "comment": "Weather turns wet and cold.",
@@ -10471,7 +10471,7 @@
         "id": "LOTR-RISNG-61"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 7.0,
         "day": "October 23",
         "day_full": "15 miles",
         "comment": "Road continues southwest and slowly downhill.",
@@ -10479,7 +10479,7 @@
         "id": "LOTR-RISNG-62"
       },
       {
-        "length_miles": 15.0,
+        "length_miles": 8.0,
         "day": "October 23",
         "day_full": "15 miles",
         "comment": "Reach the southeast edge of the Midgewater Marshes.",
@@ -10487,7 +10487,7 @@
         "id": "LOTR-RISNG-63"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "October 24",
         "day_full": "16 miles",
         "comment": "Road curves west around southern edge of the Marshes.",
@@ -10495,7 +10495,7 @@
         "id": "LOTR-RISNG-64"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "October 24",
         "day_full": "16 miles",
         "comment": "Drizzly all day. Ride a bit more quickly.",
@@ -10511,7 +10511,7 @@
         "id": "LOTR-RISNG-66"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 8.0,
         "day": "October 25",
         "day_full": "16 miles",
         "comment": "Road curves slightly north of west. Marshes fill all the northern horizon.",
@@ -10519,7 +10519,7 @@
         "id": "LOTR-RISNG-67"
       },
       {
-        "length_miles": 16.0,
+        "length_miles": 8.0,
         "day": "October 25",
         "day_full": "16 miles",
         "comment": "Camp. Marshes farther north from the road.",
@@ -10527,7 +10527,7 @@
         "id": "LOTR-RISNG-68"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 4.0,
         "day": "October 26",
         "day_full": "16 miles",
         "comment": "Road continues west-northwest.",
@@ -10535,7 +10535,7 @@
         "id": "LOTR-RISNG-69"
       },
       {
-        "length_miles": 8.0,
+        "length_miles": 4.0,
         "day": "October 26",
         "day_full": "16 miles",
         "comment": "Can see western edge of the Marshes through the misty rain.",
@@ -10551,7 +10551,7 @@
         "id": "LOTR-RISNG-71"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "October 27",
         "day_full": "16 miles",
         "comment": "Road continues west-northwest. Rises slightly uphill.",
@@ -10559,7 +10559,7 @@
         "id": "LOTR-RISNG-72"
       },
       {
-        "length_miles": 6.0,
+        "length_miles": 3.0,
         "day": "October 27",
         "day_full": "16 miles",
         "comment": "Begin to see the Chetwood in distance ahead. Dark through the rain.",
@@ -10583,7 +10583,7 @@
         "id": "LOTR-RISNG-75"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "October 28",
         "day_full": "16 miles",
         "comment": "Continue NW toward Bree. Bree-hill is hidden in the \u201ccurtain of rain.\u201d",
@@ -10591,7 +10591,7 @@
         "id": "LOTR-RISNG-76"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "October 28",
         "day_full": "16 miles",
         "comment": "Continue uphill along road next to the heart of the Chetwood.",
@@ -10623,7 +10623,7 @@
         "id": "LOTR-RISNG-80"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "October 30",
         "day_full": "40 miles",
         "comment": "Leave Bree very early. Still raining. Bree-folk see them off.",
@@ -10631,7 +10631,7 @@
         "id": "LOTR-RISNG-81"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "October 30",
         "day_full": "40 miles",
         "comment": "Gandalf turns south to visit Tom Bombadil. Ride on as fast as possible.\nNote: This is at the same place Tom had brought the hobbits back to the Road.",
@@ -10671,7 +10671,7 @@
         "id": "LOTR-RISNG-86"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "November 1",
         "day_full": "22 miles",
         "comment": "Decide to go straight to Hobbiton. Go west on the Road. Grey, but calm.",
@@ -10679,7 +10679,7 @@
         "id": "LOTR-RISNG-87"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "November 1",
         "day_full": "22 miles",
         "comment": "See smoke rising several places, especially in Woody End to the south.",
@@ -10695,7 +10695,7 @@
         "id": "LOTR-RISNG-89"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "November 2",
         "day_full": "18 miles",
         "comment": "10:00 a.m. Leave for Bywater. Merry makes Shirriffs march in front.",
@@ -10703,7 +10703,7 @@
         "id": "LOTR-RISNG-90"
       },
       {
-        "length_miles": 6.0,
+        "length_miles": 3.0,
         "day": "November 2",
         "day_full": "18 miles",
         "comment": "Noon. Rest.",
@@ -10751,7 +10751,7 @@
         "id": "LOTR-RISNG-96"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "November 3",
         "day_full": "5 miles",
         "comment": "Eat late lunch at Cottons, then leave for Hobbiton.",
@@ -10759,7 +10759,7 @@
         "id": "LOTR-RISNG-97"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "November 3",
         "day_full": "5 miles",
         "comment": "Go west along Hobbiton Road. All trees felled along the road.",
@@ -10890,7 +10890,7 @@
         "id": "LOTR-ADIEU-11"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "Sept. 22",
         "day_full": "37 miles",
         "comment": "They get water from the stream at the foot of the hill. \u201cA little fall where the water fell a few feet over an outcrop of grey stone.\u201d",
@@ -10898,7 +10898,7 @@
         "id": "LOTR-ADIEU-12"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "Sept. 22",
         "day_full": "37 miles",
         "comment": "Road rolls up and down.",
@@ -10954,7 +10954,7 @@
         "id": "LOTR-ADIEU-19"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "Sept. 23/24",
         "day_full": "35 miles",
         "comment": "Continue west at dusk.",
@@ -10962,7 +10962,7 @@
         "id": "LOTR-ADIEU-20"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "Sept. 23/24",
         "day_full": "35 miles",
         "comment": "Pass south of Tuckburrow. Leave the hills and turn slightly more southwest.",
@@ -10994,7 +10994,7 @@
         "id": "LOTR-ADIEU-24"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "Sept. 24/25",
         "day_full": "35 miles",
         "comment": "Continue southwest across open land.",
@@ -11002,7 +11002,7 @@
         "id": "LOTR-ADIEU-25"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "Sept. 24/25",
         "day_full": "35 miles",
         "comment": "Land begins to climb west toward the White Downs.",
@@ -11042,7 +11042,7 @@
         "id": "LOTR-ADIEU-30"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "Sept. 25/26",
         "day_full": "35 miles",
         "comment": "Curve now more north of west through grasslands.",
@@ -11050,7 +11050,7 @@
         "id": "LOTR-ADIEU-31"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "Sept. 25/26",
         "day_full": "35 miles",
         "comment": "Land slopes gently up toward the Far Downs.",
@@ -11090,7 +11090,7 @@
         "id": "LOTR-ADIEU-36"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 10.0,
         "day": "Sept. 27",
         "day_full": "35 miles",
         "comment": "Ride now during the day, through uninhabited lands.",
@@ -11098,7 +11098,7 @@
         "id": "LOTR-ADIEU-37"
       },
       {
-        "length_miles": 20.0,
+        "length_miles": 10.0,
         "day": "Sept. 27",
         "day_full": "35 miles",
         "comment": "Land begins to rise toward the Tower Hills.",
@@ -11114,7 +11114,7 @@
         "id": "LOTR-ADIEU-39"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "Sept. 28",
         "day_full": "35 miles",
         "comment": "Continue northwest toward the Great East Road.",
@@ -11122,7 +11122,7 @@
         "id": "LOTR-ADIEU-40"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "Sept. 28",
         "day_full": "35 miles",
         "comment": "Reach the Great East Road. Turn west.",
@@ -11154,7 +11154,7 @@
         "id": "LOTR-ADIEU-44"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "Sept. 29",
         "day_full": "30 miles",
         "comment": "Ride west on the Road toward the Grey Havens.",
@@ -11162,7 +11162,7 @@
         "id": "LOTR-ADIEU-45"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "Sept. 29",
         "day_full": "30 miles",
         "comment": "Land drops gently down toward the Gulf.",
@@ -11202,7 +11202,7 @@
         "id": "LOTR-ADIEU-50"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "Continuing Sept. 29",
         "day_full": "2 miles",
         "comment": "Sam, Merry and Pippin watch the ship as it passes out of sight, and remain watching far into the night.",
@@ -11210,7 +11210,7 @@
         "id": "LOTR-ADIEU-51"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "Continuing Sept. 29",
         "day_full": "2 miles",
         "comment": "At last they turn east and leave the Havens.",
@@ -11226,7 +11226,7 @@
         "id": "LOTR-ADIEU-53"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 4.0,
         "day": "Sept. 30",
         "day_full": "28 miles",
         "comment": "After breakfast, the hobbits ride east along the Road. Land rises steeply.",
@@ -11234,7 +11234,7 @@
         "id": "LOTR-ADIEU-54"
       },
       {
-        "length_miles": 8.0,
+        "length_miles": 4.0,
         "day": "Sept. 30",
         "day_full": "28 miles",
         "comment": "Slope becomes more gentle, but still climbs. Can see the top of the Towers ahead on the Tower Hills.",
@@ -11250,7 +11250,7 @@
         "id": "LOTR-ADIEU-56"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "Oct. 1",
         "day_full": "30 miles",
         "comment": "Road climbs the western slope of the Tower Hills.",
@@ -11258,7 +11258,7 @@
         "id": "LOTR-ADIEU-57"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "Oct. 1",
         "day_full": "30 miles",
         "comment": "Reach the Towers on the crest of the Hills. Turn back for a last look west at the sea. Start down the eastern slope.",
@@ -11282,7 +11282,7 @@
         "id": "LOTR-ADIEU-60"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 10.0,
         "day": "Oct. 2",
         "day_full": "30 miles",
         "comment": "Continue through grassy plain. See no one.",
@@ -11290,7 +11290,7 @@
         "id": "LOTR-ADIEU-61"
       },
       {
-        "length_miles": 20.0,
+        "length_miles": 10.0,
         "day": "Oct. 2",
         "day_full": "30 miles",
         "comment": "Ahead to the east, they can see the crest of the Far Downs.",
@@ -11306,7 +11306,7 @@
         "id": "LOTR-ADIEU-63"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "Oct. 3",
         "day_full": "30 miles",
         "comment": "Ride out early. Road curves east-northeast.",
@@ -11314,7 +11314,7 @@
         "id": "LOTR-ADIEU-64"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "Oct. 3",
         "day_full": "30 miles",
         "comment": "Reach the steep western face of the Far Downs. The Road climbs through a long cutting with steep, rocky walls on each side.",
@@ -11346,7 +11346,7 @@
         "id": "LOTR-ADIEU-68"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 7.0,
         "day": "Oct. 4",
         "day_full": "30 miles",
         "comment": "Early morning: continue east-northeast on road.",
@@ -11354,7 +11354,7 @@
         "id": "LOTR-ADIEU-69"
       },
       {
-        "length_miles": 15.0,
+        "length_miles": 8.0,
         "day": "Oct. 4",
         "day_full": "30 miles",
         "comment": "Begin to see grazing lands.",
@@ -11386,7 +11386,7 @@
         "id": "LOTR-ADIEU-73"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "Oct. 5",
         "day_full": "35 miles",
         "comment": "Leave after an early breakfast.",
@@ -11394,7 +11394,7 @@
         "id": "LOTR-ADIEU-74"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "Oct. 5",
         "day_full": "35 miles",
         "comment": "Descend gentle east-running backslope. Can see many grazing lands and some cultivated fields in lowlands below.",
@@ -11418,7 +11418,7 @@
         "id": "LOTR-ADIEU-77"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "Oct. 6",
         "day_full": "22 miles",
         "comment": "Leave after a leisurely breakfast.",
@@ -11426,7 +11426,7 @@
         "id": "LOTR-ADIEU-78"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "Oct. 6",
         "day_full": "22 miles",
         "comment": "To the south they can see the wooded hills of Tookland.",
@@ -11538,7 +11538,7 @@
         "id": "HBBT-THERE-6"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 6.0,
         "day": "April 28",
         "day_full": "12 miles",
         "comment": "Continue east on the Road at a leisurely pace.",
@@ -11546,7 +11546,7 @@
         "id": "HBBT-THERE-7"
       },
       {
-        "length_miles": 12.0,
+        "length_miles": 6.0,
         "day": "April 28",
         "day_full": "12 miles",
         "comment": "Frogmorton. Stay at The Floating Log.",
@@ -11554,7 +11554,7 @@
         "id": "HBBT-THERE-8"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "April 29",
         "day_full": "11 miles",
         "comment": "Continue east on the Road at a leisurely pace.",
@@ -11562,7 +11562,7 @@
         "id": "HBBT-THERE-9"
       },
       {
-        "length_miles": 11.0,
+        "length_miles": 6.0,
         "day": "April 29",
         "day_full": "11 miles",
         "comment": "See the trees of Woody End across the fields to the south. Camp.",
@@ -11570,7 +11570,7 @@
         "id": "HBBT-THERE-10"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "April 30",
         "day_full": "11 miles",
         "comment": "Continue east on the Road at a leisurely pace.",
@@ -11578,7 +11578,7 @@
         "id": "HBBT-THERE-11"
       },
       {
-        "length_miles": 11.0,
+        "length_miles": 6.0,
         "day": "April 30",
         "day_full": "11 miles",
         "comment": "Reach the Brandywine Bridge. Stay at the Bridge Inn.",
@@ -11586,7 +11586,7 @@
         "id": "HBBT-THERE-12"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "May 1",
         "day_full": "10 miles",
         "comment": "Cross the Bridge. Road to Buckland goes south. Pass the High Hay.",
@@ -11594,7 +11594,7 @@
         "id": "HBBT-THERE-13"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "May 1",
         "day_full": "10 miles",
         "comment": "Stop for the night.",
@@ -11602,7 +11602,7 @@
         "id": "HBBT-THERE-14"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "May 2",
         "day_full": "10 miles",
         "comment": "Continue east on the Road. The Old Forest appears south off the Road.",
@@ -11610,7 +11610,7 @@
         "id": "HBBT-THERE-15"
       },
       {
-        "length_miles": 6.0,
+        "length_miles": 3.0,
         "day": "May 2",
         "day_full": "10 miles",
         "comment": "The Old Forest is now quite close.",
@@ -11626,7 +11626,7 @@
         "id": "HBBT-THERE-17"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "May 3",
         "day_full": null,
         "comment": "Continue east on the road. Land is sparsely settled.",
@@ -11634,7 +11634,7 @@
         "id": "HBBT-THERE-18"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "May 3",
         "day_full": null,
         "comment": "To the south the Old Forest ends.",
@@ -11650,7 +11650,7 @@
         "id": "HBBT-THERE-20"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "May 4",
         "day_full": "10 miles",
         "comment": "Continue east at a leisurely pace. The most western slopes of the Barrow-downs appear far to the south.",
@@ -11658,7 +11658,7 @@
         "id": "HBBT-THERE-21"
       },
       {
-        "length_miles": 6.0,
+        "length_miles": 3.0,
         "day": "May 4",
         "day_full": "10 miles",
         "comment": "Barrow-downs continue. Between the Road and the Downs is a hedge.",
@@ -11674,7 +11674,7 @@
         "id": "HBBT-THERE-23"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "May 5",
         "day_full": "6 miles",
         "comment": "Stay at the inn much of the morning. Then skirt Bree-hill and turn east.",
@@ -11682,7 +11682,7 @@
         "id": "HBBT-THERE-24"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "May 5",
         "day_full": "6 miles",
         "comment": "Reach the South-gate of Bree. Leave village and ride east on the road.",
@@ -11698,7 +11698,7 @@
         "id": "HBBT-THERE-26"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "May 6",
         "day_full": "10 miles",
         "comment": "Ride east at a leisurely pace. Road runs ESE skirting the Chetwood.",
@@ -11706,7 +11706,7 @@
         "id": "HBBT-THERE-27"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "May 6",
         "day_full": "10 miles",
         "comment": "Continue downhill along road next to the heart of the Chetwood.",
@@ -11722,7 +11722,7 @@
         "id": "HBBT-THERE-29"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "May 7",
         "day_full": "12 miles",
         "comment": "Leave a bit earlier. Ride southeast along the Road at a comfortable pace.",
@@ -11730,7 +11730,7 @@
         "id": "HBBT-THERE-30"
       },
       {
-        "length_miles": 6.0,
+        "length_miles": 3.0,
         "day": "May 7",
         "day_full": "12 miles",
         "comment": "Reach the east edge of the Chetwood. Scattered farms to the south.",
@@ -11754,7 +11754,7 @@
         "id": "HBBT-THERE-33"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "May 8",
         "day_full": "12 miles",
         "comment": "Road continues east-southeast.",
@@ -11762,7 +11762,7 @@
         "id": "HBBT-THERE-34"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "May 8",
         "day_full": "12 miles",
         "comment": "Road runs gently downhill.",
@@ -11778,7 +11778,7 @@
         "id": "HBBT-THERE-36"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 4.0,
         "day": "May 9",
         "day_full": "12 miles",
         "comment": "Road continues east-southeast.",
@@ -11786,7 +11786,7 @@
         "id": "HBBT-THERE-37"
       },
       {
-        "length_miles": 8.0,
+        "length_miles": 4.0,
         "day": "May 9",
         "day_full": "12 miles",
         "comment": "Meet a traveller who hurries by.",
@@ -11802,7 +11802,7 @@
         "id": "HBBT-THERE-39"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "May 10",
         "day_full": "12 miles",
         "comment": "Continue east-southeast at a comfortable pace. Weather nice.",
@@ -11810,7 +11810,7 @@
         "id": "HBBT-THERE-40"
       },
       {
-        "length_miles": 6.0,
+        "length_miles": 3.0,
         "day": "May 10",
         "day_full": "12 miles",
         "comment": "Road curves more to the east. Marshes fill all the northern horizon.",
@@ -11826,7 +11826,7 @@
         "id": "HBBT-THERE-42"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "May 11",
         "day_full": "11 miles",
         "comment": "Continue east at a comfortable pace.",
@@ -11834,7 +11834,7 @@
         "id": "HBBT-THERE-43"
       },
       {
-        "length_miles": 6.0,
+        "length_miles": 3.0,
         "day": "May 11",
         "day_full": "11 miles",
         "comment": "Road continues east around southern edge of the Marshes.",
@@ -11850,7 +11850,7 @@
         "id": "HBBT-THERE-45"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "May 12",
         "day_full": "10 miles",
         "comment": "Continue east on the Road.",
@@ -11858,7 +11858,7 @@
         "id": "HBBT-THERE-46"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "May 12",
         "day_full": "10 miles",
         "comment": "Road now turns slightly more to the north.",
@@ -11874,7 +11874,7 @@
         "id": "HBBT-THERE-48"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "May 13",
         "day_full": "10 miles",
         "comment": "Road turns more to the northeast. Slowly begins to climb uphill.",
@@ -11882,7 +11882,7 @@
         "id": "HBBT-THERE-49"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "May 13",
         "day_full": "10 miles",
         "comment": "Weathertop is visible ahead, with the Weather Hills to its north.",
@@ -11898,7 +11898,7 @@
         "id": "HBBT-THERE-51"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "May 14",
         "day_full": "10 miles",
         "comment": "Continue northeast on the Road at a comfortable pace.",
@@ -11906,7 +11906,7 @@
         "id": "HBBT-THERE-52"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "May 14",
         "day_full": "10 miles",
         "comment": "Land now slopes slowly uphill toward Weathertop.",
@@ -11922,7 +11922,7 @@
         "id": "HBBT-THERE-54"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "May 15",
         "day_full": "10 miles",
         "comment": "Road continues northeast, rising slowly.",
@@ -11930,7 +11930,7 @@
         "id": "HBBT-THERE-55"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "May 15",
         "day_full": "10 miles",
         "comment": "Weathertop looms ahead and fills all the view.",
@@ -11946,7 +11946,7 @@
         "id": "HBBT-THERE-57"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "May 16",
         "day_full": "10 miles",
         "comment": "Road continues northeast past Weathertop.",
@@ -11954,7 +11954,7 @@
         "id": "HBBT-THERE-58"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "May 16",
         "day_full": "10 miles",
         "comment": "Road reaches southeastern foot of Weathertop.",
@@ -11970,7 +11970,7 @@
         "id": "HBBT-THERE-60"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "May 17",
         "day_full": "9 miles",
         "comment": "Continue northeast on road, dropping slowly into the \u2018Lone-lands\u2019. Road worsens.",
@@ -11978,7 +11978,7 @@
         "id": "HBBT-THERE-61"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "May 17",
         "day_full": "9 miles",
         "comment": "South of the road are more rugged areas, covered with thickets.",
@@ -11994,7 +11994,7 @@
         "id": "HBBT-THERE-63"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 4.0,
         "day": "May 18",
         "day_full": "9 miles",
         "comment": "Road still runs northeast. Weathertop is still visible straight behind.",
@@ -12002,7 +12002,7 @@
         "id": "HBBT-THERE-64"
       },
       {
-        "length_miles": 9.0,
+        "length_miles": 5.0,
         "day": "May 18",
         "day_full": "9 miles",
         "comment": "Camp.",
@@ -12098,7 +12098,7 @@
         "id": "HBBT-THERE-76"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "May 29",
         "day_full": "15 miles",
         "comment": "Continue southeast on road. Weather turns cold and wet.",
@@ -12106,7 +12106,7 @@
         "id": "HBBT-THERE-77"
       },
       {
-        "length_miles": 6.0,
+        "length_miles": 3.0,
         "day": "May 29",
         "day_full": "15 miles",
         "comment": "Reach northeast end of a valley south of the road. Continue on. Road now is only a muddy track.",
@@ -12130,7 +12130,7 @@
         "id": "HBBT-THERE-80"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "May 30",
         "day_full": "12 miles",
         "comment": "Gandalf keeps trolls arguing until dawn. Sun turns them to stone.",
@@ -12138,7 +12138,7 @@
         "id": "HBBT-THERE-81"
       },
       {
-        "length_miles": 2,
+        "length_miles": 1,
         "day": "May 30",
         "day_full": "12 miles",
         "comment": "\u2013 Gandalf and company follow trail to Troll-hole. Find swords for Thorin and Gandalf. Bilbo takes blade. Collect gold. Return to fire.",
@@ -12170,7 +12170,7 @@
         "id": "HBBT-THERE-85"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "June 1",
         "day_full": "16 miles",
         "comment": "Leave early and make haste.",
@@ -12178,7 +12178,7 @@
         "id": "HBBT-THERE-86"
       },
       {
-        "length_miles": 4.0,
+        "length_miles": 2.0,
         "day": "June 1",
         "day_full": "16 miles",
         "comment": "Enter woods. Continue east on road through woods.",
@@ -12210,7 +12210,7 @@
         "id": "HBBT-THERE-90"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "June 2",
         "day_full": "13 miles",
         "comment": "Road now runs due east. With few provisions, they hurry along.",
@@ -12218,7 +12218,7 @@
         "id": "HBBT-THERE-91"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "June 2",
         "day_full": "13 miles",
         "comment": "Can see ruins on hilltop to the north.",
@@ -12250,7 +12250,7 @@
         "id": "HBBT-THERE-95"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "June 3",
         "day_full": "16 miles",
         "comment": "Continue northeast. Road still hugs feet of the Trollshaws.",
@@ -12258,7 +12258,7 @@
         "id": "HBBT-THERE-96"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "June 3",
         "day_full": "16 miles",
         "comment": "Cross a small stream. Road bends more northeast. The steep ravine of the Bruinen also runs east-northeast not far to the south.",
@@ -12298,7 +12298,7 @@
         "id": "HBBT-THERE-101"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": "June 4",
         "day_full": "8 miles",
         "comment": "Cross the Ford of Bruinen.",
@@ -12306,7 +12306,7 @@
         "id": "HBBT-THERE-102"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": "June 4",
         "day_full": "8 miles",
         "comment": "Gandalf searches out the path. Must go carefully.",
@@ -12442,7 +12442,7 @@
         "id": "HBBT-AGAIN-10"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.5,
         "day": null,
         "day_full": null,
         "comment": "Bilbo wakes in the dark and realizes he is alone. Begins crawling along.",
@@ -12450,7 +12450,7 @@
         "id": "HBBT-AGAIN-11"
       },
       {
-        "length_miles": 1.0,
+        "length_miles": 0.5,
         "day": null,
         "day_full": null,
         "comment": "Bilbo, while crawling, finds the ONE RING. Pulling out his sword for light, he begins trotting along passage.",
@@ -12498,7 +12498,7 @@
         "id": "HBBT-AGAIN-17"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 4.0,
         "day": "Continuing July 19",
         "day_full": "41 miles",
         "comment": "Goblins follow Bilbo a short distance into the upland valley.",
@@ -12506,7 +12506,7 @@
         "id": "HBBT-AGAIN-18"
       },
       {
-        "length_miles": 8.0,
+        "length_miles": 4.0,
         "day": "Continuing July 19",
         "day_full": "41 miles",
         "comment": "Bilbo leaves upland valley on trail with cliff on left, drop-off on right.",
@@ -12578,7 +12578,7 @@
         "id": "HBBT-AGAIN-27"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 4.0,
         "day": "July 22",
         "day_full": "9 miles",
         "comment": "Leave Beorn\u2019s in early afternoon (on ponies). Ride north.",
@@ -12586,7 +12586,7 @@
         "id": "HBBT-AGAIN-28"
       },
       {
-        "length_miles": 9.0,
+        "length_miles": 5.0,
         "day": "July 22",
         "day_full": "9 miles",
         "comment": "Camp.",
@@ -12618,7 +12618,7 @@
         "id": "HBBT-AGAIN-32"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 4.0,
         "day": "July 26",
         "day_full": "8 miles",
         "comment": "Gandalf warns Company not to leave the trail. Gandalf departs and takes ponies back to Beorn. Company takes Forest Trail.",
@@ -12626,7 +12626,7 @@
         "id": "HBBT-AGAIN-33"
       },
       {
-        "length_miles": 8.0,
+        "length_miles": 4.0,
         "day": "July 26",
         "day_full": "8 miles",
         "comment": "First camp.",
@@ -12698,7 +12698,7 @@
         "id": "HBBT-AGAIN-42"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 3.0,
         "day": "Aug. 21",
         "day_full": "7 miles",
         "comment": "Bombur awakes in morning. Rains all day. No food.",
@@ -12706,7 +12706,7 @@
         "id": "HBBT-AGAIN-43"
       },
       {
-        "length_miles": 6.0,
+        "length_miles": 4.0,
         "day": "Aug. 21",
         "day_full": "7 miles",
         "comment": "About to camp when see a fire. LEAVE PATH.",
@@ -12730,7 +12730,7 @@
         "id": "HBBT-AGAIN-46"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 0.2,
         "day": "Aug. 22",
         "day_full": "4 miles",
         "comment": "Predawn \u2013 See third Elves\u2019 fire.",
@@ -12738,7 +12738,7 @@
         "id": "HBBT-AGAIN-47"
       },
       {
-        "length_miles": 0.5,
+        "length_miles": 0.3,
         "day": "Aug. 22",
         "day_full": "4 miles",
         "comment": "Lights put out. Thorin captured by Elves. Dwarves scatter and are captured by spiders. Bilbo left alone. Kills spider. Swoons. Wakes during the morning and names his sword: Sting.",
@@ -12810,7 +12810,7 @@
         "id": "HBBT-AGAIN-56"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "Sept. 21",
         "day_full": "14 miles",
         "comment": "Escape in barrels in afternoon. Float down the Forest River.",
@@ -12818,7 +12818,7 @@
         "id": "HBBT-AGAIN-57"
       },
       {
-        "length_miles": 2.0,
+        "length_miles": 1.0,
         "day": "Sept. 21",
         "day_full": "14 miles",
         "comment": "Leave trees of Mirkwood.",
@@ -12834,7 +12834,7 @@
         "id": "HBBT-AGAIN-59"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 5.0,
         "day": "Sept. 22",
         "day_full": "32 miles",
         "comment": "Bilbo\u2019s 50th Birthday. Wood-elves tie barrels into raft. Bilbo rides (invisible).",
@@ -12842,7 +12842,7 @@
         "id": "HBBT-AGAIN-60"
       },
       {
-        "length_miles": 10.0,
+        "length_miles": 5.0,
         "day": "Sept. 22",
         "day_full": "32 miles",
         "comment": "Reach marshy area. Bilbo sees the Lonely Mountain.",
@@ -12866,7 +12866,7 @@
         "id": "HBBT-AGAIN-63"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "Oct. 9",
         "day_full": "5 miles",
         "comment": "Leave Lake-town in three boats.",
@@ -12874,7 +12874,7 @@
         "id": "HBBT-AGAIN-64"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "Oct. 9",
         "day_full": "5 miles",
         "comment": "Camp at the mouth of the River Running.",
@@ -12898,7 +12898,7 @@
         "id": "HBBT-AGAIN-67"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 2.0,
         "day": "Oct. 12",
         "day_full": "13 miles",
         "comment": "Head northwest on ponies.",
@@ -12906,7 +12906,7 @@
         "id": "HBBT-AGAIN-68"
       },
       {
-        "length_miles": 5.0,
+        "length_miles": 3.0,
         "day": "Oct. 12",
         "day_full": "13 miles",
         "comment": "Reach the Desolation of the Dragon.",
@@ -12954,7 +12954,7 @@
         "id": "HBBT-AGAIN-74"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "Oct. 20-29",
         "day_full": null,
         "comment": "Try to open the Hidden Door.",
@@ -12962,7 +12962,7 @@
         "id": "HBBT-AGAIN-75"
       },
       {
-        "length_miles": 0.0,
+        "length_miles": 1.0,
         "day": "Oct. 30",
         "day_full": "4 miles Durin\u2019s Day!",
         "comment": "Open door at sunset.",
@@ -12970,7 +12970,7 @@
         "id": "HBBT-AGAIN-76"
       },
       {
-        "length_miles": 4,
+        "length_miles": 2,
         "day": "Oct. 30",
         "day_full": "4 miles Durin\u2019s Day!",
         "comment": "Bilbo descends to Smaug\u2019s Cellar, steals cup, returns. Smaug searches ANGRILY.",
