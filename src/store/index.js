@@ -99,7 +99,11 @@ const store = createStore('store', {
 				}))
 			}
 			if (error) console.error(error)
+			const { data: profile } = await supabase
+				.from('profiles')
+				.select('*')
 			this.user = user
+			this.user.profile = profile?.[0]
 		},
 		async loadData () {
 			this.loading = true
