@@ -83,7 +83,11 @@ const store = createStore('store', {
 		journeys: [],
 		entries: []
 	}),
-	getters: {},
+	getters: {
+		activeJourney () {
+			return this.journeys?.find(journey => !journey.finished_at)
+		}
+	},
 	actions: {
 		async signInWithGitHub () {
 			let user, error
@@ -123,7 +127,10 @@ const store = createStore('store', {
 		async createEntry (entry) {
 			const { data, error } = await supabase
 				.from('entries')
-				.insert(entry)
+				.insert({
+					...entry,
+					journey_id: this.activeJourney.id
+				})
 				.select()
 			if (error) return console.error(error)
 			this.entries.push(data[0])

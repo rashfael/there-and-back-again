@@ -16,6 +16,7 @@ function miToKm (mi) {
 
 const {
 	journeys,
+	activeJourney,
 	entries
 } = $(store)
 
@@ -24,12 +25,12 @@ const travelledDistance = $computed(() => {
 })
 
 const journey = $computed(() => {
-	const activeJourneyId = journeys.find(journey => !journey.finished_at)?.journey
+	const activeJourneyId = activeJourney?.journey
 	if (!activeJourneyId) return
 	const activeJourneyData = journeyData.find(journey => journey.id === activeJourneyId)
 	const journey = {
-		...activeJourneyData[0],
-		legs: activeJourneyData[0].legs.map(leg => ({
+		...activeJourneyData,
+		legs: activeJourneyData.legs.map(leg => ({
 			...leg,
 			distance: miToKm(leg.length_miles) * 1000
 		}))
@@ -82,6 +83,7 @@ async function editEntry (entry) {
 	
 }
 
+store.fetchJourneys()
 store.fetchEntries()
 </script>
 <template lang="pug">
