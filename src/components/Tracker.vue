@@ -54,6 +54,34 @@ const journey = $computed(() => {
 	return journey
 })
 
+const paths = $computed(() => {
+	console.log('paths')
+	if (!journey) return
+	const paths = []
+	let currentPath
+	for (const [index, leg] of journey.legs.entries()) {
+		if (currentPath && (leg.path || index === journey.legs.length - 1)) {
+			if (currentPath.travelledDistance > 0 && currentPath.travelledDistance < currentPath.totalDistance) {
+				currentPath.style = {
+					'--travelled-distance-ratio': currentPath.travelledDistance / currentPath.totalDistance
+				}
+			}
+		}
+		if (leg.path) {
+			currentPath = {
+				d: leg.path,
+				totalDistance: 0,
+				travelledDistance: 0
+			}
+			paths.push(currentPath)
+		} else {
+			currentPath.totalDistance += leg.distance
+			currentPath.travelledDistance += leg.distance - leg.remainingDistance
+		}
+	}
+	return paths
+})
+
 let showingAddEntryForm = $ref(false)
 let activeTab = $ref('journey')
 
@@ -87,6 +115,10 @@ async function editEntry (entry) {
 .c-tracker
 	.map
 		img(src="~~/assets/middle-earth.svg")
+		svg.paths(:viewBox="journey.paths_viewbox")
+			path.remaining(v-for="path in paths", :d="path.d")
+			template(v-for="path in paths")
+				path(v-if="path.travelledDistance > 0", :d="path.d",:style="path.style", pathLength="1")
 	.sidebar
 		form.add-entry(v-if="showingAddEntryForm", @submit.prevent="createEntry")
 			bunt-input(v-model="newEntry.distance", name="distance", label="Distance", type="number", hint="in meters")
@@ -147,6 +179,21 @@ async function editEntry (entry) {
 		flex: auto
 		display: flex
 		justify-content: center
+		position: relative
+		svg.paths
+			position: absolute
+			top: 0
+			left: 0
+			width: 100%
+			height: 100%
+			path
+				stroke: $clr-success
+				stroke-width: 8px
+				fill: none
+				stroke-dasharray: var(--travelled-distance-ratio) 1
+				&.remaining
+					stroke: $clr-danger
+					stroke-dasharray: 10 16
 
 	form.add-entry
 		display: flex

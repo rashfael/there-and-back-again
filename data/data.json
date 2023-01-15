@@ -15,6 +15,7 @@
       "Pippin",
       "Aragorn"
     ],
+    "paths_viewbox": "0 0 3200 2400",
     "legs": [
       {
         "length_miles": 0.0,
@@ -23,7 +24,8 @@
         "directions": "Leave Bag End at full dark (7 p.m.). Go around west end, jump hedge.",
         "quote": "‘Well, now we’re off at last!’ said Frodo. They shouldered their packs and took up their sticks, and walked round the corner to the west side of Bag End. ‘Good-bye!’ said Frodo, looking at the dark blank windows. He waved his hand, and then turned and (following Bilbo, if he had known it) hurried after Peregrin down the garden-path. They jumped over the low place in the hedge at the bottom and took to the fields, passing into the darkness like a rustle in the grasses.",
         "optional": false,
-        "id": "LOTR-BEGIN-1"
+        "id": "LOTR-BEGIN-1",
+        "path": "m 820.04422,660.86957 c 17.9639,36.26047 18.19169,63.61732 42.47144,56.08609 18.74789,-5.81533 63.26203,-45.04795 70.12988,-38.40002 15.76217,15.25745 41.10417,25.79987 63.66314,23.76096 7.21752,-0.65233 26.93322,10.15737 30.12292,1.0749 5.9256,-16.87225 14.6885,-27.78354 14.6885,-27.78354"
       },
       {
         "length_miles": 1.0,
@@ -546,7 +548,8 @@
         "directions": "Survive the Night. Leave Bree on East Road.",
         "quote": "All that is gold does not glitter,\nNot all those who wander are lost;\nThe old that is strong does not wither,\nDeep roots are not reached by the frost.\nFrom the ashes a fire shall be woken,\nA light from the shadows shall spring;\nRenewed shall be blade that was broken,\nThe crownless again shall be king.",
         "optional": false,
-        "id": "LOTR-BEGIN-59"
+        "id": "LOTR-BEGIN-59",
+        "path": "m 1042.8887,673.83936 c 41.2675,-37.73029 71.3339,-30.06633 127.3398,-28.29772 56.0059,1.76861 3.2706,53.72361 96.6838,24.17097 81.67,-25.83751 79.7543,-40.27066 107.0855,-35.28178 53.6199,9.78746 56.1725,-11.01589 81.5527,-7.32941 28.6135,4.15611 45.4798,24.89234 61.9041,27.38659 29.7506,4.51802 22.8082,-14.16724 28.8976,-18.96848"
       },
       {
         "length_miles": 4.0,
