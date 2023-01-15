@@ -1,7 +1,9 @@
 import { createApp } from 'vue'
+import { createRouter, createWebHistory } from 'vue-router'
 import Buntpapier from 'buntpapier'
 
 import '~/styles/base.styl'
+import routes from '~/routes'
 import App from './App.vue'
 
 import '@fontsource/quattrocento'
@@ -14,4 +16,10 @@ import store from '~/store'
 store.signInWithGitHub()
 const app = createApp(App)
 app.use(Buntpapier)
+// use router
+const router = createRouter({
+	history: createWebHistory(),
+	routes
+})
+app.use(router)
 app.mount('#app')

@@ -1,13 +1,11 @@
 <script setup>
 import store from '~/store'
 
-store.fetchJourneys()
-store.fetchEntries()
+const {
+	user
+} = $(store)
 </script>
 <template lang="pug">
-router-view
 </template>
 <style lang="stylus">
-#app
-	display: flex
 </style>
