@@ -238,13 +238,16 @@ form.add-entry
 					.waypoint-info
 						display: flex
 						justify-content: space-between
+						.directions
+							font-weight: bold
 						.distance
+							margin-left: 8px
 							white-space: nowrap
 					.quote
 						margin-top: 6px
-						color: $clr-secondary-text-light
 						font-style: italic
-					
+						line-height: 1.3
+
 	.log-entries
 		display: flex
 		flex-direction: column
