@@ -1,11 +1,15 @@
 <script setup>
 import store from '~/store'
 
-store.fetchJourneys()
-store.fetchEntries()
+const {
+	loading
+} = $(store)
+
+store.loadData()
 </script>
 <template lang="pug">
-router-view
+bunt-progress-circular(v-if="loading", size="huge", :page="true")
+router-view(v-else)
 </template>
 <style lang="stylus">
 #app

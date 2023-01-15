@@ -15,7 +15,6 @@ function miToKm (mi) {
 }
 
 const {
-	journeys,
 	activeJourney,
 	entries
 } = $(store)

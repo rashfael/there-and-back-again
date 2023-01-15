@@ -79,6 +79,7 @@ export function mapActions (store, arrOrObj) {
 
 const store = createStore('store', {
 	state: () => ({
+		loading: false,
 		user: null,
 		journeys: [],
 		entries: []
@@ -99,6 +100,14 @@ const store = createStore('store', {
 			}
 			if (error) console.error(error)
 			this.user = user
+		},
+		async loadData () {
+			this.loading = true
+			await Promise.all([
+				this.fetchJourneys(),
+				this.fetchEntries()
+			])
+			this.loading = false
 		},
 		async fetchJourneys () {
 			const { data: journeys, error } = await supabase
