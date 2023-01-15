@@ -1,6 +1,7 @@
 <script setup>
 import moment from 'moment'
 import store from '~/store'
+import Scrollbars from '~/components/Scrollbars.vue'
 
 import journeyData from '../../data/data.json'
 
@@ -55,7 +56,6 @@ const journey = $computed(() => {
 })
 
 const paths = $computed(() => {
-	console.log('paths')
 	if (!journey) return
 	const paths = []
 	let currentPath
@@ -86,8 +86,6 @@ let showingAddEntryForm = $ref(false)
 let activeTab = $ref('journey')
 
 let newEntry = $ref(null)
-
-let activeLeg = $ref(null)
 
 function showAddEntryForm () {
 	showingAddEntryForm = true
@@ -143,19 +141,20 @@ async function editEntry (entry) {
 							.travelled {{ (travelledDistance / 1000).toFixed(2) }} km
 							span /
 							.total {{ (journey.totalDistance / 1000).toFixed(2) }} km
-					.journey-legs
-						template(v-for="(leg, index) of journey.legs")
-							.journey-leg(v-if="leg.show", :class="{start: index === 0, end: index === journey.legs.length - 1, reached: leg.remainingDistance === 0}")
-								.path-segment
-									.waypoint
-									template(v-if="journey.legs[index + 1].show")
-										.path.partial(v-if="journey.legs[index + 1].remainingDistance > 0", :style="{'--remaining': journey.legs[index + 1].remainingDistance / journey.legs[index + 1].distance}")
-										.path(:class="{ remaining: journey.legs[index + 1].remainingDistance > 0 }")
-								.content
-									.waypoint-info
-										.directions {{ leg.directions }}
-										.distance {{ (leg.distance / 1000).toFixed(2) }} km
-									.quote(v-if="leg.remainingDistance === 0") {{ leg.quote }}
+					Scrollbars.journey-legs-scroller(y)
+						.journey-legs
+							template(v-for="(leg, index) of journey.legs")
+								.journey-leg(v-if="leg.show", :class="{start: index === 0, end: index === journey.legs.length - 1, reached: leg.remainingDistance === 0}")
+									.path-segment
+										.waypoint
+										template(v-if="journey.legs[index + 1].show")
+											.path.partial(v-if="journey.legs[index + 1].remainingDistance > 0", :style="{'--remaining': journey.legs[index + 1].remainingDistance / journey.legs[index + 1].distance}")
+											.path(:class="{ remaining: journey.legs[index + 1].remainingDistance > 0 }")
+									.content
+										.waypoint-info
+											.directions {{ leg.directions }}
+											.distance {{ (leg.distance / 1000).toFixed(2) }} km
+										.quote(v-if="leg.remainingDistance === 0") {{ leg.quote }}
 			bunt-tab(id="log", header="log")
 				.log-entries(v-scrollbar.y="")
 					.entry(v-for="(entry, index) of entries", :class="{ last: index === entries.length - 1 }")
@@ -211,7 +210,15 @@ async function editEntry (entry) {
 		flex-direction: column
 		justify-content: space-between
 		.bunt-tabs
+			display: flex
+			flex-direction: column
 			tabs-style()
+			min-height: 0
+			margin: 0
+			.bunt-tabs-body
+				display: flex
+				flex-direction: column
+				min-height: 0
 		.journey-chooser
 			display: flex
 			flex-direction: column
@@ -231,9 +238,11 @@ async function editEntry (entry) {
 					&:hover
 						background-color: $clr-grey-100
 		.journey-tracker
+			display: flex
+			flex-direction: column
+			min-height: 0
 			.journey
 				padding: 16px
-				margin-bottom: 16px
 				border-bottom: border-separator()
 				display: flex
 				justify-content: space-between
@@ -248,6 +257,9 @@ async function editEntry (entry) {
 					.total
 						margin-left: 4px
 						color: $clr-gray-600
+			.journey-legs-scroller .scroll-content
+				// make scrolling start at the bottom
+				flex-direction: column-reverse
 			.journey-legs
 				display: flex
 				flex-direction: column
@@ -256,6 +268,8 @@ async function editEntry (entry) {
 					display: flex
 					align-items: flex-start
 					padding: 0 16px 0 0
+					&:first-child
+						margin-top: 16px
 					.path-segment
 						flex: none
 						display: flex
@@ -281,6 +295,7 @@ async function editEntry (entry) {
 								flex: none
 								height: calc(var(--remaining) * (100% - 26px))
 					&:not(.reached)
+						margin-bottom: 128px
 						.waypoint
 							width: 22px
 							height: @width
@@ -330,12 +345,14 @@ async function editEntry (entry) {
 							width: 72px
 
 		#btn-add-entry
+			position: fixed
+			right: 16px
+			bottom: 16px
 			icon-button-style(style: flat, color: $clr-white)
 			background-color: $clr-primary
 			height: 48px
 			width: @height
 			align-self: flex-end
-			margin: 16px
 			.mdi
 				font-size: 32px
 	.profile-link
