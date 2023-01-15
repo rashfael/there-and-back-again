@@ -15,6 +15,7 @@ function miToKm (mi) {
 }
 
 const {
+	journeys,
 	entries
 } = $(store)
 
@@ -23,9 +24,12 @@ const travelledDistance = $computed(() => {
 })
 
 const journey = $computed(() => {
+	const activeJourneyId = journeys.find(journey => !journey.finished_at)?.journey
+	if (!activeJourneyId) return
+	const activeJourneyData = journeyData.find(journey => journey.id === activeJourneyId)
 	const journey = {
-		...journeyData[0],
-		legs: journeyData[0].legs.map(leg => ({
+		...activeJourneyData[0],
+		legs: activeJourneyData[0].legs.map(leg => ({
 			...leg,
 			distance: miToKm(leg.length_miles) * 1000
 		}))
@@ -92,27 +96,34 @@ store.fetchEntries()
 		bunt-button#btn-create-entry(type="submit") Create Entry
 	bunt-tabs(v-else, :active-tab="activeTab")
 		bunt-tab(id="journey", header="journey")
-			.journey
-				.text
-					h3.name {{ journey.name }}
-					.description {{ journey.description }}
-				.distances
-					.travelled {{ (travelledDistance / 1000).toFixed(2) }} km
-					span /
-					.total {{ (journey.totalDistance / 1000).toFixed(2) }} km
-			.journey-legs
-				template(v-for="(leg, index) of journey.legs")
-					.journey-leg(v-if="leg.show", :class="{start: index === 0, end: index === journey.legs.length - 1, reached: leg.remainingDistance === 0}")
-						.path-segment
-							.waypoint
-							template(v-if="journey.legs[index + 1].show")
-								.path.partial(v-if="journey.legs[index + 1].remainingDistance > 0", :style="{'--remaining': journey.legs[index + 1].remainingDistance / journey.legs[index + 1].distance}")
-								.path(:class="{ remaining: journey.legs[index + 1].remainingDistance > 0 }")
-						.content
-							.waypoint-info
-								.directions {{ leg.directions }}
-								.distance {{ (leg.distance / 1000).toFixed(2) }} km
-							.quote(v-if="leg.remainingDistance === 0") {{ leg.quote }}
+			.journey-chooser(v-if="!journey")
+				h2 Choose a Journey
+				.journeys
+					.journey(v-for="journey of journeyData", @click="store.startJourney(journey.id)")
+						.name {{ journey.name }}
+						.length {{ Math.ceil(miToKm(journey.length_miles)) }} km
+			.journey-tracker(v-else)
+				.journey
+					.text
+						h3.name {{ journey.name }}
+						.description {{ journey.description }}
+					.distances
+						.travelled {{ (travelledDistance / 1000).toFixed(2) }} km
+						span /
+						.total {{ (journey.totalDistance / 1000).toFixed(2) }} km
+				.journey-legs
+					template(v-for="(leg, index) of journey.legs")
+						.journey-leg(v-if="leg.show", :class="{start: index === 0, end: index === journey.legs.length - 1, reached: leg.remainingDistance === 0}")
+							.path-segment
+								.waypoint
+								template(v-if="journey.legs[index + 1].show")
+									.path.partial(v-if="journey.legs[index + 1].remainingDistance > 0", :style="{'--remaining': journey.legs[index + 1].remainingDistance / journey.legs[index + 1].distance}")
+									.path(:class="{ remaining: journey.legs[index + 1].remainingDistance > 0 }")
+							.content
+								.waypoint-info
+									.directions {{ leg.directions }}
+									.distance {{ (leg.distance / 1000).toFixed(2) }} km
+								.quote(v-if="leg.remainingDistance === 0") {{ leg.quote }}
 						
 		bunt-tab(id="log", header="log")
 			.log-entries(v-scrollbar.y="")
@@ -152,73 +163,92 @@ form.add-entry
 	justify-content: space-between
 	.bunt-tabs
 		tabs-style()
-	.journey
-		padding: 16px
-		margin-bottom: 16px
-		border-bottom: border-separator()
-		display: flex
-		justify-content: space-between
-		.name
-			margin: 0
-		.distances
-			display: flex
-			align-items: center
-			.travelled
-				font-weight: bold
-				margin-right: 4px
-			.total
-				margin-left: 4px
-				color: $clr-gray-600
-	.journey-legs
+	.journey-chooser
 		display: flex
 		flex-direction: column
-		.journey-leg
-			// height: 56px
+		h2
+			text-align: center
+		.journeys
 			display: flex
-			align-items: flex-start
-			padding: 0 16px 0 0
-			.path-segment
-				flex: none
+			flex-direction: column
+			.journey
+				height: 48px
+				font-size: 18px
 				display: flex
-				flex-direction: column
+				justify-content: space-between
 				align-items: center
-				width: 48px
-				align-self: stretch
-				.waypoint
+				padding: 0 16px
+				cursor: pointer
+				&:hover
+					background-color: $clr-grey-100
+	.journey-tracker
+		.journey
+			padding: 16px
+			margin-bottom: 16px
+			border-bottom: border-separator()
+			display: flex
+			justify-content: space-between
+			.name
+				margin: 0
+			.distances
+				display: flex
+				align-items: center
+				.travelled
+					font-weight: bold
+					margin-right: 4px
+				.total
+					margin-left: 4px
+					color: $clr-gray-600
+		.journey-legs
+			display: flex
+			flex-direction: column
+			.journey-leg
+				// height: 56px
+				display: flex
+				align-items: flex-start
+				padding: 0 16px 0 0
+				.path-segment
 					flex: none
-					width: 18px
-					height: @width
-					border: 4px solid $clr-green-800
-					border-radius: 50%
-				.path
-					flex: auto
-					width: 4px
-					background: $clr-green-800
-					&.remaining
-						width: 2px
-						background: transparent
-						background-image: repeating-linear-gradient(transparent, transparent 6px, $clr-disabled-text-light 6px, $clr-disabled-text-light 12px)
-					&.partial
-						flex: none
-						height: calc(var(--remaining) * (100% - 26px))
-			&:not(.reached)
-				.waypoint
-					width: 22px
-					height: @width
-					border: 2px dashed $clr-disabled-text-light
-			.content
-				flex: auto
-				margin: 5.5px 0 4px 0
-				.waypoint-info
 					display: flex
-					justify-content: space-between
-					.distance
-						white-space: nowrap
-				.quote
-					margin-top: 6px
-					color: $clr-secondary-text-light
-					font-style: italic
-				
+					flex-direction: column
+					align-items: center
+					width: 48px
+					align-self: stretch
+					.waypoint
+						flex: none
+						width: 18px
+						height: @width
+						border: 4px solid $clr-green-800
+						border-radius: 50%
+					.path
+						flex: auto
+						width: 4px
+						background: $clr-green-800
+						&.remaining
+							width: 2px
+							background: transparent
+							background-image: repeating-linear-gradient(transparent, transparent 6px, $clr-disabled-text-light 6px, $clr-disabled-text-light 12px)
+						&.partial
+							flex: none
+							height: calc(var(--remaining) * (100% - 26px))
+				&:not(.reached)
+					.waypoint
+						width: 22px
+						height: @width
+						border: 2px dashed $clr-disabled-text-light
+				.content
+					flex: auto
+					margin: 5.5px 0 4px 0
+					.waypoint-info
+						display: flex
+						justify-content: space-between
+						.distance
+							white-space: nowrap
+					.quote
+						margin-top: 6px
+						color: $clr-secondary-text-light
+						font-style: italic
+					
 	.log-entries
 		display: flex
 		flex-direction: column

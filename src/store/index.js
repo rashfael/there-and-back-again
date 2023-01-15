@@ -80,6 +80,7 @@ export function mapActions (store, arrOrObj) {
 const store = createStore('store', {
 	state: () => ({
 		user: null,
+		journeys: [],
 		entries: []
 	}),
 	getters: {},
@@ -95,12 +96,29 @@ const store = createStore('store', {
 			if (error) console.error(error)
 			this.user = user
 		},
+		async fetchJourneys () {
+			const { data: journeys, error } = await supabase
+				.from('journeys')
+				.select('*')
+			if (error) console.error(error)
+			this.journeys = journeys
+		},
 		async fetchEntries () {
 			const { data: entries, error } = await supabase
 				.from('entries')
 				.select('*')
 			if (error) console.error(error)
 			this.entries = entries
+		},
+		async startJourney (journey) {
+			const { data, error } = await supabase
+				.from('journeys')
+				.insert({
+					journey
+				})
+				.select()
+			if (error) return console.error(error)
+			this.journeys.push(data[0])
 		},
 		async createEntry (entry) {
 			const { data, error } = await supabase
