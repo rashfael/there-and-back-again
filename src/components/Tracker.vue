@@ -113,7 +113,7 @@ async function editEntry (entry) {
 .c-tracker
 	.map
 		img(src="~~/assets/middle-earth.svg")
-		svg.paths(:viewBox="journey.paths_viewbox")
+		svg.paths(v-if="journey", :viewBox="journey.paths_viewbox")
 			path.remaining(v-for="path in paths", :d="path.d")
 			template(v-for="path in paths")
 				path(v-if="path.travelledDistance > 0", :d="path.d",:style="path.style", pathLength="1")
