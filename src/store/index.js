@@ -107,10 +107,8 @@ const store = createStore('store', {
 		},
 		async loadData () {
 			this.loading = true
-			await Promise.all([
-				this.fetchJourneys(),
-				this.fetchEntries()
-			])
+			await this.fetchJourneys()
+			await this.fetchEntries()
 			this.loading = false
 		},
 		async fetchJourneys () {
@@ -124,6 +122,7 @@ const store = createStore('store', {
 			const { data: entries, error } = await supabase
 				.from('entries')
 				.select('*')
+				.eq('journey_id', this.activeJourney?.id)
 			if (error) console.error(error)
 			this.entries = entries
 		},
@@ -136,6 +135,19 @@ const store = createStore('store', {
 				.select()
 			if (error) return console.error(error)
 			this.journeys.push(data[0])
+			await this.fetchEntries()
+		},
+		async abortActiveJourney () {
+			const { data, error } = await supabase
+				.from('journeys')
+				.update({
+					finished_at: new Date()
+				})
+				.eq('id', this.activeJourney.id)
+				.select()
+			if (error) return console.error(error)
+			this.activeJourney.finished_at = data[0].finished_at
+			this.journeys = []
 		},
 		async createEntry (entry) {
 			const { data, error } = await supabase

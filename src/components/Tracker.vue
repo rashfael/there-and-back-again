@@ -2,6 +2,8 @@
 import moment from 'moment'
 import store from '~/store'
 import Scrollbars from '~/components/Scrollbars.vue'
+import Fellowship from '~/components/Fellowship.vue'
+import AbortJourneyPrompt from './AbortJourneyPrompt.vue'
 
 import journeyData from '../../data/data.json'
 
@@ -84,6 +86,7 @@ const paths = $computed(() => {
 
 let showingAddEntryForm = $ref(false)
 let activeTab = $ref('journey')
+let showingAbortJourneyPrompt = $ref(false)
 
 let newEntry = $ref(null)
 
@@ -128,7 +131,7 @@ async function editEntry (entry) {
 			bunt-tab(id="journey", header="journey")
 				.journey-chooser(v-if="!journey")
 					h2 Choose a Journey
-					.journeys
+					.journeys(v-scrollbar.y="")
 						.journey(v-for="journey of journeyData", @click="store.startJourney(journey.id)")
 							.name {{ journey.name }}
 							.length {{ Math.ceil(miToKm(journey.length_miles)) }} km
@@ -137,10 +140,13 @@ async function editEntry (entry) {
 						.text
 							h3.name {{ journey.name }}
 							.description {{ journey.description }}
-						.distances
-							.travelled {{ (travelledDistance / 1000).toFixed(2) }} km
-							span /
-							.total {{ (journey.totalDistance / 1000).toFixed(2) }} km
+						.da-container
+							.actions
+									bunt-icon-button#btn-abort-journey(@click="showingAbortJourneyPrompt = true") sign-direction-remove
+							.distances
+								.travelled {{ (travelledDistance / 1000).toFixed(2) }} km
+								span /
+								.total {{ (journey.totalDistance / 1000).toFixed(2) }} km
 					Scrollbars.journey-legs-scroller(y)
 						.journey-legs
 							template(v-for="(leg, index) of journey.legs")
@@ -165,9 +171,13 @@ async function editEntry (entry) {
 						.actions
 							bunt-icon-button#btn-edit-entry(@click="editEntry(entry)") pencil
 							bunt-icon-button#btn-delete-entry(v-if="index === entries.length - 1", @click="store.deleteEntry(entry)") delete-outline
-		bunt-icon-button#btn-add-entry(@click="showAddEntryForm") plus
+			bunt-tab(id="fellowship", header="fellowship")
+				Fellowship
+		bunt-icon-button#btn-add-entry(v-if="activeTab !== 'fellowship'", @click="showAddEntryForm") plus
 	router-link.profile-link(:to="{ name: 'profile' }")
 		img(:src="user.profile.avatar_url")
+	transition(name="prompt")
+	AbortJourneyPrompt(v-if="showingAbortJourneyPrompt", @close="showingAbortJourneyPrompt = false")
 #bunt-teleport-target
 </template>
 <style lang="stylus">
@@ -222,12 +232,14 @@ async function editEntry (entry) {
 		.journey-chooser
 			display: flex
 			flex-direction: column
+			min-height: 0
 			h2
 				text-align: center
 			.journeys
 				display: flex
 				flex-direction: column
 				.journey
+					flex: none
 					height: 48px
 					font-size: 18px
 					display: flex
@@ -248,6 +260,16 @@ async function editEntry (entry) {
 				justify-content: space-between
 				.name
 					margin: 0
+				.da-container
+					margin-top: -7px
+					display: flex
+					flex-direction: column
+					gap: 4px
+					.actions
+						display: flex
+						justify-content: flex-end
+					#btn-abort-journey
+						icon-button-style(style: clear)
 				.distances
 					display: flex
 					align-items: center
