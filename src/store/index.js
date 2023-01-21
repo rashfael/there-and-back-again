@@ -2,6 +2,9 @@ import { computed, reactive, watch } from 'vue'
 
 import supabase from '~/supabase'
 
+import journeyData from '../../data/data.json'
+import { miToKm } from '~/lib/utils'
+
 window.stores = {}
 
 // creates a simple reactive instance with:
@@ -85,8 +88,38 @@ const store = createStore('store', {
 		entries: []
 	}),
 	getters: {
+		travelledDistance () {
+			return this.entries?.reduce((sum, entry) => sum + entry.distance, 0)
+		},
 		activeJourney () {
-			return this.journeys?.find(journey => !journey.finished_at)
+			const activeJourney = this.journeys?.find(journey => !journey.finished_at)
+			if (!activeJourney) return
+			const activeJourneyData = journeyData.find(journey => journey.id === activeJourney.journey)
+			const journey = {
+				...activeJourneyData,
+				...activeJourney,
+				legs: activeJourneyData.legs.map(leg => ({
+					...leg,
+					distance: miToKm(leg.length_miles) * 1000
+				}))
+			}
+
+			journey.totalDistance = journey.legs.reduce((sum, leg) => sum + leg.distance, 0)
+
+			let remainingDistance = this.travelledDistance
+			for (const leg of journey.legs) {
+				if (remainingDistance <= 0) {
+					leg.remainingDistance = leg.distance
+					leg.show = false
+					continue
+				}
+				leg.remainingDistance = Math.max(0, leg.distance - remainingDistance)
+				remainingDistance -= leg.distance
+				leg.show = true
+			}
+			journey.legs[0].show = true
+
+			return journey
 		}
 	},
 	actions: {
