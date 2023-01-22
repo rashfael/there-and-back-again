@@ -65,6 +65,60 @@ let userPinStyle = $computed(() => {
 	}
 })
 
+let zoomLevel = $ref(2)
+let panPosition = $ref({ x: 0, y: 0 })
+
+let mapEl = $ref(null)
+
+let mapSvgScale = $computed(() => {
+	if (!mapEl) return
+	const mapRect = mapEl.getBoundingClientRect()
+	// HACK
+	return 1 / (mapRect.height / 2400)
+})
+
+let mapStyle = $computed(() => {
+	return {
+		'--zoom': zoomLevel,
+		'--pan-x': panPosition.x,
+		'--pan-y': panPosition.y,
+		'--svg-scale': mapSvgScale
+	}
+})
+
+function onMapWheel (event) {
+	event.preventDefault()
+	zoomLevel = Math.max(1, zoomLevel - event.deltaY / 1000)
+}
+
+function onMapPointerDown (event) {
+	event.preventDefault()
+	// capture pointer and move map
+	mapEl.setPointerCapture(event.pointerId)
+	let lastPosition = {
+		x: event.clientX,
+		y: event.clientY
+	}
+	function onPointerMove (event) {
+		event.preventDefault()
+		panPosition = {
+			x: panPosition.x + (event.clientX - lastPosition.x),
+			y: panPosition.y + (event.clientY - lastPosition.y)
+		}
+		lastPosition = {
+			x: event.clientX,
+			y: event.clientY
+		}
+	}
+	function onPointerUp (event) {
+		// mapEl.releasePointerCapture(event.pointerId)
+		mapEl.removeEventListener('pointermove', onPointerMove)
+		mapEl.removeEventListener('pointerup', onPointerUp)
+	}
+	mapEl.addEventListener('pointermove', onPointerMove)
+	mapEl.addEventListener('pointerup', onPointerUp)
+}
+
 let showingAddEntryForm = $ref(false)
 let activeTab = $ref(route.name)
 
@@ -95,7 +149,7 @@ watch(() => activeTab, () => {
 </script>
 <template lang="pug">
 .c-tracker
-	.map
+	.map(ref="mapEl", :style="mapStyle", @wheel="onMapWheel", @pointerdown="onMapPointerDown")
 		img(src="~~/assets/middle-earth.svg")
 		svg.paths(v-if="journey", :viewBox="`${journey.paths_viewbox.x} ${journey.paths_viewbox.y} ${journey.paths_viewbox.width} ${journey.paths_viewbox.height}`")
 			path.remaining(v-for="path in paths", ref="pathEls", :d="path.d")
@@ -130,6 +184,10 @@ watch(() => activeTab, () => {
 		display: flex
 		justify-content: center
 		position: relative
+		overflow: hidden
+		> img
+			transform: translate(calc(var(--pan-x) * 1px), calc(var(--pan-y) * 1px)) scale(var(--zoom))
+			transform-origin: top left
 		svg.paths
 			position: absolute
 			top: 0
@@ -138,11 +196,14 @@ watch(() => activeTab, () => {
 			height: 100%
 			path
 				stroke: $clr-success
-				stroke-width: 8px
+				stroke-width: 4px
 				fill: none
+				vector-effect: non-scaling-stroke
 				stroke-dasharray: var(--travelled-distance-ratio) 1
+				transform: translate(calc(var(--pan-x) * 1px * var(--svg-scale)), calc(var(--pan-y) * 1px * var(--svg-scale))) scale(var(--zoom))
+				transform-origin: top left
 				&.remaining
-					stroke: $clr-danger
+					stroke: $clr-blue
 					stroke-dasharray: 10 16
 		.user-pin-plane
 			position: absolute
@@ -153,9 +214,9 @@ watch(() => activeTab, () => {
 			margin: 0 auto
 		.user-pin
 			position: absolute
-			left: calc(var(--user-x) * 100% - 12px)
-			top: calc(var(--user-y) * 100% - 24px)
-			background-color: $clr-primary
+			left: calc(var(--user-x) * var(--zoom) * 100% + var(--pan-x) * 1px - 12px)
+			top: calc(var(--user-y) * var(--zoom) * 100% + var(--pan-y) * 1px - 24px)
+			background-color: $clr-success
 			height: 24px
 			width: 24px
 			border-radius: 50% 50% 50% 0
