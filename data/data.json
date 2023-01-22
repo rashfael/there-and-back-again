@@ -15,7 +15,12 @@
       "Pippin",
       "Aragorn"
     ],
-    "paths_viewbox": "0 0 3200 2400",
+    "paths_viewbox": {
+      "x": 0,
+      "y": 0,
+      "height": 2400,
+      "width": 3200
+    },
     "legs": [
       {
         "length_miles": 0.0,

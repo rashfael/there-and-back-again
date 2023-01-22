@@ -39,6 +39,32 @@ const paths = $computed(() => {
 	return paths
 })
 
+let pathEls = $ref([])
+
+// TODO recompute on resize
+
+let userPosition = $computed(() => {
+	if (pathEls.length === 0) return
+	for (const [index, path] of paths.entries()) {
+		if (path.travelledDistance === path.totalDistance) continue
+		const pathEl = pathEls[index]
+		const travelledDistance = pathEl.getTotalLength() * path.travelledDistance / path.totalDistance
+		const travelledPoint = pathEl.getPointAtLength(travelledDistance)
+		return {
+			x: travelledPoint.x / journey.paths_viewbox.width,
+			y: travelledPoint.y / journey.paths_viewbox.height
+		}
+	}
+})
+
+let userPinStyle = $computed(() => {
+	if (!userPosition) return
+	return {
+		'--user-x': userPosition.x,
+		'--user-y': userPosition.y
+	}
+})
+
 let showingAddEntryForm = $ref(false)
 let activeTab = $ref(route.name)
 
@@ -71,10 +97,13 @@ watch(() => activeTab, () => {
 .c-tracker
 	.map
 		img(src="~~/assets/middle-earth.svg")
-		svg.paths(v-if="journey", :viewBox="journey.paths_viewbox")
-			path.remaining(v-for="path in paths", :d="path.d")
+		svg.paths(v-if="journey", :viewBox="`${journey.paths_viewbox.x} ${journey.paths_viewbox.y} ${journey.paths_viewbox.width} ${journey.paths_viewbox.height}`")
+			path.remaining(v-for="path in paths", ref="pathEls", :d="path.d")
 			template(v-for="path in paths")
 				path(v-if="path.travelledDistance > 0", :d="path.d",:style="path.style", pathLength="1")
+		.user-pin-plane
+			.user-pin(:style="userPinStyle")
+				img(:src="user.profile.avatar_url")
 	.sidebar
 		form.add-entry(v-if="showingAddEntryForm", @submit.prevent="createEntry")
 			bunt-input(v-model="newEntry.distance", name="distance", label="Distance", type="number", hint="in meters")
@@ -115,6 +144,28 @@ watch(() => activeTab, () => {
 				&.remaining
 					stroke: $clr-danger
 					stroke-dasharray: 10 16
+		.user-pin-plane
+			position: absolute
+			top: 0
+			height: 100%
+			// HACK
+			aspect-ratio: 3200/2400
+			margin: 0 auto
+		.user-pin
+			position: absolute
+			left: calc(var(--user-x) * 100% - 12px)
+			top: calc(var(--user-y) * 100% - 24px)
+			background-color: $clr-primary
+			height: 24px
+			width: 24px
+			border-radius: 50% 50% 50% 0
+			padding: 3px
+			transform: rotate(-45deg)
+			img
+				height: 100%
+				width: @height
+				border-radius: 50%
+				transform: rotate(45deg)
 
 	form.add-entry
 		display: flex
