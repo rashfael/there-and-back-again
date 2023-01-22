@@ -84,6 +84,8 @@ const store = createStore('store', {
 	state: () => ({
 		loading: false,
 		user: null,
+		friendRequests: [],
+		friends: [],
 		journeys: [],
 		entries: []
 	}),
@@ -142,6 +144,13 @@ const store = createStore('store', {
 			this.loading = true
 			await this.fetchJourneys()
 			await this.fetchEntries()
+			await this.fetchFriendRequests()
+			await this.fetchFriends()
+			// TODO as one request?
+			for (const friend of this.friends) {
+				await this.fetchFriendJourneys(friend)
+				await this.fetchFriendEntries(friend)
+			}
 			this.loading = false
 		},
 		async fetchJourneys () {
@@ -158,6 +167,38 @@ const store = createStore('store', {
 				.eq('journey_id', this.activeJourney?.id)
 			if (error) console.error(error)
 			this.entries = entries
+		},
+		async fetchFriendRequests () {
+			const { data: friendRequests, error } = await supabase
+				.from('friends')
+				.select('*')
+				.eq('accepted', false)
+			if (error) console.error(error)
+			this.friendRequests = friendRequests
+		},
+		async fetchFriends () {
+			const { data: friends, error } = await supabase
+				.from('profiles')
+				.select('*')
+				.neq('id', this.user.id)
+			if (error) console.error(error)
+			this.friends = friends
+		},
+		async fetchFriendJourneys (friend) {
+			const { data: journeys, error } = await supabase
+				.from('journeys')
+				.select('*')
+				.eq('user_id', friend.id)
+			if (error) console.error(error)
+			friend.journeys = journeys
+		},
+		async fetchFriendEntries (friend) {
+			const { data: entries, error } = await supabase
+				.from('entries')
+				.select('*')
+				.eq('user_id', friend.id)
+			if (error) console.error(error)
+			friend.entries = entries
 		},
 		async startJourney (journey) {
 			const { data, error } = await supabase
@@ -211,6 +252,42 @@ const store = createStore('store', {
 			if (error) return console.error(error)
 			const index = this.entries.findIndex(e => e.id === entry.id)
 			this.entries.splice(index, 1)
+		},
+		async sendFellowshipRequest (userId) {
+			// don't self friend-request
+			if (userId === this.user.id) return
+			const { data, error } = await supabase
+				.from('friends')
+				.insert({
+					from_id: this.user.id,
+					to_id: userId
+				})
+				.select()
+			if (error) return console.error(error)
+			this.friends.push(data)
+		},
+		async deleteFellowshipRequest (friend) {
+			const { error } = await supabase
+				.from('friends')
+				.delete()
+				.or(`from_id.eq.${friend.id},to_id.eq.${friend.id}`)
+
+			if (error) return console.error(error)
+			const index = this.friends.findIndex(f => f.id === friend.id)
+			this.friends.splice(index, 1)
+		},
+		async acceptFellowshipRequest (friend) {
+			const { error } = await supabase
+				.from('friends')
+				.update({
+					accepted: true
+				})
+				.eq('from_id', friend.id)
+			if (error) return console.error(error)
+			const friendRequest = this.friendRequests.find(fr => fr.from_id === friend.id)
+			if (friendRequest) friendRequest.accepted = true
+			await this.fetchFriendJourneys(friend)
+			await this.fetchFriendEntries(friend)
 		}
 	}
 })

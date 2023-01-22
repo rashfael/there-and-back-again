@@ -3,7 +3,8 @@ import store from '~/store'
 
 const MODE_ICON_MAP = {
 	walk: 'walk',
-	bike: 'bike',
+	run: 'run',
+	ride: 'bike',
 	horse: 'horse-human'
 }
 
