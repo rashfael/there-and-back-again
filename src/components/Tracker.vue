@@ -84,7 +84,14 @@ function onMapResize ([entry]) {
 }
 
 function onMapWheel (event) {
-	zoomLevel = Math.max(0.1, zoomLevel - event.deltaY / 1000)
+	// zoom on mouse position
+	const zoomDelta = -1 * event.deltaY / 1000
+	const zoomRatio = 1 - (zoomLevel + zoomDelta) / zoomLevel
+	panPosition = {
+		x: panPosition.x + (event.offsetX - panPosition.x) * zoomRatio,
+		y: panPosition.y + (event.offsetY - panPosition.y) * zoomRatio
+	}
+	zoomLevel = Math.max(0.1, zoomLevel + zoomDelta)
 }
 
 function onMapPointerDown (event) {
