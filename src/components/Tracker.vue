@@ -202,8 +202,8 @@ watch(() => activeTab, () => {
 				transform: translate(calc(var(--pan-x) * 1px * var(--svg-scale)), calc(var(--pan-y) * 1px * var(--svg-scale))) scale(var(--zoom))
 				transform-origin: top left
 				&.remaining
-					stroke: $clr-blue
-					stroke-dasharray: 10 16
+					stroke: $clr-green-a700
+					stroke-dasharray: 16 6
 		.user-pin-plane
 			position: absolute
 			top: 0
