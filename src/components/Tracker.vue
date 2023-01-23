@@ -1,5 +1,5 @@
 <script setup>
-import { watch } from 'vue'
+import { watch, watchEffect } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import moment from 'moment'
 import store from '~/store'
@@ -41,8 +41,6 @@ const paths = $computed(() => {
 
 let pathEls = $ref([])
 
-// TODO recompute on resize
-
 let userPosition = $computed(() => {
 	if (pathEls.length === 0) return
 	for (const [index, path] of paths.entries()) {
@@ -61,7 +59,7 @@ let userPinStyle = $computed(() => {
 	}
 })
 
-let zoomLevel = $ref(1)
+let zoomLevel = $ref(2)
 let panPosition = $ref({ x: 0, y: 0 })
 
 let mapEl = $ref(null)
@@ -76,8 +74,17 @@ let mapStyle = $computed(() => {
 	}
 })
 
+let mapDimensions = $ref(null)
+
+function onMapResize ([entry]) {
+	mapDimensions = {
+		height: entry.contentRect.height,
+		width: entry.contentRect.width
+	}
+}
+
 function onMapWheel (event) {
-	zoomLevel = Math.max(1, zoomLevel - event.deltaY / 1000)
+	zoomLevel = Math.max(0.1, zoomLevel - event.deltaY / 1000)
 }
 
 function onMapPointerDown (event) {
@@ -100,13 +107,26 @@ function onMapPointerDown (event) {
 		}
 	}
 	function onPointerUp (event) {
-		// mapEl.releasePointerCapture(event.pointerId)
 		mapEl.removeEventListener('pointermove', onPointerMove)
 		mapEl.removeEventListener('pointerup', onPointerUp)
 	}
 	mapEl.addEventListener('pointermove', onPointerMove)
 	mapEl.addEventListener('pointerup', onPointerUp)
 }
+
+function centerPin () {
+	// TODO does not work on !1 zoom
+	panPosition = {
+		x: mapDimensions.width / 2 - userPosition.x * zoomLevel,
+		y: mapDimensions.height / 2 - userPosition.y * zoomLevel
+	}
+}
+
+const stopCentering = watchEffect(() => {
+	if (!userPosition || !mapDimensions) return
+	centerPin()
+	stopCentering()
+})
 
 let showingAddEntryForm = $ref(false)
 let activeTab = $ref(route.name)
@@ -138,7 +158,7 @@ watch(() => activeTab, () => {
 </script>
 <template lang="pug">
 .c-tracker
-	.map(ref="mapEl", :style="mapStyle", @wheel.passive="onMapWheel", @pointerdown="onMapPointerDown")
+	.map(ref="mapEl", :style="mapStyle", v-resize-observer="onMapResize", @wheel.passive="onMapWheel", @pointerdown="onMapPointerDown")
 		img(src="~~/assets/middle-earth.svg")
 		svg.paths(v-if="journey", :viewBox="`${journey.paths_viewbox.x} ${journey.paths_viewbox.y} ${journey.paths_viewbox.width} ${journey.paths_viewbox.height}`")
 			path.remaining(v-for="path in paths", ref="pathEls", :d="path.d")
