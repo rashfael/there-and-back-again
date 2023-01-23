@@ -49,11 +49,7 @@ let userPosition = $computed(() => {
 		if (path.travelledDistance === path.totalDistance) continue
 		const pathEl = pathEls[index]
 		const travelledDistance = pathEl.getTotalLength() * path.travelledDistance / path.totalDistance
-		const travelledPoint = pathEl.getPointAtLength(travelledDistance)
-		return {
-			x: travelledPoint.x / journey.paths_viewbox.width,
-			y: travelledPoint.y / journey.paths_viewbox.height
-		}
+		return pathEl.getPointAtLength(travelledDistance)
 	}
 })
 
@@ -65,24 +61,18 @@ let userPinStyle = $computed(() => {
 	}
 })
 
-let zoomLevel = $ref(2)
+let zoomLevel = $ref(1)
 let panPosition = $ref({ x: 0, y: 0 })
 
 let mapEl = $ref(null)
 
-let mapSvgScale = $computed(() => {
-	if (!mapEl) return
-	const mapRect = mapEl.getBoundingClientRect()
-	// HACK
-	return 1 / (mapRect.height / 2400)
-})
-
 let mapStyle = $computed(() => {
 	return {
+		'--map-height': journey.paths_viewbox.height,
+		'--map-width': journey.paths_viewbox.width,
 		'--zoom': zoomLevel,
 		'--pan-x': panPosition.x,
-		'--pan-y': panPosition.y,
-		'--svg-scale': mapSvgScale
+		'--pan-y': panPosition.y
 	}
 })
 
@@ -154,9 +144,8 @@ watch(() => activeTab, () => {
 			path.remaining(v-for="path in paths", ref="pathEls", :d="path.d")
 			template(v-for="path in paths")
 				path(v-if="path.travelledDistance > 0", :d="path.d",:style="path.style", pathLength="1")
-		.user-pin-plane(v-if="journey")
-			.user-pin(:style="userPinStyle")
-				img(:src="user.profile.avatar_url")
+		.user-pin(v-if="journey", :style="userPinStyle")
+			img(:src="user.profile.avatar_url")
 	.sidebar
 		form.add-entry(v-if="showingAddEntryForm", @submit.prevent="createEntry")
 			bunt-input(v-model="newEntry.distance", name="distance", label="Distance", type="number", hint="in meters")
@@ -179,13 +168,16 @@ watch(() => activeTab, () => {
 .c-tracker
 	flex: auto
 	display: flex
+	min-width: 0
+	min-height: 0
 	.map
 		flex: auto
 		display: flex
-		justify-content: center
 		position: relative
 		overflow: hidden
 		> img
+			height: calc(var(--map-height) * 1px)
+			width: calc(var(--map-width) * 1px)
 			transform: translate(calc(var(--pan-x) * 1px), calc(var(--pan-y) * 1px)) scale(var(--zoom))
 			transform-origin: top left
 			filter: saturate(0.5) opacity(0.85)
@@ -193,30 +185,24 @@ watch(() => activeTab, () => {
 			position: absolute
 			top: 0
 			left: 0
-			width: 100%
-			height: 100%
+			height: calc(var(--map-height) * 1px)
+			width: calc(var(--map-width) * 1px)
 			path
 				stroke: $clr-success
 				stroke-width: 4px
 				fill: none
 				vector-effect: non-scaling-stroke
-				stroke-dasharray: var(--travelled-distance-ratio) 1
-				transform: translate(calc(var(--pan-x) * 1px * var(--svg-scale)), calc(var(--pan-y) * 1px * var(--svg-scale))) scale(var(--zoom))
+				// HACK multiply by zoom or non-scaling-stroke won't work
+				stroke-dasharray: calc(var(--travelled-distance-ratio) * var(--zoom)) 999999
+				transform: translate(calc(var(--pan-x) * 1px), calc(var(--pan-y) * 1px)) scale(var(--zoom))
 				transform-origin: top left
 				&.remaining
 					stroke: $clr-green-a700
 					stroke-dasharray: 16 6
-		.user-pin-plane
-			position: absolute
-			top: 0
-			height: 100%
-			// HACK
-			aspect-ratio: 3200/2400
-			margin: 0 auto
 		.user-pin
 			position: absolute
-			left: calc(var(--user-x) * var(--zoom) * 100% + var(--pan-x) * 1px - 12px)
-			top: calc(var(--user-y) * var(--zoom) * 100% + var(--pan-y) * 1px - 24px)
+			left: calc(var(--user-x) * var(--zoom) * 1px + var(--pan-x) * 1px - 12px)
+			top: calc(var(--user-y) * var(--zoom) * 1px + var(--pan-y) * 1px - 24px)
 			background-color: $clr-success
 			height: 24px
 			width: 24px
