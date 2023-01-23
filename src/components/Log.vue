@@ -1,5 +1,6 @@
 <script setup>
 import store from '~/store'
+import moment from 'moment'
 
 const MODE_ICON_MAP = {
 	walk: 'walk',

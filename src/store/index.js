@@ -167,6 +167,7 @@ const store = createStore('store', {
 				.from('entries')
 				.select('*')
 				.eq('journey_id', this.activeJourney?.id)
+				.eq('user_id', this.user.id)
 			if (error) console.error(error)
 			this.entries = entries
 		},
