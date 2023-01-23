@@ -162,6 +162,7 @@ const store = createStore('store', {
 			this.journeys = journeys
 		},
 		async fetchEntries () {
+			if (!this.activeJourney) return
 			const { data: entries, error } = await supabase
 				.from('entries')
 				.select('*')

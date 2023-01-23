@@ -87,7 +87,6 @@ let mapStyle = $computed(() => {
 })
 
 function onMapWheel (event) {
-	event.preventDefault()
 	zoomLevel = Math.max(1, zoomLevel - event.deltaY / 1000)
 }
 
@@ -149,13 +148,13 @@ watch(() => activeTab, () => {
 </script>
 <template lang="pug">
 .c-tracker
-	.map(ref="mapEl", :style="mapStyle", @wheel="onMapWheel", @pointerdown="onMapPointerDown")
+	.map(ref="mapEl", :style="mapStyle", @wheel.passive="onMapWheel", @pointerdown="onMapPointerDown")
 		img(src="~~/assets/middle-earth.svg")
 		svg.paths(v-if="journey", :viewBox="`${journey.paths_viewbox.x} ${journey.paths_viewbox.y} ${journey.paths_viewbox.width} ${journey.paths_viewbox.height}`")
 			path.remaining(v-for="path in paths", ref="pathEls", :d="path.d")
 			template(v-for="path in paths")
 				path(v-if="path.travelledDistance > 0", :d="path.d",:style="path.style", pathLength="1")
-		.user-pin-plane
+		.user-pin-plane(v-if="journey")
 			.user-pin(:style="userPinStyle")
 				img(:src="user.profile.avatar_url")
 	.sidebar

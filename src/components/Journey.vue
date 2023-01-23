@@ -1,5 +1,6 @@
 <script setup>
 import store from '~/store'
+import { miToKm } from '~/lib/utils'
 import Scrollbars from '~/components/Scrollbars.vue'
 import AbortJourneyPrompt from './AbortJourneyPrompt.vue'
 
@@ -51,6 +52,9 @@ let showingAbortJourneyPrompt = $ref(false)
 </template>
 <style lang="stylus">
 .c-journey
+	display: flex
+	flex-direction: column
+	min-height: 0
 	.journey-chooser
 		display: flex
 		flex-direction: column

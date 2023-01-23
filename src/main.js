@@ -13,7 +13,7 @@ import '@mdi/font/css/materialdesignicons.css'
 
 import store from '~/store'
 
-store.signInWithGitHub()
+await store.signInWithGitHub()
 const app = createApp(App)
 app.use(Buntpapier)
 // use router
