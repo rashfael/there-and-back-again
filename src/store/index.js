@@ -137,6 +137,7 @@ const store = createStore('store', {
 			const { data: profile } = await supabase
 				.from('profiles')
 				.select('*')
+				.eq('id', user.id)
 			this.user = user
 			this.user.profile = profile?.[0]
 		},
