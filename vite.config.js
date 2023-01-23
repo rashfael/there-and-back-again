@@ -23,6 +23,9 @@ export default defineConfig({
 			styl: stylusOptions
 		}
 	},
+	build: {
+		target: 'esnext'
+	},
 	resolve: {
 		mainFields: ['browser', 'module', 'jsnext:main', 'jsnext'],
 		extensions: ['.js', '.json', '.vue'],
