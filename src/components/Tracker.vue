@@ -164,11 +164,12 @@ watch(() => activeTab, () => {
 			bunt-select(v-model="newEntry.mode", name="mode", label="Mode", :options="['walk', 'ride']")
 			bunt-input(v-model="newEntry.comment", name="comment", label="Comment")
 			bunt-button#btn-create-entry(type="submit") Create Entry
-		bunt-tabs(v-else, v-model="activeTab")
-			bunt-tab(id="journey", header="journey")
-			bunt-tab(id="log", header="log")
-			bunt-tab(id="fellowship", header="fellowship")
-		router-view
+		template(v-else)
+			bunt-tabs(v-model="activeTab")
+				bunt-tab(id="journey", header="journey")
+				bunt-tab(id="log", header="log")
+				bunt-tab(id="fellowship", header="fellowship")
+			router-view
 		bunt-icon-button#btn-add-entry(v-if="activeTab !== 'fellowship'", @click="showAddEntryForm") plus
 	router-link.profile-link(:to="{ name: 'profile' }")
 		img(:src="user.profile.avatar_url")
