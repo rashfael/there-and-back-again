@@ -207,7 +207,6 @@ watch(() => activeTab, () => {
 			width: calc(var(--map-width) * 1px)
 			transform: translate(calc(var(--pan-x) * 1px), calc(var(--pan-y) * 1px)) scale(var(--zoom))
 			transform-origin: top left
-			filter: saturate(0.5) opacity(0.85)
 		svg.paths
 			position: absolute
 			top: 0
