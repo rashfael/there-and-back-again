@@ -267,7 +267,13 @@ const store = createStore('store', {
 				})
 				.select()
 			if (error) return console.error(error)
-			this.friends.push(data)
+			this.friendRequests.push(...data)
+			const { data: friends, errorB } = await supabase
+				.from('profiles')
+				.select('*')
+				.eq('id', userId)
+			if (errorB) console.error(errorB)
+			this.friends.push(...friends)
 		},
 		async deleteFellowshipRequest (friend) {
 			const { error } = await supabase
