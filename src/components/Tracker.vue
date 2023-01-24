@@ -4,6 +4,13 @@ import { useRoute, useRouter } from 'vue-router'
 import moment from 'moment'
 import store from '~/store'
 
+const PATHS_VIEWBOX = {
+	x: 0,
+	y: 0,
+	height: 2400,
+	width: 3200
+}
+
 const router = useRouter()
 const route = useRoute()
 
@@ -31,7 +38,7 @@ const paths = $computed(() => {
 				travelledDistance: 0
 			}
 			paths.push(currentPath)
-		} else {
+		} else if (currentPath) {
 			currentPath.totalDistance += leg.distance
 			currentPath.travelledDistance += leg.distance - leg.remainingDistance
 		}
@@ -66,8 +73,8 @@ let mapEl = $ref(null)
 
 let mapStyle = $computed(() => {
 	return {
-		'--map-height': journey.paths_viewbox.height,
-		'--map-width': journey.paths_viewbox.width,
+		'--map-height': PATHS_VIEWBOX.height,
+		'--map-width': PATHS_VIEWBOX.width,
 		'--zoom': zoomLevel,
 		'--pan-x': panPosition.x,
 		'--pan-y': panPosition.y
@@ -167,7 +174,7 @@ watch(() => activeTab, () => {
 .c-tracker
 	.map(ref="mapEl", :style="mapStyle", v-resize-observer="onMapResize", @wheel.passive="onMapWheel", @pointerdown="onMapPointerDown")
 		img(src="~~/assets/middle-earth.svg")
-		svg.paths(v-if="journey", :viewBox="`${journey.paths_viewbox.x} ${journey.paths_viewbox.y} ${journey.paths_viewbox.width} ${journey.paths_viewbox.height}`")
+		svg.paths(v-if="journey", :viewBox="`${PATHS_VIEWBOX.x} ${PATHS_VIEWBOX.y} ${PATHS_VIEWBOX.width} ${PATHS_VIEWBOX.height}`")
 			path.remaining(v-for="path in paths", ref="pathEls", :d="path.d")
 			template(v-for="path in paths")
 				path(v-if="path.travelledDistance > 0", :d="path.d",:style="path.style", pathLength="1")
