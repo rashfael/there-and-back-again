@@ -226,7 +226,7 @@ watch(() => activeTab, () => {
 				fill: none
 				vector-effect: non-scaling-stroke
 				// HACK multiply by zoom or non-scaling-stroke won't work
-				stroke-dasharray: calc(var(--travelled-distance-ratio) * var(--zoom)) 999999
+				stroke-dasharray: calc(var(--travelled-distance-ratio) * var(--zoom) * 1px) 999999
 				transform: translate(calc(var(--pan-x) * 1px), calc(var(--pan-y) * 1px)) scale(var(--zoom))
 				transform-origin: top left
 				&.remaining
