@@ -24,6 +24,7 @@
         "quote": "‘Well, now we’re off at last!’ said Frodo. They shouldered their packs and took up their sticks, and walked round the corner to the west side of Bag End. ‘Good-bye!’ said Frodo, looking at the dark blank windows. He waved his hand, and then turned and (following Bilbo, if he had known it) hurried after Peregrin down the garden-path. They jumped over the low place in the hedge at the bottom and took to the fields, passing into the darkness like a rustle in the grasses.",
         "optional": false,
         "id": "LOTR-BEGIN-1",
+        "place": "Hobbiton",
         "path": "m 820.04422,660.86957 c 17.9639,36.26047 18.19169,63.61732 42.47144,56.08609 18.74789,-5.81533 63.26203,-45.04795 70.12988,-38.40002 15.76217,15.25745 41.10417,25.79987 63.66314,23.76096 7.21752,-0.65233 26.93322,10.15737 30.12292,1.0749 5.9256,-16.87225 14.6885,-27.78354 14.6885,-27.78354"
       },
       {
@@ -60,6 +61,7 @@
         "directions": "Cross the great road from the Brandywine Bridge. Enter Tookland.",
         "quote": "A mile or two further south they hastily crossed the great road from the Brandywine Bridge; they were now in the Tookland and bending south-eastwards they made for the Green Hill Country.",
         "optional": false,
+        "place": "Brandywine Bridge",
         "id": "LOTR-BEGIN-5"
       },
       {
@@ -538,6 +540,7 @@
         "directions": "Reach the Prancing Pony in Bree.",
         "quote": "There is an inn, a merry old inn\nbeneath an old grey hill,\nAnd there they brew a beer so brown\nThat the Man in the Moon himself came down\none night to drink his fill.",
         "optional": false,
+        "place": "Bree",
         "id": "LOTR-BEGIN-58"
       },
       {
@@ -682,6 +685,7 @@
         "day": "Oct. 6",
         "day_full": "12 miles",
         "directions": "Climb to the top of Weathertop and enter the ruins of the watch Tower of Amon S\u00fbl.",
+        "place": "Weathertop",
         "quote": "In that lonely place Frodo for the first time fully realized his homelessness and danger. He wished bitterly that his fortune had left him in the quiet and beloved Shire. He stared down at the hateful Road, leading back westward – to his home. Suddenly he was aware that two black specks were moving slowly along it, going westward; and looking again he saw that three others were creeping eastward to meet them.",
         "optional": false,
         "id": "LOTR-BEGIN-74"
@@ -781,6 +785,7 @@
         "day": "Oct. 13",
         "day_full": "7 miles",
         "directions": "Cross the River Hoarwell/Mitheithel.",
+        "place": "Last Bridge",
         "quote": "He held out his hand, and showed a single pale-green jewel. ‘I found it in the mud in the middle of the Bridge,’ he said. ‘It is a beryl, an elf-stone. Whether it was set there, or let fall by chance, I cannot say; but it brings hope to me. I will take it as a sign that we may pass the Bridge.’",
         "optional": false,
         "id": "LOTR-BEGIN-85"
@@ -1006,6 +1011,7 @@
         "day": "Oct. 20",
         "day_full": "18 miles",
         "directions": "Reach Rivendell.",
+        "place": "Rivendell",
         "quote": "The hall of Elrond’s house was filled with folk: Elves for the most part, though there were a few guests of other sorts. Elrond, as was his custom, sat in a great chair at the end of the long table upon the dais; and next to him on the one side sat Glorfindel, on the other side sat Gandalf.",
         "optional": false,
         "id": "LOTR-BEGIN-110"
@@ -1040,6 +1046,7 @@
         "day_full": null,
         "comment": "Leave Rivendell at dusk on Dec. 25.",
         "optional": false,
+        "place": "Rivendell",
         "id": "LOTR-MORIA-1"
       },
       {
@@ -1568,6 +1575,7 @@
         "day_full": "20 miles",
         "comment": "Reach the Doors of Moria. (ca. 6 p.m.). Release Bill. Spend ca. \u00bd hour at Gate seeking the password. ATTACK by the Watcher in the Water.",
         "optional": false,
+        "place": "Moria Gate",
         "id": "LOTR-MORIA-67"
       },
       {
@@ -1704,6 +1712,7 @@
         "day_full": null,
         "comment": "Durin\u2019s Stone and Mirrormere. Stop briefly, then continue south on road.",
         "optional": false,
+        "place": "Mirrormere",
         "id": "LOTR-MORIA-84"
       },
       {
@@ -1823,6 +1832,7 @@
         "day": "Jan. 17",
         "day_full": "32 miles",
         "comment": "Reach Gates of Caras Galadan (south side) and climb to meet Celeborn and Galadriel. Stay in Lothl\u00f3rien until February 16.",
+        "place": "Lorien",
         "optional": false,
         "id": "LOTR-MORIA-99"
       }
@@ -1855,6 +1865,7 @@
         "day_full": "31 miles (Hike + 7.5 hours on river)",
         "comment": "Leave Caras Galadon after breakfast. Lembas, cloaks\nand rope are provided. Haldir guides the Fellowship south and east through rolling woodlands, which fall away toward the rivers.",
         "optional": false,
+        "place": "Lorien",
         "id": "LOTR-BREAK-1"
       },
       {
@@ -1934,6 +1945,7 @@
         "day": "Feb. 18",
         "day_full": "36 miles (13 hours)",
         "comment": "Camp in flats north of the Field of Celebrant.",
+        "place": "Field of Celebrant",
         "optional": false,
         "id": "LOTR-BREAK-11"
       },
@@ -2199,6 +2211,7 @@
         "day_full": "40 miles (9+ hours)",
         "comment": "The Argonath. Boats are swept through the narrow gap between.",
         "optional": false,
+        "place": "Argonath",
         "id": "LOTR-BREAK-44"
       },
       {
@@ -2264,6 +2277,7 @@
         "day_full": "27 miles",
         "comment": "Breaking of the Fellowship. Pippin and Merry run from Parth Galen searching for Frodo (shortly before noon).",
         "optional": false,
+        "place": "Rauros",
         "id": "LOTR-TAKEN-1"
       },
       {
@@ -2496,6 +2510,7 @@
         "day_full": "54 miles",
         "comment": "Just short of the edge of Fangorn, the last 200 Orcs are encircled by the Rohirrim. Camp on a knoll. Night falls and clouds occasionally cover the moon.",
         "optional": false,
+        "place": "Fangorn",
         "id": "LOTR-TAKEN-30"
       },
       {
@@ -2928,6 +2943,7 @@
         "day_full": "0 miles",
         "comment": "Wormtongue arrives (ca. 9 a.m.). Treebeard sends him to Orthanc. Merry and Pippin find the store-room above the gate. Aragorn and others arrive with Th\u00e9oden and Gandalf (ca. noon). After eating, they ride to Orthanc.       Confrontation with Saruman.",
         "optional": true,
+        "place": "Isengard",
         "id": "LOTR-TAKEN-84"
       }
     ],
@@ -2954,6 +2970,7 @@
         "day_full": "12 miles",
         "comment": "Breaking of the Fellowship. Boromir slain. Pippin and Merry captured by orcs. Aragorn, Legolas and Gimli return to Parth Galen. Lay Boromir in one of the boats and send it over Rauros Falls. Seeing that Sam and Frodo have gone east, Aragorn chooses to rescue Merry and Pippin.",
         "optional": false,
+        "place": "Rauros",
         "id": "LOTR-CHASE-1"
       },
       {
@@ -3194,6 +3211,7 @@
         "day_full": "30 miles",
         "comment": "Reach Fangorn and find pyre of orcs (ca. 4 p.m.). Search area. Camp by trees. Build a fire. See Saruman. Horses flee, but meet Shadowfax.",
         "optional": false,
+        "place": "Fangorn",
         "id": "LOTR-CHASE-31"
       },
       {
@@ -3410,6 +3428,7 @@
         "day_full": "62 miles",
         "comment": "Climb to Meduseld, the Golden Hall of Edoras. Gandalf heals Th\u00e9oden. Rainy and windy as they exit the hall, but a shaft of sunlight shines through. \u00c9omer is freed. Grima departs. King orders Riders to prepare to ride. Eat. Leave ca. 1 p.m.",
         "optional": false,
+        "place": "Edoras",
         "id": "LOTR-CHASE-58"
       },
       {
@@ -3586,6 +3605,7 @@
         "day_full": "82 miles",
         "comment": "Reach the Hornburg: the fortress of Helm\u2019s Deep.",
         "optional": false,
+        "place": "Helm's Deep",
         "id": "LOTR-CHASE-80"
       },
       {
@@ -3642,6 +3662,7 @@
         "day_full": "40 miles",
         "comment": "Reach Fords (ca. 9:30 p.m.). The Isen is almost dry. Pass the burial mound of Erkenbrand\u2019s riders on an islet in the riverbed.",
         "optional": false,
+        "place": "Fords of Isen",
         "id": "LOTR-CHASE-87"
       },
       {
@@ -3714,6 +3735,7 @@
         "day_full": "16 miles",
         "comment": "Reach Orthanc. Confrontation with Saruman.",
         "optional": false,
+        "place": "Isengard",
         "id": "LOTR-CHASE-96"
       }
     ],
@@ -3739,6 +3761,7 @@
         "day_full": "10 miles",
         "comment": "Breaking of the Fellowship. Noon. Frodo decides to go to Mordor alone, but Sam guesses. Reaches lake as Frodo is leaving. They go together.",
         "optional": false,
+        "place": "Rauros",
         "id": "LOTR-DOOOM-1"
       },
       {
@@ -4162,6 +4185,7 @@
         "day": "March \u00bd",
         "day_full": "15 miles",
         "comment": "Sam falls, sees dead faces in the water (from Battle of the Last Alliance).",
+        "place": "Dead Marshes",
         "optional": false,
         "id": "LOTR-DOOOM-54"
       },
@@ -4691,6 +4715,7 @@
         "day_full": "12 miles THE DAWNLESS DAY",
         "comment": "On a high shelf overlooking the city Frodo stops. The Morgul-host marches forth.",
         "optional": false,
+        "place": "Minas Morgul",
         "id": "LOTR-DOOOM-120"
       },
       {
@@ -5395,6 +5420,7 @@
         "day_full": "4 miles\n The Day of Doom",
         "comment": "Eagles rescue Frodo and Sam and carry them to the Morannon.\nNote: Why the Morannon instead of the Field of Cormallen? \n1) Gandalf is with the Eagles when Frodo and Sam are rescued, yet he is back at the Morannon after the battle in time to find Pippin.\n2) Frodo and Sam must be taken to Aragorn for healing. Aragorn would be 70 miles from the Field of Cormallen and would be needed after the battle. He would not be free to leave to go to Frodo and Sam if they were elsewhere.",
         "optional": true,
+        "place": "Morannon",
         "id": "LOTR-DOOOM-208"
       }
     ],
@@ -5420,6 +5446,7 @@
         "day_full": "17 miles",
         "comment": "Isengard. Confrontation with Saruman. Gandalf breaks Saruman\u2019s staff. Grima Wormtongue casts down the palant\u00edr of Orthanc. Pippin retrieves it, but Gandalf quickly takes it. Leave Isengard (ca. 4 p.m.).",
         "optional": false,
+        "place": "Isengard",
         "id": "LOTR-HORSE-1"
       },
       {
@@ -5515,6 +5542,7 @@
         "day": "Mar. 5/6 \u2013 Nt./",
         "day_full": "140 miles (6 hours)",
         "comment": "Midnight. Shadowfax crosses the Fords of Isen.",
+        "place": "Fords of Isen",
         "optional": false,
         "id": "LOTR-HORSE-13"
       },
@@ -5531,6 +5559,7 @@
         "day": "Mar. 5/6 \u2013 Nt./",
         "day_full": "140 miles (6 hours)",
         "comment": "Reach the road to the Deeping Coomb and Helm\u2019s Deep. Gandalf tells Pippin to ask Gimli about the Glittering Caves of Aglarond. Gandalf urges Shadowfax to even greater speed.",
+        "place": "Helm's Deep",
         "optional": false,
         "id": "LOTR-HORSE-15"
       },
@@ -5604,6 +5633,7 @@
         "day_full": "140 miles (6 hours)",
         "comment": "Climb to Meduseld. Nazg\u00fbl flies over. Pippin sleeps during the day (Mar. 6). Gandalf begins organizing the Muster of Rohan.",
         "optional": false,
+        "place": "Edoras",
         "id": "LOTR-HORSE-24"
       },
       {
@@ -5748,6 +5778,7 @@
         "day_full": "120 miles (12 hours)",
         "comment": "Cross the Mering Stream: Gondor. Enter the heart of the Firien Wood.",
         "optional": false,
+        "place": "Mering Stream",
         "id": "LOTR-HORSE-42"
       },
       {
@@ -5956,6 +5987,7 @@
         "day_full": "120 miles (12 hours)",
         "comment": "Ride to 6th level, then climb to the Citadel (1.6 mi.). Talk with Denethor.",
         "optional": true,
+        "place": "Minas Tirith",
         "id": "LOTR-HORSE-68"
       },
       {
@@ -5990,6 +6022,7 @@
         "day_full": "17 miles",
         "comment": "Isengard. Confrontation with Saruman. Gandalf breaks Saruman\u2019s staff. Grima Wormtongue casts down the palant\u00edr of Orthanc. Pippin retrieves it, but Gandalf quickly takes it. Leave Isengard (ca. 4 p.m.)",
         "optional": false,
+        "place": "Isengard",
         "id": "LOTR-DEAD-1"
       },
       {
@@ -6045,6 +6078,7 @@
         "day": "Mar. 5",
         "day_full": "17 miles",
         "comment": "Leave the Wizard\u2019s Vale. Highway goes SSE toward the Fords.",
+        "place": "Fords of Isen",
         "optional": false,
         "id": "LOTR-DEAD-8"
       },
@@ -6124,6 +6158,7 @@
         "length_miles": 0.5,
         "day": "Mar. 6 \u2013 Nt./",
         "day_full": "96 miles",
+        "place": "Helm's Deep",
         "comment": "Reach Helm\u2019s Deep (ca. 6 a.m.). Enter the Hornburg. REST. Late morning Legolas and Gimli show Merry around the Deep. They lunch with Th\u00e9oden and Riders. Aragorn confronts Sauron in the palant\u00edr and learns of the Black Fleet of Umbar. After consulting with Th\u00e9oden, he decides to take the open road and ride for the Paths of the Dead. Merry rides with Rohirrim (1 p.m.). Aragorn eats, then departs (1:30 p.m.).",
         "optional": false,
         "id": "LOTR-DEAD-18"
@@ -6221,6 +6256,7 @@
         "day": "Mar. 7",
         "day_full": "85 miles",
         "comment": "Climb to Meduseld in Edoras. Brief stop.",
+        "place": "Edoras",
         "optional": false,
         "id": "LOTR-DEAD-30"
       },
@@ -6366,6 +6402,7 @@
         "day_full": "60 miles",
         "comment": "Ravine ends like \u201ca crack in a wall.\u201d The river pours over many falls. Reach the wide Morthond Vale (ca. 7 p.m.). See lights in houses below.",
         "optional": false,
+        "place": "Morthrond Vale",
         "id": "LOTR-DEAD-48"
       },
       {
@@ -6397,6 +6434,7 @@
         "day": "Mar. 8",
         "day_full": "60 miles",
         "comment": "Reach the foot of the Hill of Erech.",
+        "place": "Erech",
         "optional": false,
         "id": "LOTR-DEAD-52"
       },
@@ -6501,6 +6539,7 @@
         "day": "Mar. 9",
         "day_full": "110 miles (Ride swiftly: 7 mph)",
         "comment": "The fords of Ciril. A red sunset can be seen far in the west lighting the tops of the Pinnath Gelin (Green Hills).",
+        "place": "Fords of Ciril",
         "optional": false,
         "id": "LOTR-DEAD-65"
       },
@@ -6565,6 +6604,7 @@
         "day": "Mar. 10",
         "day_full": "90 miles (Ride swiftly: 7 mph)",
         "comment": "They ford the Ringl\u00f3 at Ethring. Stop briefly to eat.",
+        "place": "Fords of Ringlo",
         "optional": false,
         "id": "LOTR-DEAD-73"
       },
@@ -6677,6 +6717,7 @@
         "day": "Mar. 12",
         "day_full": "70 miles Drive the enemy ahead",
         "comment": "The River Serni cuts through the terrace face and flows west.",
+        "place": "Fords of Serni",
         "optional": false,
         "id": "LOTR-DEAD-87"
       },
@@ -6758,6 +6799,7 @@
         "day_full": "35 miles",
         "comment": "Noon. At the Havens of Pelargir is the Fleet of Umbar: 50 great ships and numerous smaller vessels. The Haradrim turn to fight. Aragorn calls forth the Dead. The Battle of Pelargir. The mariners cast themselves overboard in fear. Aragorn drives through the enemies on shore. The Dead depart after Aragorn declares their oaths fulfilled. Freed captives and the host from that part of Gondor gather and prepare the ships.",
         "optional": false,
+        "place": "Pelargir",
         "id": "LOTR-DEAD-97"
       },
       {
@@ -6886,6 +6928,7 @@
         "day_full": "68 miles (Sail: 7.2 mph)",
         "comment": "Aragorn reaches the Gates of Minas Tirith at dusk with \u00c9omer and Imrahil. He bids his tents be raised on the field outside the Gates.",
         "optional": false,
+        "place": "Minas Tirith",
         "id": "LOTR-DEAD-113"
       },
       {
@@ -6918,6 +6961,7 @@
         "day_full": "17 miles",
         "comment": "Isengard. Confrontation with Saruman. Gandalf breaks Saruman\u2019s staff. Grima Wormtongue casts down the palant\u00edr of Orthanc. Pippin retrieves it, but Gandalf quickly takes it. Leave Isengard (ca. 4 p.m.)",
         "optional": false,
+        "place": "Isengard",
         "id": "LOTR-MERRY-1"
       },
       {
@@ -6974,6 +7018,7 @@
         "day_full": "17 miles",
         "comment": "Leave the Wizard\u2019s Vale. Highway goes SSE toward the Fords.",
         "optional": false,
+        "place": "Fords of Isen",
         "id": "LOTR-MERRY-8"
       },
       {
@@ -7053,6 +7098,7 @@
         "day": "Mar. 6 \u2013 Nt./",
         "day_full": "61 miles",
         "comment": "Reach Helm\u2019s Deep (ca. 6 a.m.). Enter the Hornburg. REST. Late morning Legolas and Gimli show Merry around the Deep. Lunch with Th\u00e9oden and Riders. Aragorn confronts Sauron in the palant\u00edr and learns of the Black Fleet of Umbar. After consulting with Th\u00e9oden, he decides to take the open road and ride for the Paths of the Dead. Merry rides out with Rohirrim (1 p.m.).",
+        "place": "Helm's Deep",
         "optional": false,
         "id": "LOTR-MERRY-18"
       },
@@ -7446,6 +7492,7 @@
         "day_full": "56 miles",
         "comment": "Leave Harrowdale. Reach the road from the ford of the Snowbourne. Noon. Halt a short while on the road below Edoras. Eat. The Muster of Rohan \u2013 60 more riders arrive, making the muster complete: \u201c6000 spears to Sunlending.\u201d Th\u00e9oden refuses for Merry to ride with the Rohirrim. \u00c9owyn (disguised as Dernhelm) takes Merry in secret.",
         "optional": false,
+        "place": "Edras",
         "id": "LOTR-MERRY-67"
       },
       {
@@ -7606,6 +7653,7 @@
         "day_full": "80 miles  (3rd Day from Dunharrow)",
         "comment": "Cross the Mering Stream: Gondor. Enter the heart of the Firien Wood.",
         "optional": false,
+        "place": "Mering Stream",
         "id": "LOTR-MERRY-87"
       },
       {
@@ -7902,6 +7950,7 @@
         "day_full": "34 miles  (6th Day from Dunharrow)",
         "comment": "Pippin finds Merry wandering lost in a lane part way up the hill. Gandalf carries him to the Houses of Healing (1.5 miles).",
         "optional": true,
+        "place": "Minas Tirith",
         "id": "LOTR-MERRY-124"
       },
       {
@@ -7938,6 +7987,7 @@
         "day_full": "Muster the Host: 7000 ",
         "comment": "Go with the Scouts to/from the Cross-roads",
         "optional": true,
+        "place": "Minas Tirith",
         "id": "LOTR-STAND-1"
       },
       {
@@ -8002,6 +8052,7 @@
         "day_full": "33 miles",
         "comment": "Reach the Cross-roads by evening. Heralds proclaim the coming of the Lords of Gondor. No other sounds. Repair statue of the King. Camp.",
         "optional": false,
+        "place": "Osgiliath Crossroads",
         "id": "LOTR-STAND-9"
       },
       {
@@ -8258,6 +8309,7 @@
         "day_full": "5 miles The Day of Doom",
         "comment": "Early day: reach the Black Gate. Aragorn arrays Host on two hills of stone. Parley with the Mouth of Sauron. The Battle of Morannon. Barad-d\u00fbr and the Morannon collapse when the Ring is destroyed.",
         "optional": false,
+        "place": "Morannon",
         "id": "LOTR-STAND-41"
       }
     ],
@@ -8288,6 +8340,7 @@
         "day_full": "19 miles",
         "comment": "Wounded are placed on supply-wains. Move slowly to protect the wounded. Begin trek down the Southward Road, away from the rubble of the Morannon. Scouts follow retreating enemies to assure they do not return.",
         "optional": false,
+        "place": "Morannon",
         "id": "LOTR-CROWN-1"
       },
       {
@@ -8560,6 +8613,7 @@
         "day_full": "37 miles",
         "comment": "Reach landings of Osgiliath. Dock and unload wounded.",
         "optional": false,
+        "place": "Osgiliath",
         "id": "LOTR-CROWN-35"
       },
       {
@@ -8592,6 +8646,7 @@
         "day_full": "13 miles",
         "comment": "Reach the Gates of Minas Tirith. Aragorn camps in the field.",
         "optional": false,
+        "place": "Minas Tirith",
         "id": "LOTR-CROWN-39"
       }
     ],
@@ -8623,6 +8678,7 @@
         "day_full": "10 miles",
         "comment": "Kings Aragorn and \u00c9omer escort the funeral bier of King Th\u00e9oden from The Hallows, where he has lain in one of the tombs along Rath D\u00ednen, the Silent Street. Proceed up Fen Hollin to the Sixth Circle, then down through the City. A great host watches the procession in silence. When they reach the Gates, the bier is placed on a great wain.",
         "optional": true,
+        "place": "Minas Tirith",
         "id": "LOTR-TREES-1"
       },
       {
@@ -9071,6 +9127,7 @@
         "day_full": "10 miles",
         "comment": "Climb to Meduseld in Edoras.",
         "optional": false,
+        "place": "Edoras",
         "id": "LOTR-TREES-57"
       },
       {
@@ -9190,6 +9247,7 @@
         "day": "August 18",
         "day_full": "23 miles",
         "comment": "Reach Helm\u2019s Deep. Enter the Hornburg.",
+        "place": "Helm's Deep",
         "optional": false,
         "id": "LOTR-TREES-72"
       },
@@ -9230,6 +9288,7 @@
         "day": "August 21",
         "day_full": "40 miles",
         "comment": "Cross the Fords of Isen. Pass the burial mound of Erkenbrand\u2019s Riders.",
+        "place": "Fords of Isen",
         "optional": false,
         "id": "LOTR-TREES-77"
       },
@@ -9302,6 +9361,7 @@
         "day": "August 22",
         "day_full": "16 miles",
         "comment": "Saruman\u2019s Isengard is no more. The Ents have transformed it into the Treegarth of Orthanc. The Tower rises from a mirroring lake, with an east-running stream feeding the Isen. All the circle is filled with trees and orchards. Treebeard tells Gandalf of Saruman\u2019s release. Legolas and Gimli say farewell, and turn east to go home via Fangorn Forest.",
+        "place": "Isengard",
         "optional": false,
         "id": "LOTR-TREES-86"
       }
@@ -9331,6 +9391,7 @@
         "day_full": "17 miles",
         "comment": "Saruman\u2019s Isengard is no more. The Ents have transformed it into the Treegarth of Orthanc. The Tower rises from a mirroring lake, with an east-running stream feeding the Isen. All the circle is filled with trees and orchards. Treebeard tells Gandalf of Saruman\u2019s release. Legolas and Gimli say farewell, and turn east to go home via Fangorn Forest.",
         "optional": false,
+        "place": "Isengard",
         "id": "LOTR-BILBO-1"
       },
       {
@@ -9803,6 +9864,7 @@
         "day_full": "28 miles",
         "comment": "Cross a small stream. Camp. Due east Caradhras glows in sunset.",
         "optional": false,
+        "place": "Moria Gate",
         "id": "LOTR-BILBO-60"
       },
       {
@@ -10003,6 +10065,7 @@
         "day_full": "28 miles",
         "comment": "Reach the Last Homely House.",
         "optional": false,
+        "place": "Rivendell",
         "id": "LOTR-BILBO-85"
       }
     ],
@@ -10030,6 +10093,7 @@
         "day_full": "7 miles",
         "comment": "Leave the Last Homely House \u2013 mid-morning. Cold.",
         "optional": false,
+        "place": "Rivendell",
         "id": "LOTR-RISNG-1"
       },
       {
@@ -10294,6 +10358,7 @@
         "day_full": "10 miles",
         "comment": "Cross The Last Bridge. Road now turns more to the west. Eat.",
         "optional": false,
+        "place": "Last Bridge",
         "id": "LOTR-RISNG-34"
       },
       {
@@ -10470,6 +10535,7 @@
         "day_full": "20 miles",
         "comment": "Weathertop immediately north of road. Frodo refuses to look at it. As the shadows lengthen, they continue hurriedly past.",
         "optional": false,
+        "place": "Weathertop",
         "id": "LOTR-RISNG-56"
       },
       {
@@ -10661,6 +10727,7 @@
         "day": "October 28",
         "day_full": "16 miles",
         "comment": "Bree \u2013 Arrive at The Prancing Pony. Talk with Butterbur. Sam learns \u2018Bill the Pony\u2019 has returned. Stay at the Inn.",
+        "place": "Bree",
         "optional": false,
         "id": "LOTR-RISNG-80"
       },
@@ -10709,6 +10776,7 @@
         "day": "October 30",
         "day_full": "40 miles",
         "comment": "Reach the Brandywine Bridge late in the evening. Gates bar the way. When refused entry, Merry and Pippin climb the gate. Confront Bill Ferny. Spend the night in the Bridge-house with Shirriffs.",
+        "place": "Brandywine Bridge",
         "optional": false,
         "id": "LOTR-RISNG-86"
       },
@@ -10821,6 +10889,7 @@
         "day": "November 3",
         "day_full": "5 miles",
         "comment": "Reach Bag End with a large party of hobbits. Frodo confronts Saruman. Wormtongue slays Saruman, and is killed by hobbits. \nEnd of the War of the Ring.",
+        "place": "Hobbiton",
         "optional": false,
         "id": "LOTR-RISNG-100"
       }
@@ -10849,6 +10918,7 @@
         "day_full": "18 miles",
         "comment": "Sam and Frodo leave Bag End during the morning: Frodo on his pony, Strider, and Sam on Bill. They go south on the lane into Hobbiton. Cross the bridge over The Water and turn west.",
         "optional": false,
+        "place": "Hobbiton",
         "id": "LOTR-ADIEU-1"
       },
       {
@@ -11241,6 +11311,7 @@
         "day_full": "30 miles",
         "comment": "Reach the shore. See Gandalf and Shadowfax awaiting them. Merry and Pippin arrive as the party is boarding the White Ship. Frodo says farewell.       End of the Fellowship of the Ring. The ship sails Into the West.",
         "optional": false,
+        "place": "Grey Havens",
         "id": "LOTR-ADIEU-50"
       },
       {
@@ -11513,6 +11584,7 @@
         "day_full": "22 miles",
         "comment": "Sam arrives at Bag End at sunset: Home.",
         "optional": false,
+        "place": "Hobbiton",
         "id": "LOTR-ADIEU-84"
       }
     ],
@@ -11537,6 +11609,7 @@
         "day_full": "11 miles\n10:30 a.m. Gandalf finds Bilbo having Second Breakfast. Sends him off.",
         "comment": "Bilbo leaves Bag End and runs south down the lane toward Hobbiton.",
         "optional": false,
+        "place": "Hobbiton",
         "id": "HBBT-THERE-1"
       },
       {
@@ -11624,6 +11697,7 @@
         "day": "April 30",
         "day_full": "11 miles",
         "comment": "Reach the Brandywine Bridge. Stay at the Bridge Inn.",
+        "place": "Brandywine Bridge",
         "optional": false,
         "id": "HBBT-THERE-12"
       },
@@ -11712,6 +11786,7 @@
         "day": "May 4",
         "day_full": "10 miles",
         "comment": "Reach Bree. Stay at The Prancing Pony. Spend a late evening.",
+        "place": "Bree",
         "optional": false,
         "id": "HBBT-THERE-23"
       },
@@ -11984,6 +12059,7 @@
         "day": "May 15",
         "day_full": "10 miles",
         "comment": "Weathertop rises immediately north of the Road. Camp at its foot.",
+        "place": "Weathertop",
         "optional": false,
         "id": "HBBT-THERE-57"
       },
@@ -12161,6 +12237,7 @@
         "day_full": "15 miles",
         "comment": "Nearly dark: cross The Last Bridge. Stop to camp in clump of trees. Realize Gandalf is missing. Pony bolts into river and loses baggage with food. See fire in trees on hillside to east. Decide to investigate.",
         "optional": false,
+        "place": "Last Bridge",
         "id": "HBBT-THERE-79"
       },
       {
@@ -12385,6 +12462,7 @@
         "day_full": "8 miles",
         "comment": "Lead the ponies across the narrow bridge over the upper Bruinen. Reach the \u2018Last Homely House\u2019 in Rivendell.",
         "optional": false,
+        "place": "Rivendell",
         "id": "HBBT-THERE-107"
       }
     ],
@@ -12409,6 +12487,7 @@
         "day_full": "4 miles",
         "comment": "Leave Rivendell, camp in foothills - Ponies.",
         "optional": false,
+        "place": "Rivendell",
         "id": "HBBT-AGAIN-1"
       },
       {
@@ -12609,6 +12688,7 @@
         "day_full": "58 miles",
         "comment": "Eagles fly Company to The Carrock.",
         "optional": false,
+        "place": "Carrock",
         "id": "HBBT-AGAIN-26"
       },
       {
@@ -12665,6 +12745,7 @@
         "day_full": "8 miles",
         "comment": "Gandalf warns Company not to leave the trail. Gandalf departs and takes ponies back to Beorn. Company takes Forest Trail.",
         "optional": false,
+        "place": "Mirkwood Entrance",
         "id": "HBBT-AGAIN-33"
       },
       {
@@ -12825,6 +12906,7 @@
         "day_full": "7 miles",
         "comment": "Dwarves imprisoned in Elvenking Thranduil\u2019s Caverns. Bilbo follows.",
         "optional": false,
+        "place": "Thranduil",
         "id": "HBBT-AGAIN-53"
       },
       {
@@ -12904,6 +12986,7 @@
         "day": "Sept. 22",
         "day_full": "32 miles",
         "comment": "Reach Lake-town after sunset. Bilbo frees dwarves. They enter the town.",
+        "place": "Esgaroth",
         "optional": false,
         "id": "HBBT-AGAIN-63"
       },
@@ -13105,6 +13188,7 @@
         "day_full": "4 miles",
         "comment": "Bilbo goes to Bard\u2019s camp and gives him the Arkenstone. Returns to the gate of the Lonely Mountain.",
         "optional": false,
+        "place": "Lonely Mountain",
         "id": "HBBT-AGAIN-88"
       }
     ],

@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Hobbiton",
+    "x": 813,
+    "y": 667
+  },
+  {
+    "name": "Brandywine Bridge",
+    "x": 907,
+    "y": 646
+  },
+  {
+    "name": "Bree",
+    "x": 1041,
+    "y": 677
+  },
+  {
+    "name": "Weathertop",
+    "x": 1197,
+    "y": 644
+  },
+  {
+    "name": "Last Bridge",
+    "x": 1372,
+    "y": 632
+  },
+  {
+    "name": "Rivendell",
+    "x": 1551,
+    "y": 637
+  },
+  {
+    "name": "Esgaroth",
+    "x": 2131,
+    "y": 473
+  },
+  {
+    "name": "Erebor",
+    "x": 2129,
+    "y": 399
+  },
+  {
+    "name": "Hollin",
+    "x": 1516,
+    "y": 864
+  },
+  {
+    "name": "Moria Gate",
+    "x": 1507,
+    "y": 929
+  },
+  {
+    "name": "Mirrormere",
+    "x": 1565,
+    "y": 926
+  },
+  {
+    "name": "Lorien",
+    "x": 1667,
+    "y": 1015
+  },
+  {
+    "name": "Field of Celebrant",
+    "x": 1758,
+    "y": 1100
+  },
+  {
+    "name": "The Wold",
+    "x": 1848,
+    "y": 1252
+  },
+  {
+    "name": "Argonath",
+    "x": 1893,
+    "y": 1432
+  }
+  {
+    "name": "Rauros",
+    "x": 1907,
+    "y": 1476
+  },
+  {
+    "name": "Minas Morgul",
+    "x": 2126,
+    "y": 1678
+  },
+  {
+    "name": "Minas Tirith",
+    "x": 2041,
+    "y": 1695
+  },
+  {
+    "name": "Mount Doom",
+    "x": 2267,
+    "y": 1595
+  },
+  {
+    "name": "Edoras",
+    "x": 1579,
+    "y": 1502
+  },
+  {
+    "name": "Isengard",
+    "x": 1409,
+    "y": 1300
+  },
+  {
+    "name": "Helm's Deep",
+    "x": 1466,
+    "y": 1437
+  },
+  {
+    "name": "Fangorn",
+    "x": 1617,
+    "y": 1281
+  },
+  {
+    "name": "Fords of Isen",
+    "x": 1409,
+    "y": 1373
+  },
+  {
+    "name": "Dead Marshes",
+    "x": 2049,
+    "y": 1461
+  },
+  {
+    "name": "Morannon",
+    "x": 2159,
+    "y": 1478
+  },
+  {
+    "name": "Mering Stream",
+    "x": 1798,
+    "y": 1619
+  },
+  {
+    "name": "Morthrond Vale",
+    "x": 1557,
+    "y": 1577
+  },
+  {
+    "name": "Erech",
+    "x": 1570,
+    "y": 1594
+  },
+  {
+    "name": "Fords of Ciril",
+    "x": 1666,
+    "y": 1696
+  },
+  {
+    "name": "Fords of Ringlo",
+    "x": 1708,
+    "y": 1716
+  },
+  {
+    "name": "Fords of Serni",
+    "x": 1775,
+    "y": 1881
+  },
+  {
+    "name": "Pelargir",
+    "x": 1986,
+    "y": 1896
+  },
+  {
+    "name": "Osgiliath Crossroads",
+    "x": 2105,
+    "y": 1678
+  },
+  {
+    "name": "Osgiliath",
+    "x": 2076,
+    "y": 1684
+  },
+  {
+    "name": "Grey Havens",
+    "x": 565,
+    "y": 623
+  },
+  {
+    "name": "Carrock",
+    "x": 1744,
+    "y": 568
+  },
+  {
+    "name": "Mirkwood Entrance",
+    "x": 1850,
+    "y": 602
+  },
+  {
+    "name": "Thranduil",
+    "x": 2035,
+    "y": 452
+  },
+  {
+    "name": "Lonely Mountain",
+    "x": 2130,
+    "y": 402
+  }
+]
