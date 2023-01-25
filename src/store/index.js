@@ -158,6 +158,7 @@ const store = createStore('store', {
 			const { data: journeys, error } = await supabase
 				.from('journeys')
 				.select('*')
+				.eq('user_id', this.user.id)
 			if (error) console.error(error)
 			this.journeys = journeys
 		},
