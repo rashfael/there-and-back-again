@@ -11,6 +11,8 @@
     "lint:eslint": "eslint . --ext .js,.vue"
   },
   "dependencies": {
+    "@fontsource/mirza": "^4.5.11",
+    "@fontsource/playfair-display": "^4.5.13",
     "@fontsource/quattrocento": "^4.5.10",
     "@fontsource/roboto": "^4.5.8",
     "@mdi/font": "^7.1.96",

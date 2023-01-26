@@ -3,6 +3,7 @@ import { watch, watchEffect } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import moment from 'moment'
 import store from '~/store'
+import mapSvg from '~/assets/middle-earth.svg?raw'
 
 const PATHS_VIEWBOX = {
 	x: 0,
@@ -173,7 +174,7 @@ watch(() => activeTab, () => {
 <template lang="pug">
 .c-tracker
 	.map(ref="mapEl", :style="mapStyle", v-resize-observer="onMapResize", @wheel.passive="onMapWheel", @pointerdown="onMapPointerDown")
-		img(src="~~/assets/middle-earth.svg")
+		.svg(v-html="mapSvg")
 		svg.paths(v-if="journey", :viewBox="`${PATHS_VIEWBOX.x} ${PATHS_VIEWBOX.y} ${PATHS_VIEWBOX.width} ${PATHS_VIEWBOX.height}`")
 			path.remaining(v-for="path in paths", ref="pathEls", :d="path.d")
 			template(v-for="path in paths")
@@ -209,7 +210,7 @@ watch(() => activeTab, () => {
 		display: flex
 		position: relative
 		overflow: hidden
-		> img
+		> .svg svg
 			height: calc(var(--map-height) * 1px)
 			width: calc(var(--map-width) * 1px)
 			transform: translate(calc(var(--pan-x) * 1px), calc(var(--pan-y) * 1px)) scale(var(--zoom))
