@@ -6,6 +6,7 @@ const MODE_ICON_MAP = {
 	walk: 'walk',
 	run: 'run',
 	ride: 'bike',
+	swim: 'swim',
 	horse: 'horse-human'
 }
 

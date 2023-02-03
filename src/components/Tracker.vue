@@ -185,7 +185,7 @@ watch(() => activeTab, () => {
 		form.add-entry(v-if="showingAddEntryForm", @submit.prevent="createEntry")
 			bunt-input(v-model="newEntry.distance", name="distance", label="Distance", type="number", hint="in meters")
 			bunt-input(v-model="newEntry.date", name="date", label="Date", type="datetime-local", placeholder=" ")
-			bunt-select(v-model="newEntry.mode", name="mode", label="Mode", :options="['walk', 'ride']")
+			bunt-select(v-model="newEntry.mode", name="mode", label="Mode", :options="['walk', 'ride', 'run', 'swim', 'horse']")
 			bunt-input(v-model="newEntry.comment", name="comment", label="Comment")
 			bunt-button#btn-create-entry(type="submit") Create Entry
 		template(v-else)
