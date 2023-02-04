@@ -18,6 +18,11 @@ const routes = [{
 	name: 'profile',
 	path: '/profile',
 	component: () => import('~/views/profile.vue'),
+}, {
+	name: 'friend',
+	path: '/fellowship/:friendId',
+	component: () => import('~/views/fellowship/friend.vue'),
+	props: true
 }]
 
 export default routes

@@ -42,7 +42,7 @@ function getFriendState (friend) {
 .c-fellowship
 	.invite {{ inviteUrl }}
 	.friends(v-scrollbar.y="")
-		.friend(v-for="friend in friends" :key="friend.id")
+		router-link.friend(v-for="friend in friends", :key="friend.id", :to="{name: 'friend', params: {friendId: friend.id}}")
 			.info
 				img.avatar(:src="friend.avatar_url")
 				.username {{ friend.username }}

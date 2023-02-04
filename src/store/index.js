@@ -80,6 +80,41 @@ export function mapActions (store, arrOrObj) {
 	}
 }
 
+function computeTravelledDistance () {
+	return this.entries?.reduce((sum, entry) => sum + entry.distance, 0)
+}
+
+function computeActiveJourney () {
+	const activeJourney = this.journeys?.find(journey => !journey.finished_at)
+	if (!activeJourney) return
+	const activeJourneyData = journeyData.find(journey => journey.id === activeJourney.journey)
+	const journey = {
+		...activeJourneyData,
+		...activeJourney,
+		legs: activeJourneyData.legs.map(leg => ({
+			...leg,
+			distance: miToKm(leg.length_miles) * 1000
+		}))
+	}
+
+	journey.totalDistance = journey.legs.reduce((sum, leg) => sum + leg.distance, 0)
+
+	let remainingDistance = this.travelledDistance
+	for (const leg of journey.legs) {
+		if (remainingDistance <= 0) {
+			leg.remainingDistance = leg.distance
+			leg.show = false
+			continue
+		}
+		leg.remainingDistance = Math.max(0, leg.distance - remainingDistance)
+		remainingDistance -= leg.distance
+		leg.show = true
+	}
+	journey.legs[0].show = true
+
+	return journey
+}
+
 const store = createStore('store', {
 	state: () => ({
 		loading: false,
@@ -90,39 +125,8 @@ const store = createStore('store', {
 		entries: []
 	}),
 	getters: {
-		travelledDistance () {
-			return this.entries?.reduce((sum, entry) => sum + entry.distance, 0)
-		},
-		activeJourney () {
-			const activeJourney = this.journeys?.find(journey => !journey.finished_at)
-			if (!activeJourney) return
-			const activeJourneyData = journeyData.find(journey => journey.id === activeJourney.journey)
-			const journey = {
-				...activeJourneyData,
-				...activeJourney,
-				legs: activeJourneyData.legs.map(leg => ({
-					...leg,
-					distance: miToKm(leg.length_miles) * 1000
-				}))
-			}
-
-			journey.totalDistance = journey.legs.reduce((sum, leg) => sum + leg.distance, 0)
-
-			let remainingDistance = this.travelledDistance
-			for (const leg of journey.legs) {
-				if (remainingDistance <= 0) {
-					leg.remainingDistance = leg.distance
-					leg.show = false
-					continue
-				}
-				leg.remainingDistance = Math.max(0, leg.distance - remainingDistance)
-				remainingDistance -= leg.distance
-				leg.show = true
-			}
-			journey.legs[0].show = true
-
-			return journey
-		}
+		travelledDistance: computeTravelledDistance,
+		activeJourney: computeActiveJourney
 	},
 	actions: {
 		async signInWithGitHub () {
@@ -149,8 +153,7 @@ const store = createStore('store', {
 			await this.fetchFriends()
 			// TODO as one request?
 			for (const friend of this.friends) {
-				await this.fetchFriendJourneys(friend)
-				await this.fetchFriendEntries(friend)
+				await this.initFriend(friend)
 			}
 			this.loading = false
 		},
@@ -188,6 +191,12 @@ const store = createStore('store', {
 			if (error) console.error(error)
 			this.friends = friends
 		},
+		async initFriend (friend) {
+			friend.travelledDistance = computed(computeTravelledDistance.bind(friend))
+			friend.activeJourney = computed(computeActiveJourney.bind(friend))
+			await this.fetchFriendJourneys(friend)
+			await this.fetchFriendEntries(friend)
+		},
 		async fetchFriendJourneys (friend) {
 			const { data: journeys, error } = await supabase
 				.from('journeys')
@@ -197,10 +206,12 @@ const store = createStore('store', {
 			friend.journeys = journeys
 		},
 		async fetchFriendEntries (friend) {
+			if (!friend.activeJourney) return
 			const { data: entries, error } = await supabase
 				.from('entries')
 				.select('*')
 				.eq('user_id', friend.id)
+				.eq('journey_id', friend.activeJourney.id)
 			if (error) console.error(error)
 			friend.entries = entries
 		},
@@ -296,8 +307,7 @@ const store = createStore('store', {
 			if (error) return console.error(error)
 			const friendRequest = this.friendRequests.find(fr => fr.from_id === friend.id)
 			if (friendRequest) friendRequest.accepted = true
-			await this.fetchFriendJourneys(friend)
-			await this.fetchFriendEntries(friend)
+			await this.initFriend(friend)
 		}
 	}
 })
