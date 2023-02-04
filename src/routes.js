@@ -1,23 +1,23 @@
 const routes = [{
 	path: '/',
-	component: () => import('~/components/Tracker.vue'),
+	component: () => import('~/views/index.vue'),
 	children: [{
 		name: 'journey',
 		path: '',
-		component: () => import('~/components/Journey.vue')
+		component: () => import('~/views/journey.vue')
 	}, {
 		name: 'log',
 		path: 'log',
-		component: () => import('~/components/Log.vue')
+		component: () => import('~/views/log.vue')
 	}, {
 		name: 'fellowship',
 		path: 'fellowship',
-		component: () => import('~/components/Fellowship.vue')
+		component: () => import('~/views/fellowship.vue'),
 	}]
 }, {
 	name: 'profile',
 	path: '/profile',
-	component: () => import('~/components/Profile.vue'),
+	component: () => import('~/views/profile.vue'),
 }]
 
 export default routes

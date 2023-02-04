@@ -2,7 +2,7 @@
 import store from '~/store'
 import { miToKm } from '~/lib/utils'
 import Scrollbars from '~/components/Scrollbars.vue'
-import AbortJourneyPrompt from './AbortJourneyPrompt.vue'
+import AbortJourneyPrompt from '~/components/AbortJourneyPrompt.vue'
 
 import journeyData from '../../data/data.json'
 
