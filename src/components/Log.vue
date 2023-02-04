@@ -1,6 +1,7 @@
 <script setup>
 import store from '~/store'
 import moment from 'moment'
+import Scrollbars from '~/components/Scrollbars.vue'
 
 const MODE_ICON_MAP = {
 	walk: 'walk',
@@ -17,21 +18,29 @@ const {
 </script>
 <template lang="pug">
 .c-log
-	.log-entries(v-scrollbar.y="")
-		.entry(v-for="(entry, index) of entries", :class="{ last: index === entries.length - 1 }")
-			.date {{ moment(entry.date).format('MM.DD. HH:mm') }}
-			.distance
-				i.mdi(:class="`mdi-${MODE_ICON_MAP[entry.mode]}`")
-				span {{ entry.distance }}m
-			.actions
-				bunt-icon-button#btn-edit-entry(@click="editEntry(entry)") pencil
-				bunt-icon-button#btn-delete-entry(v-if="index === entries.length - 1", @click="store.deleteEntry(entry)") delete-outline
+	Scrollbars.log-entries-scroller(y)
+		.log-entries
+			.entry(v-for="(entry, index) of entries", :class="{ last: index === entries.length - 1 }")
+				.date {{ moment(entry.date).format('MM.DD. HH:mm') }}
+				.distance
+					i.mdi(:class="`mdi-${MODE_ICON_MAP[entry.mode]}`")
+					span {{ entry.distance }}m
+				.actions
+					bunt-icon-button#btn-edit-entry(@click="editEntry(entry)") pencil
+					bunt-icon-button#btn-delete-entry(v-if="index === entries.length - 1", @click="store.deleteEntry(entry)") delete-outline
 </template>
 <style lang="stylus">
 .c-log
+	display: flex
+	flex-direction: column
+	min-height: 0
+	.log-entries-scroller .scroll-content
+		// make scrolling start at the bottom
+		flex-direction: column-reverse
 	.log-entries
 		display: flex
 		flex-direction: column
+		padding-bottom: 64px
 		.entry
 			display: flex
 			align-items: center

@@ -80,6 +80,7 @@ let showingAbortJourneyPrompt = $ref(false)
 		flex-direction: column
 		min-height: 0
 		.journey
+			flex: none
 			padding: 16px
 			border-bottom: border-separator()
 			display: flex

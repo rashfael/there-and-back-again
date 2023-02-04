@@ -264,6 +264,7 @@ watch(() => activeTab, () => {
 		display: flex
 		flex-direction: column
 		.bunt-tabs
+			flex: none
 			display: flex
 			flex-direction: column
 			tabs-style()
