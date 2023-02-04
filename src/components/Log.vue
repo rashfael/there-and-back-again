@@ -21,7 +21,7 @@ const {
 	Scrollbars.log-entries-scroller(y)
 		.log-entries
 			.entry(v-for="(entry, index) of entries", :class="{ last: index === entries.length - 1 }")
-				.date {{ moment(entry.date).format('MM.DD. HH:mm') }}
+				.date {{ moment(entry.date).format('DD.MM. HH:mm') }}
 				.distance
 					i.mdi(:class="`mdi-${MODE_ICON_MAP[entry.mode]}`")
 					span {{ entry.distance }}m
