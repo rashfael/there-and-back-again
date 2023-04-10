@@ -141,7 +141,7 @@ let showingAbortJourneyPrompt = $ref(false)
 							background-image: repeating-linear-gradient(transparent, transparent 6px, $clr-disabled-text-light 6px, $clr-disabled-text-light 12px)
 						&.partial
 							flex: none
-							height: calc(var(--remaining) * (100% - 26px))
+							height: calc((1 - var(--remaining)) * (100% - 26px))
 				&:not(.reached)
 					margin-bottom: 128px
 					.waypoint
