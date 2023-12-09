@@ -35,7 +35,7 @@ let showingAbortJourneyPrompt = $ref(false)
 				.journey-leg(v-if="leg.show", :class="{start: index === 0, end: index === journey.legs.length - 1, reached: leg.remainingDistance === 0}")
 					.path-segment
 						.waypoint
-						template(v-if="journey.legs[index + 1].show")
+						template(v-if="journey.legs[index + 1]?.show")
 							.path.partial(v-if="journey.legs[index + 1].remainingDistance > 0", :style="{'--remaining': journey.legs[index + 1].remainingDistance / journey.legs[index + 1].distance}")
 							.path(:class="{ remaining: journey.legs[index + 1].remainingDistance > 0 }")
 					.content
