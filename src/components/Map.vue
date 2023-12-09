@@ -49,8 +49,9 @@ let pathEls = $ref([])
 
 let userPosition = $computed(() => {
 	if (pathEls.length === 0) return
+	const lastIndex = paths.length - 1
 	for (const [index, path] of paths.entries()) {
-		if (path.travelledDistance === path.totalDistance) continue
+		if (path.travelledDistance === path.totalDistance && index < lastIndex) continue
 		const pathEl = pathEls[index]
 		const travelledDistance = pathEl.getTotalLength() * path.travelledDistance / path.totalDistance
 		return pathEl.getPointAtLength(travelledDistance)
